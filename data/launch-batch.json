@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:51:49.604Z",
+  "generatedAt": "2026-09-10T22:52:54.739Z",
   "targetPerScan": 9,
   "targetPerHour": 108,
   "issuanceRail": "clanker-v4",
@@ -7,5 +7,5 @@
   "baseUsdc": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   "count": 0,
   "packages": [],
-  "status": "economics packaged; ExitVault must be deployed once before automated founder exits"
+  "status": "economics packaged; deploy ExitVault once before live issuance"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:51:49.421Z",
+  "generatedAt": "2026-09-10T22:52:54.550Z",
   "threshold": 65,
   "targetPackagesPerScan": 9,
   "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
@@ -1278,15 +1278,15 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 5,
-        "liquid": 15
+        "active": 6,
+        "liquid": 14
       },
       "qualified": false,
       "suggestedSymbol": "DAN",
       "rationale": [
         "active search trend",
         "approx trend traffic 500",
-        "5 active matching DEX pairs (saturation risk)"
+        "6 active matching DEX pairs (saturation risk)"
       ]
     },
     {
