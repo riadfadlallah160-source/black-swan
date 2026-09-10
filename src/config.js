@@ -9,12 +9,16 @@ export const CONFIG = Object.freeze({
   maxCandidatesPerScan: 36,
   targetPackagesPerHour: 108,
 
-  // Clanker V4 economics. Revenue stream #1 is LP rewards in the paired asset.
-  // Revenue stream #2 is a real founder allocation held by Clanker's vault extension.
+  // Two-stream Clanker V4 economics:
+  // 1) creator LP rewards in Base USDC
+  // 2) 10% founder supply: 3% 1-day airdrop + 7% 7-day vault
   clanker: {
-    pairedToken: 'WETH',
-    initialMarketCap: '10',
-    founderVaultPercentage: 10,
+    pairedToken: 'USDC',
+    initialMarketCapUsdc: 10000,
+    earlyAirdropPercentage: 3,
+    earlyAirdropLockupSeconds: 24 * 60 * 60,
+    earlyAirdropVestingSeconds: 0,
+    founderVaultPercentage: 7,
     founderVaultLockupSeconds: 7 * 24 * 60 * 60,
     founderVaultVestingSeconds: 0,
     devBuyEth: 0,
@@ -25,13 +29,11 @@ export const CONFIG = Object.freeze({
       endingFee: 41673,
       secondsToDecay: 15
     },
-    // All creator/interface-side LP reward entitlement created by our launch config
-    // is assigned to the beneficiary address. Clanker's own protocol fee remains separate.
     rewardRecipientBps: 10000
   },
 
-  // Founder-token realization policy is deliberately liquidity-aware. It never creates
-  // artificial volume and does not sell during the mandatory 7-day vault lock.
+  // Founder-token realization policy. Milestones are assessed from genuine market
+  // liquidity/quotes and sales are capped to avoid dumping through shallow liquidity.
   exitPolicy: {
     minLiquidityUsd: 50000,
     min24hOrganicVolumeUsd: 100000,
