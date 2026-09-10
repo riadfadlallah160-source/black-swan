@@ -15,19 +15,25 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  scan:
+  scan-package-launch:
     runs-on: ubuntu-latest
     timeout-minutes: 4
+    env:
+      EXIT_VAULT_ADDRESS: ${{ vars.EXIT_VAULT_ADDRESS }}
+      CLANKER_API_KEY: ${{ secrets.CLANKER_API_KEY }}
+      LIVE_LAUNCH_ENABLED: 'true'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - name: Install production dependencies
+        run: npm install --no-audit --no-fund
       - name: Run scanner
         run: npm run scan
       - name: Build deduplicated Clanker launch batch
         run: npm run package
-      - name: Persist scanner, packages and generated artwork
+      - name: Publish scanner state, launch packages and PNG artwork
         run: |
           git config user.name 'black-swan-bot'
           git config user.email 'black-swan-bot@users.noreply.github.com'
@@ -35,6 +41,19 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No state change'
           else
-            git commit -m 'chore: update live scan and Clanker launch batch [skip ci]'
+            git commit -m 'chore: publish live Clanker launch batch [skip ci]'
             git push
+          fi
+      - name: Submit batch to Clanker when production access is armed
+        run: npm run launch
+      - name: Persist launch results
+        if: always()
+        run: |
+          if [ -f data/launch-results.json ]; then
+            git pull --rebase || true
+            git add data/launch-results.json
+            if ! git diff --cached --quiet; then
+              git commit -m 'chore: record Clanker launch results [skip ci]'
+              git push
+            fi
           fi
