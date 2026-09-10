@@ -1,11 +1,84 @@
 {
-  "generatedAt": "2026-09-10T22:46:46.627Z",
+  "generatedAt": "2026-09-10T22:49:42.504Z",
   "targetPerScan": 9,
   "targetPerHour": 108,
   "issuanceRail": "clanker-v4",
   "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
   "baseUsdc": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-  "count": 0,
-  "packages": [],
+  "count": 1,
+  "packages": [
+    {
+      "narrative": "kauai",
+      "score": 79,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 1,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100"
+      ],
+      "token": {
+        "name": "Kauai",
+        "symbol": "KAUAI",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Kauai. Creator allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/5746b5e332bc657d.svg",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/5746b5e332bc657d.svg"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
+        "stream2": "10% founder allocation at mint; disclosed and locked before release",
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Kauai",
+          "symbol": "KAUAI",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/5746b5e332bc657d.svg",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Kauai. Creator allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "2ac886420ff1bbab47db6aa356eb782c"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 10,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "devBuy": null,
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
+    }
+  ],
   "status": "economics packaged; ExitVault must be deployed once before automated founder exits"
 }

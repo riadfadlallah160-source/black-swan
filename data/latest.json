@@ -1,69 +1,17 @@
 {
-  "generatedAt": "2026-09-10T22:46:46.445Z",
+  "generatedAt": "2026-09-10T22:49:42.326Z",
   "threshold": 65,
   "targetPackagesPerScan": 9,
   "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-  "qualifiedCount": 24,
+  "qualifiedCount": 23,
   "qualified": [
-    {
-      "title": "flashscore",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 10,
-      "traffic": 2000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 86,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "FLASHSCO",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "tilda swinton",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 4,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 84,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "TILDA",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "no matching DEX pairs detected"
-      ]
-    },
     {
       "title": "shailene woodley",
       "mentions": [
         "google-trends",
         "google-trends"
       ],
-      "bestRank": 1,
+      "bestRank": 2,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -89,7 +37,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
+      "bestRank": 4,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -115,7 +63,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 3,
       "traffic": 2000,
       "sources": [
         "google-trends"
@@ -136,11 +84,37 @@
       ]
     },
     {
+      "title": "tilda swinton",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 5,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 83,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "TILDA",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "no matching DEX pairs detected"
+      ]
+    },
+    {
       "title": "futbol24",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 7,
+      "bestRank": 8,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -191,7 +165,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
+      "bestRank": 4,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -206,6 +180,31 @@
       },
       "qualified": true,
       "suggestedSymbol": "TSUNAMI",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100"
+      ]
+    },
+    {
+      "title": "kauai",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 1,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 79,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 1,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "KAUAI",
       "rationale": [
         "active search trend",
         "approx trend traffic 100"
@@ -231,31 +230,6 @@
       },
       "qualified": true,
       "suggestedSymbol": "TERRANCE",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500"
-      ]
-    },
-    {
-      "title": "russian",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 9,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 75,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 8,
-        "active": 0,
-        "liquid": 2
-      },
-      "qualified": true,
-      "suggestedSymbol": "RUSSIAN",
       "rationale": [
         "active search trend",
         "approx trend traffic 500"
@@ -291,7 +265,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
+      "bestRank": 2,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -316,7 +290,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
+      "bestRank": 4,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -342,7 +316,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
+      "bestRank": 2,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -430,7 +404,7 @@
       "dex": {
         "pairs": 30,
         "active": 6,
-        "liquid": 17
+        "liquid": 18
       },
       "qualified": true,
       "suggestedSymbol": "INTERNET",
@@ -446,7 +420,7 @@
         "google-trends",
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 3,
       "traffic": 2000,
       "sources": [
         "google-trends"
@@ -523,7 +497,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 5,
+      "bestRank": 7,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -549,7 +523,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 8,
+      "bestRank": 9,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -574,7 +548,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 8,
+      "bestRank": 9,
       "traffic": 2000,
       "sources": [
         "google-trends"
@@ -585,7 +559,7 @@
       "dex": {
         "pairs": 30,
         "active": 4,
-        "liquid": 19
+        "liquid": 20
       },
       "qualified": true,
       "suggestedSymbol": "MIGRAINE",
@@ -600,7 +574,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 7,
+      "bestRank": 8,
       "traffic": 2000,
       "sources": [
         "google-trends"
@@ -624,64 +598,12 @@
   ],
   "watchlist": [
     {
-      "title": "flashscore",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 10,
-      "traffic": 2000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 86,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "FLASHSCO",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "tilda swinton",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 4,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 84,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "TILDA",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
       "title": "shailene woodley",
       "mentions": [
         "google-trends",
         "google-trends"
       ],
-      "bestRank": 1,
+      "bestRank": 2,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -707,7 +629,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
+      "bestRank": 4,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -733,7 +655,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 3,
       "traffic": 2000,
       "sources": [
         "google-trends"
@@ -754,11 +676,37 @@
       ]
     },
     {
+      "title": "tilda swinton",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 5,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 83,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "TILDA",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "no matching DEX pairs detected"
+      ]
+    },
+    {
       "title": "futbol24",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 7,
+      "bestRank": 8,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -809,7 +757,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
+      "bestRank": 4,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -824,6 +772,31 @@
       },
       "qualified": true,
       "suggestedSymbol": "TSUNAMI",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100"
+      ]
+    },
+    {
+      "title": "kauai",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 1,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 79,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 1,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "KAUAI",
       "rationale": [
         "active search trend",
         "approx trend traffic 100"
@@ -849,31 +822,6 @@
       },
       "qualified": true,
       "suggestedSymbol": "TERRANCE",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500"
-      ]
-    },
-    {
-      "title": "russian",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 9,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 75,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 8,
-        "active": 0,
-        "liquid": 2
-      },
-      "qualified": true,
-      "suggestedSymbol": "RUSSIAN",
       "rationale": [
         "active search trend",
         "approx trend traffic 500"
@@ -909,7 +857,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
+      "bestRank": 2,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -934,7 +882,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
+      "bestRank": 4,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -960,7 +908,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
+      "bestRank": 2,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -1048,7 +996,7 @@
       "dex": {
         "pairs": 30,
         "active": 6,
-        "liquid": 17
+        "liquid": 18
       },
       "qualified": true,
       "suggestedSymbol": "INTERNET",
@@ -1064,7 +1012,7 @@
         "google-trends",
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 3,
       "traffic": 2000,
       "sources": [
         "google-trends"
@@ -1141,7 +1089,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 5,
+      "bestRank": 7,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -1167,7 +1115,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 8,
+      "bestRank": 9,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -1192,7 +1140,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 8,
+      "bestRank": 9,
       "traffic": 2000,
       "sources": [
         "google-trends"
@@ -1203,7 +1151,7 @@
       "dex": {
         "pairs": 30,
         "active": 4,
-        "liquid": 19
+        "liquid": 20
       },
       "qualified": true,
       "suggestedSymbol": "MIGRAINE",
@@ -1218,7 +1166,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 7,
+      "bestRank": 8,
       "traffic": 2000,
       "sources": [
         "google-trends"
@@ -1237,6 +1185,32 @@
         "active search trend",
         "approx trend traffic 2,000",
         "3 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "archie brown footballer",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 1,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 63,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 4,
+        "liquid": 9
+      },
+      "qualified": false,
+      "suggestedSymbol": "ARCHIE",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "4 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -1333,7 +1307,7 @@
       "dex": {
         "pairs": 30,
         "active": 5,
-        "liquid": 25
+        "liquid": 24
       },
       "qualified": false,
       "suggestedSymbol": "JOE",
@@ -1348,7 +1322,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 5,
+      "bestRank": 6,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -1374,7 +1348,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 6,
+      "bestRank": 7,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -1396,12 +1370,12 @@
       ]
     },
     {
-      "title": "uefa champions league fixtures",
+      "title": "ucl fixtures",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 6,
-      "traffic": 500,
+      "traffic": 200,
       "sources": [
         "google-trends"
       ],
@@ -1410,15 +1384,15 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 6,
-        "liquid": 5
+        "active": 4,
+        "liquid": 21
       },
       "qualified": false,
-      "suggestedSymbol": "UEFA",
+      "suggestedSymbol": "UCL",
       "rationale": [
         "active search trend",
-        "approx trend traffic 500",
-        "6 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 200",
+        "4 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -1426,7 +1400,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 5,
+      "bestRank": 6,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -1452,7 +1426,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 3,
       "traffic": 50000,
       "sources": [
         "google-trends"
@@ -1500,16 +1474,42 @@
       ]
     },
     {
-      "title": "hot drinks cancer risk",
+      "title": "netflix subscription",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 4,
-      "traffic": 1000,
+      "bestRank": 1,
+      "traffic": 200,
       "sources": [
         "google-trends"
       ],
       "score": 52,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 8,
+        "liquid": 19
+      },
+      "qualified": false,
+      "suggestedSymbol": "NETFLIX",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "8 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "hot drinks cancer risk",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 5,
+      "traffic": 1000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 51,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
@@ -1523,32 +1523,6 @@
         "active search trend",
         "approx trend traffic 1,000",
         "8 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "bbc hausa labaran duniya",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 9,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 51,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 23,
-        "liquid": 19
-      },
-      "qualified": false,
-      "suggestedSymbol": "BBC",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "23 active matching DEX pairs (saturation risk)"
       ]
     }
   ],
