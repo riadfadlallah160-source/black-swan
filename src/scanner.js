@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { CONFIG } from './config.js';
 
-const UA = 'BlackSwanNarrativeScanner/1.3';
+const UA = 'BlackSwanNarrativeScanner/1.4';
 const OUT = path.resolve('data/latest.json');
 const HISTORY = path.resolve('data/history.json');
 
@@ -14,7 +14,7 @@ function decodeXml(s='') {
 }
 function rssItems(xml, source) {
   const items=[...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map(m=>m[0]);
-  return items.slice(0,80).map((raw,rank)=>{
+  return items.slice(0,100).map((raw,rank)=>{
     const title=decodeXml((raw.match(/<title>([\s\S]*?)<\/title>/i)||[])[1]||'');
     const trafficRaw=decodeXml((raw.match(/<ht:approx_traffic>([\s\S]*?)<\/ht:approx_traffic>/i)||[])[1]||'0');
     return {title,source,rank:rank+1,traffic:Number(trafficRaw.replace(/[^0-9]/g,''))||0};
@@ -38,6 +38,19 @@ function category(s){
 }
 function tickerFrom(title){const banned=new Set(['THE','AND','FOR','WITH','FROM','THIS','THAT','NEWS','LIVE','TODAY']);const ws=words(title).map(x=>x.toUpperCase()).filter(x=>!banned.has(x));return (ws[0]||'PULSE').replace(/[^A-Z0-9]/g,'').slice(0,8)||'PULSE';}
 async function dexSaturation(title){const q=encodeURIComponent(words(title).slice(0,4).join(' '));if(!q)return{pairs:0,active:0,liquid:0};try{const j=await getJson(`https://api.dexscreener.com/latest/dex/search?q=${q}`);const pairs=Array.isArray(j?.pairs)?j.pairs:[];return{pairs:pairs.length,active:pairs.filter(p=>Number(p?.volume?.h24||0)>10000).length,liquid:pairs.filter(p=>Number(p?.liquidity?.usd||0)>10000).length};}catch{return{pairs:null,active:null,liquid:null};}}
+async function mapLimited(items, limit, fn) {
+  const out = new Array(items.length);
+  let cursor = 0;
+  async function worker() {
+    while (true) {
+      const i = cursor++;
+      if (i >= items.length) return;
+      out[i] = await fn(items[i], i);
+    }
+  }
+  await Promise.all(Array.from({length:Math.min(limit,items.length)},()=>worker()));
+  return out;
+}
 function finishScore(c){
   if(containsBlocked(c.title)){c.score=0;c.qualified=false;c.blocked=true;return c;}
   if(c.dex.active>=8)c.score-=24;else if(c.dex.active>=3)c.score-=13;else if(c.dex.pairs>=12)c.score-=8;
@@ -52,9 +65,9 @@ async function main(){
   const cryptoNames=new Set();try{const j=await getJson(CONFIG.feeds.coinGeckoTrending);for(const c of(j?.coins||[])){const item=c?.item||{};for(const n of[item.name,item.symbol])if(n)cryptoNames.add(String(n).toLowerCase());}}catch(e){errors.push(`coingecko:${e.message}`);}
   const grouped=new Map();for(const item of raw){if(containsBlocked(item.title))continue;const k=keyOf(item.title);if(!k)continue;const existing=grouped.get(k)||{title:item.title,mentions:[],bestRank:999,traffic:0};existing.mentions.push(item.source);existing.bestRank=Math.min(existing.bestRank,item.rank);existing.traffic=Math.max(existing.traffic,item.traffic||0);grouped.set(k,existing);}
   let candidates=[...grouped.values()].map(x=>{const uniq=[...new Set(x.mentions)];let score=40;if(uniq.includes('google-trends'))score+=22;if(uniq.includes('google-news'))score+=10;if(uniq.length>1)score+=10;score+=Math.max(0,14-Math.floor(x.bestRank/5));if(x.traffic>=100000)score+=10;else if(x.traffic>=20000)score+=7;else if(x.traffic>=2000)score+=4;const overlap=[...cryptoNames].some(n=>n.length>3&&x.title.toLowerCase().includes(n));if(overlap)score-=14;return{...x,sources:uniq,score,category:category(x.title),cryptoTrendingOverlap:overlap};}).sort((a,b)=>b.score-a.score).slice(0,CONFIG.maxCandidatesPerScan);
-  candidates=await Promise.all(candidates.map(async c=>finishScore({...c,dex:await dexSaturation(c.title)})));candidates.sort((a,b)=>b.score-a.score);
+  candidates=await mapLimited(candidates,24,async c=>finishScore({...c,dex:await dexSaturation(c.title)}));candidates.sort((a,b)=>b.score-a.score);
   let previous={runs:[]};try{previous=JSON.parse(await fs.readFile(HISTORY,'utf8'));}catch{}
-  const now=new Date().toISOString();const qualified=candidates.filter(x=>x.qualified&&!x.blocked).slice(0,CONFIG.maxCandidatesPerScan);const report={generatedAt:now,threshold:CONFIG.scoreThreshold,targetPackagesPerScan:CONFIG.targetPackagesPerScan,creatorAddress:CONFIG.creatorAddress,qualifiedCount:qualified.length,qualified,watchlist:candidates.filter(x=>!x.blocked).slice(0,CONFIG.maxCandidatesPerScan),feedErrors:errors};
-  previous.runs=(previous.runs||[]).slice(-287);previous.runs.push({generatedAt:now,qualified:qualified.map(x=>({title:x.title,score:x.score,symbol:x.suggestedSymbol}))});await fs.mkdir(path.dirname(OUT),{recursive:true});await fs.writeFile(OUT,JSON.stringify(report,null,2));await fs.writeFile(HISTORY,JSON.stringify(previous,null,2));console.log(JSON.stringify({generatedAt:now,qualifiedCount:qualified.length,top:qualified.slice(0,10).map(x=>({title:x.title,score:x.score}))},null,2));
+  const now=new Date().toISOString();const qualified=candidates.filter(x=>x.qualified&&!x.blocked).slice(0,CONFIG.maxCandidatesPerScan);const report={generatedAt:now,threshold:CONFIG.scoreThreshold,targetPackagesPerScan:CONFIG.targetPackagesPerScan,creatorAddress:CONFIG.creatorAddress,sourceItems:raw.length,uniqueNarratives:grouped.size,qualifiedCount:qualified.length,qualified,watchlist:candidates.filter(x=>!x.blocked).slice(0,CONFIG.maxCandidatesPerScan),feedErrors:errors};
+  previous.runs=(previous.runs||[]).slice(-287);previous.runs.push({generatedAt:now,sourceItems:raw.length,uniqueNarratives:grouped.size,qualified:qualified.map(x=>({title:x.title,score:x.score,symbol:x.suggestedSymbol}))});await fs.mkdir(path.dirname(OUT),{recursive:true});await fs.writeFile(OUT,JSON.stringify(report,null,2));await fs.writeFile(HISTORY,JSON.stringify(previous,null,2));console.log(JSON.stringify({generatedAt:now,sourceItems:raw.length,uniqueNarratives:grouped.size,qualifiedCount:qualified.length,top:qualified.slice(0,10).map(x=>({title:x.title,score:x.score}))},null,2));
 }
 main().catch(e=>{console.error(e);process.exit(1)});
