@@ -3,10 +3,10 @@ export const CONFIG = Object.freeze({
   chainId: 8453,
   issuanceRail: 'clanker-v4',
 
-  // Throughput / discovery
+  // Throughput / discovery: rank broadly, release nine best fresh packages per cycle.
   scoreThreshold: 65,
   targetPackagesPerScan: 9,
-  maxCandidatesPerScan: 36,
+  maxCandidatesPerScan: 180,
   targetPackagesPerHour: 108,
 
   // Two-stream Clanker V4 economics:
@@ -32,8 +32,6 @@ export const CONFIG = Object.freeze({
     rewardRecipientBps: 10000
   },
 
-  // Founder-token realization policy. Milestones are assessed from genuine market
-  // liquidity/quotes and sales are capped to avoid dumping through shallow liquidity.
   exitPolicy: {
     minLiquidityUsd: 50000,
     min24hOrganicVolumeUsd: 100000,
@@ -62,9 +60,16 @@ export const CONFIG = Object.freeze({
     googleTrends: [
       'https://trends.google.com/trending/rss?geo=US',
       'https://trends.google.com/trending/rss?geo=GB',
-      'https://trends.google.com/trending/rss?geo=NG',
       'https://trends.google.com/trending/rss?geo=CA',
-      'https://trends.google.com/trending/rss?geo=AU'
+      'https://trends.google.com/trending/rss?geo=AU',
+      'https://trends.google.com/trending/rss?geo=NG',
+      'https://trends.google.com/trending/rss?geo=IN',
+      'https://trends.google.com/trending/rss?geo=BR',
+      'https://trends.google.com/trending/rss?geo=MX',
+      'https://trends.google.com/trending/rss?geo=ZA',
+      'https://trends.google.com/trending/rss?geo=PH',
+      'https://trends.google.com/trending/rss?geo=SG',
+      'https://trends.google.com/trending/rss?geo=AE'
     ],
     googleNews: [
       'https://news.google.com/rss/search?q=viral%20meme%20OR%20internet%20trend&hl=en-US&gl=US&ceid=US:en',
@@ -74,7 +79,11 @@ export const CONFIG = Object.freeze({
       'https://news.google.com/rss/search?q=celebrity%20trend%20OR%20viral%20celebrity&hl=en-US&gl=US&ceid=US:en',
       'https://news.google.com/rss/search?q=sports%20viral%20OR%20sports%20meme&hl=en-US&gl=US&ceid=US:en',
       'https://news.google.com/rss/search?q=AI%20viral%20OR%20robot%20viral%20OR%20space%20viral&hl=en-US&gl=US&ceid=US:en',
-      'https://news.google.com/rss/search?q=streamer%20viral%20OR%20youtube%20viral%20OR%20tiktok%20viral&hl=en-US&gl=US&ceid=US:en'
+      'https://news.google.com/rss/search?q=streamer%20viral%20OR%20youtube%20viral%20OR%20tiktok%20viral&hl=en-US&gl=US&ceid=US:en',
+      'https://news.google.com/rss/search?q=movie%20viral%20OR%20tv%20viral%20OR%20music%20viral&hl=en-US&gl=US&ceid=US:en',
+      'https://news.google.com/rss/search?q=animal%20viral%20OR%20weird%20internet%20OR%20funny%20trend&hl=en-US&gl=US&ceid=US:en',
+      'https://news.google.com/rss/search?q=product%20viral%20OR%20app%20viral%20OR%20gadget%20viral&hl=en-US&gl=US&ceid=US:en',
+      'https://news.google.com/rss/search?q=internet%20challenge%20OR%20catchphrase%20viral%20OR%20meme%20trend&hl=en-US&gl=US&ceid=US:en'
     ],
     coinGeckoTrending: 'https://api.coingecko.com/api/v3/search/trending'
   }
