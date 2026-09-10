@@ -1,255 +1,667 @@
 {
-  "generatedAt": "2026-09-10T22:39:42.773Z",
+  "generatedAt": "2026-09-10T22:45:14.572Z",
   "targetPerScan": 9,
   "targetPerHour": 108,
-  "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+  "issuanceRail": "clanker-v4",
+  "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+  "baseUsdc": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   "count": 9,
   "packages": [
     {
-      "narrative": "flashscore",
-      "score": 86,
-      "category": "general-culture",
+      "narrative": "bayern match today",
+      "score": 68,
+      "category": "sports",
       "saturation": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000",
-        "no matching DEX pairs detected"
-      ],
-      "token": {
-        "name": "Flashscore",
-        "symbol": "FLASHSCO",
-        "description": "Unofficial culture token inspired by current public interest in Flashscore. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
-        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Flashscore. No logos, no trademarks, no realistic impersonation, no violence, no text except FLASHSCO."
-      },
-      "flaunch": {
-        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "marketCap": "10000000000",
-        "creatorFeeSplit": "undefined",
-        "fairLaunchDuration": "1800",
-        "fairLaunchSupply": 60
-      }
-    },
-    {
-      "narrative": "tilda swinton",
-      "score": 84,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
+        "pairs": 30,
+        "active": 2,
+        "liquid": 10
       },
       "rationale": [
         "active search trend",
         "approx trend traffic 100",
-        "no matching DEX pairs detected"
+        "2 active matching DEX pairs (saturation risk)"
       ],
       "token": {
-        "name": "Tilda Swinton",
-        "symbol": "TILDA",
-        "description": "Unofficial culture token inspired by current public interest in Tilda Swinton. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
-        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Tilda Swinton. No logos, no trademarks, no realistic impersonation, no violence, no text except TILDA."
+        "name": "Bayern Match Today",
+        "symbol": "BAYERN",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Bayern Match Today. Creator allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/8c67750c3264c472.svg",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/8c67750c3264c472.svg"
       },
-      "flaunch": {
-        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "marketCap": "10000000000",
-        "creatorFeeSplit": "undefined",
-        "fairLaunchDuration": "1800",
-        "fairLaunchSupply": 60
-      }
+      "economics": {
+        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
+        "stream2": "10% founder allocation at mint; disclosed and locked before release",
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Bayern Match Today",
+          "symbol": "BAYERN",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/8c67750c3264c472.svg",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Bayern Match Today. Creator allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "4bd4fc949f536408267da2d2320c7827"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 10,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "devBuy": null,
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
     },
     {
-      "narrative": "49ers",
-      "score": 83,
+      "narrative": "ontario science centre",
+      "score": 68,
       "category": "general-culture",
       "saturation": {
-        "pairs": 2,
+        "pairs": 19,
         "active": 0,
-        "liquid": 0
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000"
-      ],
-      "token": {
-        "name": "49ers",
-        "symbol": "49ERS",
-        "description": "Unofficial culture token inspired by current public interest in 49ers. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
-        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: 49ers. No logos, no trademarks, no realistic impersonation, no violence, no text except 49ERS."
-      },
-      "flaunch": {
-        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "marketCap": "10000000000",
-        "creatorFeeSplit": "undefined",
-        "fairLaunchDuration": "1800",
-        "fairLaunchSupply": 60
-      }
-    },
-    {
-      "narrative": "rabies",
-      "score": 79,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 2,
-        "active": 0,
-        "liquid": 0
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500"
-      ],
-      "token": {
-        "name": "Rabies",
-        "symbol": "RABIES",
-        "description": "Unofficial culture token inspired by current public interest in Rabies. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
-        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Rabies. No logos, no trademarks, no realistic impersonation, no violence, no text except RABIES."
-      },
-      "flaunch": {
-        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "marketCap": "10000000000",
-        "creatorFeeSplit": "undefined",
-        "fairLaunchDuration": "1800",
-        "fairLaunchSupply": 60
-      }
-    },
-    {
-      "narrative": "tsunami",
-      "score": 79,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 3,
-        "active": 0,
-        "liquid": 0
+        "liquid": 3
       },
       "rationale": [
         "active search trend",
         "approx trend traffic 100"
       ],
       "token": {
-        "name": "Tsunami",
-        "symbol": "TSUNAMI",
-        "description": "Unofficial culture token inspired by current public interest in Tsunami. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
-        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Tsunami. No logos, no trademarks, no realistic impersonation, no violence, no text except TSUNAMI."
+        "name": "Ontario Science Centre",
+        "symbol": "ONTARIO",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Ontario Science Centre. Creator allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/a8371b55d201cefa.svg",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/a8371b55d201cefa.svg"
       },
-      "flaunch": {
-        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "marketCap": "10000000000",
-        "creatorFeeSplit": "undefined",
-        "fairLaunchDuration": "1800",
-        "fairLaunchSupply": 60
-      }
+      "economics": {
+        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
+        "stream2": "10% founder allocation at mint; disclosed and locked before release",
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Ontario Science Centre",
+          "symbol": "ONTARIO",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/a8371b55d201cefa.svg",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Ontario Science Centre. Creator allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "a9a885186a726d0095558145c98c7a4e"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 10,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "devBuy": null,
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
     },
     {
-      "narrative": "terrance ferguson",
-      "score": 78,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 1,
-        "active": 0,
-        "liquid": 0
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500"
-      ],
-      "token": {
-        "name": "Terrance Ferguson",
-        "symbol": "TERRANCE",
-        "description": "Unofficial culture token inspired by current public interest in Terrance Ferguson. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
-        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Terrance Ferguson. No logos, no trademarks, no realistic impersonation, no violence, no text except TERRANCE."
-      },
-      "flaunch": {
-        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "marketCap": "10000000000",
-        "creatorFeeSplit": "undefined",
-        "fairLaunchDuration": "1800",
-        "fairLaunchSupply": 60
-      }
-    },
-    {
-      "narrative": "russian",
-      "score": 75,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 8,
-        "active": 0,
-        "liquid": 2
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500"
-      ],
-      "token": {
-        "name": "Russian",
-        "symbol": "RUSSIAN",
-        "description": "Unofficial culture token inspired by current public interest in Russian. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
-        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Russian. No logos, no trademarks, no realistic impersonation, no violence, no text except RUSSIAN."
-      },
-      "flaunch": {
-        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "marketCap": "10000000000",
-        "creatorFeeSplit": "undefined",
-        "fairLaunchDuration": "1800",
-        "fairLaunchSupply": 60
-      }
-    },
-    {
-      "narrative": "fraud",
-      "score": 71,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 23,
-        "active": 0,
-        "liquid": 1
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100"
-      ],
-      "token": {
-        "name": "Fraud",
-        "symbol": "FRAUD",
-        "description": "Unofficial culture token inspired by current public interest in Fraud. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
-        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Fraud. No logos, no trademarks, no realistic impersonation, no violence, no text except FRAUD."
-      },
-      "flaunch": {
-        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "marketCap": "10000000000",
-        "creatorFeeSplit": "undefined",
-        "fairLaunchDuration": "1800",
-        "fairLaunchSupply": 60
-      }
-    },
-    {
-      "narrative": "richarlison tottenham contract dispute",
+      "narrative": "twin towers",
       "score": 68,
       "category": "general-culture",
       "saturation": {
         "pairs": 30,
-        "active": 0,
-        "liquid": 5
+        "active": 1,
+        "liquid": 6
       },
       "rationale": [
         "active search trend",
-        "approx trend traffic 100"
+        "approx trend traffic 100",
+        "1 active matching DEX pairs (saturation risk)"
       ],
       "token": {
-        "name": "Richarlison Tottenham Contract Dispute",
-        "symbol": "RICHARLI",
-        "description": "Unofficial culture token inspired by current public interest in Richarlison Tottenham Contract Dispute. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
-        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Richarlison Tottenham Contract Dispute. No logos, no trademarks, no realistic impersonation, no violence, no text except RICHARLI."
+        "name": "Twin Towers",
+        "symbol": "TWIN",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Twin Towers. Creator allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/5229f3cbf792ef5a.svg",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/5229f3cbf792ef5a.svg"
       },
-      "flaunch": {
-        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "marketCap": "10000000000",
-        "creatorFeeSplit": "undefined",
-        "fairLaunchDuration": "1800",
-        "fairLaunchSupply": 60
-      }
+      "economics": {
+        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
+        "stream2": "10% founder allocation at mint; disclosed and locked before release",
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Twin Towers",
+          "symbol": "TWIN",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/5229f3cbf792ef5a.svg",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Twin Towers. Creator allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "dd33febbb122db7b61dd574c58dc4d9c"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 10,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "devBuy": null,
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
+    },
+    {
+      "narrative": "leshon johnson",
+      "score": 67,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 3,
+        "liquid": 11
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 10,000",
+        "3 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Leshon Johnson",
+        "symbol": "LESHON",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Leshon Johnson. Creator allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/cb1f7d5129cfdbcb.svg",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/cb1f7d5129cfdbcb.svg"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
+        "stream2": "10% founder allocation at mint; disclosed and locked before release",
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Leshon Johnson",
+          "symbol": "LESHON",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/cb1f7d5129cfdbcb.svg",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Leshon Johnson. Creator allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "d22af40121a859794ecdac91764d1252"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 10,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "devBuy": null,
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
+    },
+    {
+      "narrative": "internet outages",
+      "score": 67,
+      "category": "internet-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 6,
+        "liquid": 17
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 5,000",
+        "6 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Internet Outages",
+        "symbol": "INTERNET",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Internet Outages. Creator allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/00881dec1f9f54a6.svg",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/00881dec1f9f54a6.svg"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
+        "stream2": "10% founder allocation at mint; disclosed and locked before release",
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Internet Outages",
+          "symbol": "INTERNET",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/00881dec1f9f54a6.svg",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Internet Outages. Creator allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "9b1c437554a360ca6e3e6d1cb1d8759e"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 10,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "devBuy": null,
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
+    },
+    {
+      "narrative": "como 1907 vs rb leipzig standings",
+      "score": 67,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 7,
+        "liquid": 23
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "7 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Como 1907 Vs Rb Leipzig Standings",
+        "symbol": "COMO",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Como 1907 Vs Rb Leipzig Standings. Creator allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/fbbfdf8348628dd1.svg",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/fbbfdf8348628dd1.svg"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
+        "stream2": "10% founder allocation at mint; disclosed and locked before release",
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Como 1907 Vs Rb Leipzig Standings",
+          "symbol": "COMO",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/fbbfdf8348628dd1.svg",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Como 1907 Vs Rb Leipzig Standings. Creator allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "a7260596245744aefb9c458e8bed2ca2"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 10,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "devBuy": null,
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
+    },
+    {
+      "narrative": "armond paige mail dumping indictment",
+      "score": 67,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 0,
+        "liquid": 6
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500"
+      ],
+      "token": {
+        "name": "Armond Paige Mail Dumping Indictment",
+        "symbol": "ARMOND",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Armond Paige Mail Dumping Indictment. Creator allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/d094cfd63e9d1287.svg",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/d094cfd63e9d1287.svg"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
+        "stream2": "10% founder allocation at mint; disclosed and locked before release",
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Armond Paige Mail Dumping Indictment",
+          "symbol": "ARMOND",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/d094cfd63e9d1287.svg",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Armond Paige Mail Dumping Indictment. Creator allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "506025889eac941ca1d47c7ef31464b7"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 10,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "devBuy": null,
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
+    },
+    {
+      "narrative": "dallas weather",
+      "score": 67,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 19,
+        "active": 1,
+        "liquid": 3
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500",
+        "1 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Dallas Weather",
+        "symbol": "DALLAS",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Dallas Weather. Creator allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/3dfafd7f4f77f6f6.svg",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/3dfafd7f4f77f6f6.svg"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
+        "stream2": "10% founder allocation at mint; disclosed and locked before release",
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Dallas Weather",
+          "symbol": "DALLAS",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/3dfafd7f4f77f6f6.svg",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Dallas Weather. Creator allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "21ca58abfc99ee17fb684c6acc07dc2b"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 10,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "devBuy": null,
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
+    },
+    {
+      "narrative": "harry kane",
+      "score": 67,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 2,
+        "liquid": 21
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "2 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Harry Kane",
+        "symbol": "HARRY",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Harry Kane. Creator allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/ed05e654be34b582.svg",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ed05e654be34b582.svg"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
+        "stream2": "10% founder allocation at mint; disclosed and locked before release",
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Harry Kane",
+          "symbol": "HARRY",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ed05e654be34b582.svg",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Harry Kane. Creator allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "130511c72daea54b1633f9111109f289"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 10,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "devBuy": null,
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
     }
   ],
-  "status": "approval-ready; not submitted by this workflow"
+  "status": "economics packaged; ExitVault must be deployed once before automated founder exits"
 }

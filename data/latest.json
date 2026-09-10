@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-10T22:39:42.604Z",
+  "generatedAt": "2026-09-10T22:45:14.390Z",
   "threshold": 65,
   "targetPackagesPerScan": 9,
   "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-  "qualifiedCount": 23,
+  "qualifiedCount": 24,
   "qualified": [
     {
       "title": "flashscore",
@@ -115,7 +115,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
+      "bestRank": 2,
       "traffic": 2000,
       "sources": [
         "google-trends"
@@ -216,7 +216,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 7,
+      "bestRank": 6,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -241,7 +241,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 8,
+      "bestRank": 9,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -291,7 +291,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 1,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -404,7 +404,7 @@
       "dex": {
         "pairs": 30,
         "active": 3,
-        "liquid": 10
+        "liquid": 11
       },
       "qualified": true,
       "suggestedSymbol": "LESHON",
@@ -430,7 +430,7 @@
       "dex": {
         "pairs": 30,
         "active": 6,
-        "liquid": 18
+        "liquid": 17
       },
       "qualified": true,
       "suggestedSymbol": "INTERNET",
@@ -441,11 +441,38 @@
       ]
     },
     {
+      "title": "como 1907 vs rb leipzig standings",
+      "mentions": [
+        "google-trends",
+        "google-trends"
+      ],
+      "bestRank": 2,
+      "traffic": 2000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 67,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 7,
+        "liquid": 23
+      },
+      "qualified": true,
+      "suggestedSymbol": "COMO",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "7 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
       "title": "armond paige mail dumping indictment",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 6,
+      "bestRank": 7,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -456,7 +483,7 @@
       "dex": {
         "pairs": 30,
         "active": 0,
-        "liquid": 5
+        "liquid": 6
       },
       "qualified": true,
       "suggestedSymbol": "ARMOND",
@@ -547,7 +574,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 9,
+      "bestRank": 8,
       "traffic": 2000,
       "sources": [
         "google-trends"
@@ -706,7 +733,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
+      "bestRank": 2,
       "traffic": 2000,
       "sources": [
         "google-trends"
@@ -807,7 +834,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 7,
+      "bestRank": 6,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -832,7 +859,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 8,
+      "bestRank": 9,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -882,7 +909,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 1,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -995,7 +1022,7 @@
       "dex": {
         "pairs": 30,
         "active": 3,
-        "liquid": 10
+        "liquid": 11
       },
       "qualified": true,
       "suggestedSymbol": "LESHON",
@@ -1021,7 +1048,7 @@
       "dex": {
         "pairs": 30,
         "active": 6,
-        "liquid": 18
+        "liquid": 17
       },
       "qualified": true,
       "suggestedSymbol": "INTERNET",
@@ -1032,11 +1059,38 @@
       ]
     },
     {
+      "title": "como 1907 vs rb leipzig standings",
+      "mentions": [
+        "google-trends",
+        "google-trends"
+      ],
+      "bestRank": 2,
+      "traffic": 2000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 67,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 7,
+        "liquid": 23
+      },
+      "qualified": true,
+      "suggestedSymbol": "COMO",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "7 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
       "title": "armond paige mail dumping indictment",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 6,
+      "bestRank": 7,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -1047,7 +1101,7 @@
       "dex": {
         "pairs": 30,
         "active": 0,
-        "liquid": 5
+        "liquid": 6
       },
       "qualified": true,
       "suggestedSymbol": "ARMOND",
@@ -1138,7 +1192,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 9,
+      "bestRank": 8,
       "traffic": 2000,
       "sources": [
         "google-trends"
@@ -1420,33 +1474,6 @@
       ]
     },
     {
-      "title": "como 1907 vs rb leipzig standings",
-      "mentions": [
-        "google-trends",
-        "google-trends"
-      ],
-      "bestRank": 2,
-      "traffic": 2000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 56,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 8,
-        "liquid": 24
-      },
-      "qualified": false,
-      "suggestedSymbol": "COMO",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000",
-        "8 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
       "title": "beauty in black renewed season 4",
       "mentions": [
         "google-trends"
@@ -1513,17 +1540,19 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 22,
-        "liquid": 18
+        "active": 23,
+        "liquid": 19
       },
       "qualified": false,
       "suggestedSymbol": "BBC",
       "rationale": [
         "active search trend",
         "approx trend traffic 100",
-        "22 active matching DEX pairs (saturation risk)"
+        "23 active matching DEX pairs (saturation risk)"
       ]
     }
   ],
-  "feedErrors": []
+  "feedErrors": [
+    "The operation was aborted due to timeout"
+  ]
 }
