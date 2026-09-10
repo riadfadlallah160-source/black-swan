@@ -1,6 +1,6 @@
 {
   "name": "black-swan-launch-factory",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,6 +8,10 @@
     "scan": "node src/scanner.js",
     "package": "node src/packager.js",
     "launch": "node src/launcher.js"
+  },
+  "dependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.8",
+    "sharp": "^0.34.3"
   },
   "engines": {
     "node": ">=20"
