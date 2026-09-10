@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { CONFIG } from './config.js';
 
-const UA = 'BlackSwanNarrativeScanner/1.0';
+const UA = 'BlackSwanNarrativeScanner/1.1';
 const OUT = path.resolve('data/latest.json');
 const HISTORY = path.resolve('data/history.json');
 
@@ -24,12 +24,12 @@ function rssItems(xml, source) {
 }
 
 async function getText(url) {
-  const r = await fetch(url, {headers:{'user-agent':UA,'accept':'application/rss+xml,text/xml,text/plain,*/*'}, signal:AbortSignal.timeout(12000)});
+  const r = await fetch(url, {headers:{'user-agent':UA,'accept':'application/rss+xml,text/xml,text/plain,*/*'}, signal:AbortSignal.timeout(10000)});
   if (!r.ok) throw new Error(`${r.status} ${url}`);
   return r.text();
 }
 async function getJson(url) {
-  const r = await fetch(url, {headers:{'user-agent':UA,'accept':'application/json'}, signal:AbortSignal.timeout(12000)});
+  const r = await fetch(url, {headers:{'user-agent':UA,'accept':'application/json'}, signal:AbortSignal.timeout(10000)});
   if (!r.ok) throw new Error(`${r.status} ${url}`);
   return r.json();
 }
@@ -69,15 +69,34 @@ async function dexSaturation(title) {
   } catch { return {pairs:null, active:null, liquid:null}; }
 }
 
+function finishScore(c) {
+  if (c.dex.active >= 8) c.score -= 30;
+  else if (c.dex.active >= 3) c.score -= 18;
+  else if (c.dex.pairs >= 12) c.score -= 12;
+  if (c.dex.pairs === 0) c.score += 6;
+  c.score=Math.max(0,Math.min(100,Math.round(c.score)));
+  c.qualified=c.score>=CONFIG.scoreThreshold;
+  c.suggestedSymbol=tickerFrom(c.title);
+  c.rationale=[
+    c.sources.includes('google-trends')?'active search trend':null,
+    c.sources.includes('google-news')?'news confirmation':null,
+    c.traffic?`approx trend traffic ${c.traffic.toLocaleString()}`:null,
+    c.dex.pairs===0?'no matching DEX pairs detected':null,
+    c.dex.active>0?`${c.dex.active} active matching DEX pairs (saturation risk)`:null,
+    c.cryptoTrendingOverlap?'already overlaps crypto trending list':null
+  ].filter(Boolean);
+  return c;
+}
+
 async function main() {
   const raw=[]; const errors=[];
-  for (const url of [...CONFIG.feeds.googleTrends, ...CONFIG.feeds.googleNews]) {
-    try {
-      const xml=await getText(url);
-      const src=url.includes('trends.google')?'google-trends':'google-news';
-      raw.push(...rssItems(xml,src));
-    } catch(e) { errors.push(String(e.message||e)); }
-  }
+  const rssUrls=[...CONFIG.feeds.googleTrends, ...CONFIG.feeds.googleNews];
+  const rssResults=await Promise.allSettled(rssUrls.map(async url=>{
+    const xml=await getText(url);
+    const src=url.includes('trends.google')?'google-trends':'google-news';
+    return rssItems(xml,src);
+  }));
+  rssResults.forEach(r=>r.status==='fulfilled'?raw.push(...r.value):errors.push(String(r.reason?.message||r.reason)));
 
   const cryptoNames = new Set();
   try {
@@ -106,28 +125,11 @@ async function main() {
     score+=Math.max(0, 12-Math.floor(x.bestRank/5));
     if (x.traffic>=100000) score+=8; else if (x.traffic>=20000) score+=5;
     const overlap=[...cryptoNames].some(n=>n.length>3 && x.title.toLowerCase().includes(n));
-    if (overlap) score-=18; // usually already crowded
+    if (overlap) score-=18;
     return {...x, sources:uniq, score, category:category(x.title), cryptoTrendingOverlap:overlap};
   }).sort((a,b)=>b.score-a.score).slice(0,24);
 
-  for (const c of candidates) {
-    c.dex = await dexSaturation(c.title);
-    if (c.dex.active >= 8) c.score -= 30;
-    else if (c.dex.active >= 3) c.score -= 18;
-    else if (c.dex.pairs >= 12) c.score -= 12;
-    if (c.dex.pairs === 0) c.score += 6;
-    c.score=Math.max(0,Math.min(100,Math.round(c.score)));
-    c.qualified=c.score>=CONFIG.scoreThreshold;
-    c.suggestedSymbol=tickerFrom(c.title);
-    c.rationale=[
-      c.sources.includes('google-trends')?'active search trend':null,
-      c.sources.includes('google-news')?'news confirmation':null,
-      c.traffic?`approx trend traffic ${c.traffic.toLocaleString()}`:null,
-      c.dex.pairs===0?'no matching DEX pairs detected':null,
-      c.dex.active>0?`${c.dex.active} active matching DEX pairs (saturation risk)`:null,
-      c.cryptoTrendingOverlap?'already overlaps crypto trending list':null
-    ].filter(Boolean);
-  }
+  candidates = await Promise.all(candidates.map(async c => finishScore({...c, dex:await dexSaturation(c.title)})));
   candidates.sort((a,b)=>b.score-a.score);
 
   let previous={runs:[]};
@@ -135,7 +137,7 @@ async function main() {
   const now=new Date().toISOString();
   const qualified=candidates.filter(x=>x.qualified).slice(0,CONFIG.maxCandidatesPerScan);
   const report={generatedAt:now, threshold:CONFIG.scoreThreshold, creatorAddress:CONFIG.creatorAddress, qualifiedCount:qualified.length, qualified, watchlist:candidates.slice(0,20), feedErrors:errors};
-  previous.runs=(previous.runs||[]).slice(-287); // ~24h at 5m cadence
+  previous.runs=(previous.runs||[]).slice(-287);
   previous.runs.push({generatedAt:now, qualified:qualified.map(x=>({title:x.title,score:x.score,symbol:x.suggestedSymbol}))});
   await fs.mkdir(path.dirname(OUT),{recursive:true});
   await fs.writeFile(OUT,JSON.stringify(report,null,2));
