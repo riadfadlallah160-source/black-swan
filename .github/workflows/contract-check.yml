@@ -1,0 +1,26 @@
+name: Contract Check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'contracts/**'
+      - '.github/workflows/contract-check.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Compile FounderExitVault
+        run: |
+          npm install --no-save solc@0.8.30
+          npx solcjs --bin --abi contracts/FounderExitVault.sol -o build/contracts
