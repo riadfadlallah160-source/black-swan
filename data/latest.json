@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:10:02.992Z",
+  "generatedAt": "2026-09-10T22:10:38.068Z",
   "threshold": 88,
   "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
   "qualifiedCount": 0,
@@ -362,29 +362,28 @@
       ]
     },
     {
-      "title": "osama bin laden",
+      "title": "arsenal news",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
+      "bestRank": 8,
       "traffic": 100,
       "sources": [
         "google-trends"
       ],
-      "score": 60,
+      "score": 65,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 6,
-        "liquid": 6
+        "active": 0,
+        "liquid": 17
       },
       "qualified": false,
-      "suggestedSymbol": "OSAMA",
+      "suggestedSymbol": "ARSENAL",
       "rationale": [
         "active search trend",
-        "approx trend traffic 100",
-        "6 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 100"
       ]
     },
     {
