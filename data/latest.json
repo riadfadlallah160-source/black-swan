@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:45:47.992Z",
+  "generatedAt": "2026-09-10T22:46:46.445Z",
   "threshold": 65,
   "targetPackagesPerScan": 9,
   "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
@@ -275,7 +275,7 @@
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 23,
+        "pairs": 22,
         "active": 0,
         "liquid": 1
       },
@@ -893,7 +893,7 @@
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 23,
+        "pairs": 22,
         "active": 0,
         "liquid": 1
       },
@@ -1463,7 +1463,7 @@
       "dex": {
         "pairs": 30,
         "active": 12,
-        "liquid": 15
+        "liquid": 14
       },
       "qualified": false,
       "suggestedSymbol": "MANCHEST",
