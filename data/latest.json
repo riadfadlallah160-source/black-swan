@@ -1,17 +1,43 @@
 {
-  "generatedAt": "2026-09-10T22:49:42.326Z",
+  "generatedAt": "2026-09-10T22:51:30.397Z",
   "threshold": 65,
   "targetPackagesPerScan": 9,
   "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
   "qualifiedCount": 23,
   "qualified": [
     {
+      "title": "flashscore",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 10,
+      "traffic": 2000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 86,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "FLASHSCO",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "no matching DEX pairs detected"
+      ]
+    },
+    {
       "title": "shailene woodley",
       "mentions": [
         "google-trends",
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 1,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -114,7 +140,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 8,
+      "bestRank": 7,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -290,7 +316,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 4,
+      "bestRank": 3,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -415,33 +441,6 @@
       ]
     },
     {
-      "title": "como 1907 vs rb leipzig standings",
-      "mentions": [
-        "google-trends",
-        "google-trends"
-      ],
-      "bestRank": 3,
-      "traffic": 2000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 67,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 7,
-        "liquid": 23
-      },
-      "qualified": true,
-      "suggestedSymbol": "COMO",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000",
-        "7 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
       "title": "armond paige mail dumping indictment",
       "mentions": [
         "google-trends"
@@ -497,7 +496,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 7,
+      "bestRank": 6,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -523,7 +522,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 9,
+      "bestRank": 8,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -598,12 +597,38 @@
   ],
   "watchlist": [
     {
+      "title": "flashscore",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 10,
+      "traffic": 2000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 86,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "FLASHSCO",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "no matching DEX pairs detected"
+      ]
+    },
+    {
       "title": "shailene woodley",
       "mentions": [
         "google-trends",
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 1,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -706,7 +731,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 8,
+      "bestRank": 7,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -882,7 +907,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 4,
+      "bestRank": 3,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -1007,33 +1032,6 @@
       ]
     },
     {
-      "title": "como 1907 vs rb leipzig standings",
-      "mentions": [
-        "google-trends",
-        "google-trends"
-      ],
-      "bestRank": 3,
-      "traffic": 2000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 67,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 7,
-        "liquid": 23
-      },
-      "qualified": true,
-      "suggestedSymbol": "COMO",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000",
-        "7 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
       "title": "armond paige mail dumping indictment",
       "mentions": [
         "google-trends"
@@ -1089,7 +1087,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 7,
+      "bestRank": 6,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -1115,7 +1113,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 9,
+      "bestRank": 8,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -1307,7 +1305,7 @@
       "dex": {
         "pairs": 30,
         "active": 5,
-        "liquid": 24
+        "liquid": 25
       },
       "qualified": false,
       "suggestedSymbol": "JOE",
@@ -1374,7 +1372,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 6,
+      "bestRank": 5,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -1396,37 +1394,11 @@
       ]
     },
     {
-      "title": "classement bayern munich – bodø/glimt",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 6,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 62,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 7,
-        "liquid": 26
-      },
-      "qualified": false,
-      "suggestedSymbol": "CLASSEME",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "7 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
       "title": "manchester united f.c. vs sabah fk standings",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
+      "bestRank": 2,
       "traffic": 50000,
       "sources": [
         "google-trends"
@@ -1445,6 +1417,33 @@
         "active search trend",
         "approx trend traffic 50,000",
         "12 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "como 1907 vs rb leipzig standings",
+      "mentions": [
+        "google-trends",
+        "google-trends"
+      ],
+      "bestRank": 3,
+      "traffic": 2000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 56,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 8,
+        "liquid": 24
+      },
+      "qualified": false,
+      "suggestedSymbol": "COMO",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "8 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -1474,29 +1473,29 @@
       ]
     },
     {
-      "title": "netflix subscription",
+      "title": "bbc hausa labaran duniya",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
-      "traffic": 200,
+      "bestRank": 9,
+      "traffic": 100,
       "sources": [
         "google-trends"
       ],
-      "score": 52,
+      "score": 51,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 8,
-        "liquid": 19
+        "active": 22,
+        "liquid": 18
       },
       "qualified": false,
-      "suggestedSymbol": "NETFLIX",
+      "suggestedSymbol": "BBC",
       "rationale": [
         "active search trend",
-        "approx trend traffic 200",
-        "8 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 100",
+        "22 active matching DEX pairs (saturation risk)"
       ]
     },
     {
