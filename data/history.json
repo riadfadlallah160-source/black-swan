@@ -1564,6 +1564,288 @@
           "symbol": "AMAZON"
         }
       ]
+    },
+    {
+      "generatedAt": "2026-09-10T22:55:16.177Z",
+      "sourceItems": 1284,
+      "uniqueNarratives": 1215,
+      "qualified": [
+        {
+          "title": "flashscore",
+          "score": 86,
+          "symbol": "FLASHSCO"
+        },
+        {
+          "title": "braeden bowman",
+          "score": 84,
+          "symbol": "BRAEDEN"
+        },
+        {
+          "title": "shailene woodley",
+          "score": 84,
+          "symbol": "SHAILENE"
+        },
+        {
+          "title": "alphonso davies",
+          "score": 84,
+          "symbol": "ALPHONSO"
+        },
+        {
+          "title": "energisa",
+          "score": 84,
+          "symbol": "ENERGISA"
+        },
+        {
+          "title": "demissão",
+          "score": 84,
+          "symbol": "DEMISS"
+        },
+        {
+          "title": "andoni zubizarreta",
+          "score": 84,
+          "symbol": "ANDONI"
+        },
+        {
+          "title": "consejo coordinador empresarial",
+          "score": 84,
+          "symbol": "CONSEJO"
+        },
+        {
+          "title": "tennis",
+          "score": 84,
+          "symbol": "TENNIS"
+        },
+        {
+          "title": "49ers",
+          "score": 83,
+          "symbol": "49ERS"
+        },
+        {
+          "title": "tilda swinton",
+          "score": 83,
+          "symbol": "TILDA"
+        },
+        {
+          "title": "futbol24",
+          "score": 83,
+          "symbol": "FUTBOL24"
+        },
+        {
+          "title": "bocardi",
+          "score": 83,
+          "symbol": "BOCARDI"
+        },
+        {
+          "title": "luisina giovannini",
+          "score": 83,
+          "symbol": "LUISINA"
+        },
+        {
+          "title": "cienciano",
+          "score": 83,
+          "symbol": "CIENCIAN"
+        },
+        {
+          "title": "piturris",
+          "score": 83,
+          "symbol": "PITURRIS"
+        },
+        {
+          "title": "as cannes",
+          "score": 83,
+          "symbol": "CANNES"
+        },
+        {
+          "title": "burlington",
+          "score": 82,
+          "symbol": "BURLINGT"
+        },
+        {
+          "title": "são bernardo x londrina",
+          "score": 82,
+          "symbol": "BERNARDO"
+        },
+        {
+          "title": "jogo do flamengo hoje",
+          "score": 80,
+          "symbol": "JOGO"
+        },
+        {
+          "title": "tsunami",
+          "score": 79,
+          "symbol": "TSUNAMI"
+        },
+        {
+          "title": "kauai",
+          "score": 79,
+          "symbol": "KAUAI"
+        },
+        {
+          "title": "previsão do tempo amanhã",
+          "score": 79,
+          "symbol": "PREVIS"
+        },
+        {
+          "title": "rabies",
+          "score": 78,
+          "symbol": "RABIES"
+        },
+        {
+          "title": "terrance ferguson",
+          "score": 78,
+          "symbol": "TERRANCE"
+        },
+        {
+          "title": "azerbaijan",
+          "score": 78,
+          "symbol": "AZERBAIJ"
+        },
+        {
+          "title": "braga fc",
+          "score": 78,
+          "symbol": "BRAGA"
+        },
+        {
+          "title": "braga vs",
+          "score": 77,
+          "symbol": "BRAGA"
+        },
+        {
+          "title": "texas rangers",
+          "score": 76,
+          "symbol": "TEXAS"
+        },
+        {
+          "title": "joan manuel serrat",
+          "score": 76,
+          "symbol": "JOAN"
+        },
+        {
+          "title": "bayern munich",
+          "score": 76,
+          "symbol": "BAYERN"
+        },
+        {
+          "title": "channel 7",
+          "score": 75,
+          "symbol": "CHANNEL"
+        },
+        {
+          "title": "oppo coloros 17",
+          "score": 72,
+          "symbol": "OPPO"
+        },
+        {
+          "title": "fraud",
+          "score": 71,
+          "symbol": "FRAUD"
+        },
+        {
+          "title": "christian nwachukwu",
+          "score": 69,
+          "symbol": "CHRISTIA"
+        },
+        {
+          "title": "fc 27 release date",
+          "score": 68,
+          "symbol": "RELEASE"
+        },
+        {
+          "title": "ontario science centre",
+          "score": 68,
+          "symbol": "ONTARIO"
+        },
+        {
+          "title": "twin towers",
+          "score": 68,
+          "symbol": "TWIN"
+        },
+        {
+          "title": "bayern match today",
+          "score": 68,
+          "symbol": "BAYERN"
+        },
+        {
+          "title": "man u",
+          "score": 68,
+          "symbol": "MAN"
+        },
+        {
+          "title": "leshon johnson",
+          "score": 67,
+          "symbol": "LESHON"
+        },
+        {
+          "title": "armond paige mail dumping indictment",
+          "score": 67,
+          "symbol": "ARMOND"
+        },
+        {
+          "title": "richarlison tottenham contract dispute",
+          "score": 67,
+          "symbol": "RICHARLI"
+        },
+        {
+          "title": "saudi arabia",
+          "score": 67,
+          "symbol": "SAUDI"
+        },
+        {
+          "title": "cody simpson",
+          "score": 67,
+          "symbol": "CODY"
+        },
+        {
+          "title": "harry kane",
+          "score": 67,
+          "symbol": "HARRY"
+        },
+        {
+          "title": "arsenal news",
+          "score": 67,
+          "symbol": "ARSENAL"
+        },
+        {
+          "title": "skip",
+          "score": 67,
+          "symbol": "SKIP"
+        },
+        {
+          "title": "rc lens",
+          "score": 67,
+          "symbol": "LENS"
+        },
+        {
+          "title": "sabah fk",
+          "score": 67,
+          "symbol": "SABAH"
+        },
+        {
+          "title": "internet outages",
+          "score": 66,
+          "symbol": "INTERNET"
+        },
+        {
+          "title": "canada ukraine",
+          "score": 66,
+          "symbol": "CANADA"
+        },
+        {
+          "title": "nfl hoje",
+          "score": 66,
+          "symbol": "NFL"
+        },
+        {
+          "title": "amazon",
+          "score": 66,
+          "symbol": "AMAZON"
+        },
+        {
+          "title": "migraines pharmacy first",
+          "score": 65,
+          "symbol": "MIGRAINE"
+        }
+      ]
     }
   ]
 }
