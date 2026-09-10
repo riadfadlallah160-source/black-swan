@@ -8,12 +8,14 @@ interface IERC20Minimal {
     function transfer(address to, uint256 amount) external returns (bool);
 }
 
+interface IPermit2Allowance {
+    function approve(address token, address spender, uint160 amount, uint48 expiration) external;
+}
+
 /// @title FounderExitVault
-/// @notice Holds disclosed founder allocations and realizes fixed tranches only when
-///         a swap can return a minimum amount of Base USDC. Sale proceeds always go
-///         to the immutable beneficiary; the automation executor cannot redirect them.
-/// @dev Designed for Clanker-style fixed-supply tokens. A production deployment must
-///      use a verified Base router address and be reviewed before mainnet use.
+/// @notice Receives disclosed founder allocations, realizes predefined tranches through
+///         a fixed Base Uniswap Universal Router, and sends realized Base USDC only to
+///         the immutable beneficiary. The executor cannot change payout destination.
 contract FounderExitVault {
     error Unauthorized();
     error Reentrant();
@@ -24,19 +26,23 @@ contract FounderExitVault {
     error MinimumOutputNotMet();
     error TransferFailed();
     error InvalidAddress();
+    error AmountTooLarge();
+
+    // Canonical Permit2 deployment used by Uniswap across EVM networks.
+    address public constant PERMIT2 = 0x000000000022D473030F116dDEE9F6B43aC78BA3;
 
     address public immutable beneficiary;
     address public immutable baseUsdc;
     address public immutable router;
     address public executor;
 
-    // Total founder allocation is 10% of total token supply.
+    // Founder allocation: 10% of fixed token supply.
     uint256 public constant FOUNDER_BPS = 1_000;
     uint256 public constant BPS = 10_000;
     uint256 public constant INITIAL_MARKET_CAP_USDC = 10_000e6;
-    uint256 public constant OUTPUT_HAIRCUT_BPS = 7_500; // require >=75% of milestone notional
+    uint256 public constant OUTPUT_HAIRCUT_BPS = 7_500;
 
-    // Sell percentages are percentages of the 10% founder allocation, not total supply.
+    // Percentages below are of the founder bag, not total token supply.
     uint16[6] public trancheFounderBps = [500, 1000, 1500, 2000, 2000, 1500];
     uint16[6] public priceMultiples = [3, 5, 10, 20, 50, 100];
     mapping(address token => uint8 nextTranche) public nextTranche;
@@ -44,13 +50,7 @@ contract FounderExitVault {
     uint256 private _entered;
 
     event ExecutorChanged(address indexed oldExecutor, address indexed newExecutor);
-    event ExitExecuted(
-        address indexed token,
-        uint8 indexed tranche,
-        uint256 tokenAmount,
-        uint256 usdcOut,
-        uint256 minimumUsdcOut
-    );
+    event ExitExecuted(address indexed token, uint8 indexed tranche, uint256 tokenAmount, uint256 usdcOut, uint256 minimumUsdcOut);
 
     modifier onlyBeneficiary() {
         if (msg.sender != beneficiary) revert Unauthorized();
@@ -70,86 +70,82 @@ contract FounderExitVault {
     }
 
     constructor(address beneficiary_, address executor_, address baseUsdc_, address router_) {
-        if (beneficiary_ == address(0) || executor_ == address(0) || baseUsdc_ == address(0) || router_ == address(0)) {
-            revert InvalidAddress();
-        }
+        if (beneficiary_ == address(0) || executor_ == address(0) || baseUsdc_ == address(0) || router_ == address(0)) revert InvalidAddress();
         beneficiary = beneficiary_;
         executor = executor_;
         baseUsdc = baseUsdc_;
         router = router_;
     }
 
-    /// @notice Beneficiary can rotate the automation executor without changing where proceeds go.
     function setExecutor(address newExecutor) external onlyBeneficiary {
         if (newExecutor == address(0)) revert InvalidAddress();
         emit ExecutorChanged(executor, newExecutor);
         executor = newExecutor;
     }
 
-    /// @notice Minimum Base USDC that must arrive for the next tranche to succeed.
-    /// @dev Uses actual total supply, so the threshold is tied to the token's original
-    ///      $10k starting-market-cap model and the predefined milestone multiple.
+    function trancheAmount(address token) public view returns (uint256) {
+        uint8 i = nextTranche[token];
+        if (i >= trancheFounderBps.length) return 0;
+        uint256 founderAllocation = (IERC20Minimal(token).totalSupply() * FOUNDER_BPS) / BPS;
+        return (founderAllocation * trancheFounderBps[i]) / BPS;
+    }
+
     function minimumUsdcOut(address token) public view returns (uint256) {
         uint8 i = nextTranche[token];
         if (i >= trancheFounderBps.length) return type(uint256).max;
         uint256 supply = IERC20Minimal(token).totalSupply();
-        uint256 founderAllocation = (supply * FOUNDER_BPS) / BPS;
-        uint256 amountIn = (founderAllocation * trancheFounderBps[i]) / BPS;
-        return (amountIn * INITIAL_MARKET_CAP_USDC * priceMultiples[i] * OUTPUT_HAIRCUT_BPS)
-            / supply / BPS;
+        uint256 amountIn = trancheAmount(token);
+        return (amountIn * INITIAL_MARKET_CAP_USDC * priceMultiples[i] * OUTPUT_HAIRCUT_BPS) / supply / BPS;
     }
 
-    function trancheAmount(address token) public view returns (uint256) {
-        uint8 i = nextTranche[token];
-        if (i >= trancheFounderBps.length) return 0;
-        uint256 supply = IERC20Minimal(token).totalSupply();
-        uint256 founderAllocation = (supply * FOUNDER_BPS) / BPS;
-        return (founderAllocation * trancheFounderBps[i]) / BPS;
-    }
-
-    /// @notice Execute the next predefined sale through the immutable router.
-    /// @param token Founder token held by this vault.
-    /// @param routerCalldata Exact calldata prepared for the immutable Base router.
-    ///        The executor cannot change the beneficiary and cannot approve more than
-    ///        the predefined tranche amount. If Base USDC output is below the milestone
-    ///        floor, the entire transaction reverts.
+    /// @notice Sells exactly the next predefined tranche. Off-chain automation supplies
+    ///         Universal Router calldata, but cannot increase the approved token amount
+    ///         or redirect the Base USDC proceeds from this vault.
     function executeExit(address token, bytes calldata routerCalldata)
         external
         onlyExecutor
         nonReentrant
         returns (uint256 usdcOut)
     {
-        uint8 i = nextTranche[token];
-        if (i >= trancheFounderBps.length) revert NoMoreTranches();
+        uint8 tranche = nextTranche[token];
+        if (tranche >= trancheFounderBps.length) revert NoMoreTranches();
 
         uint256 amountIn = trancheAmount(token);
-        IERC20Minimal projectToken = IERC20Minimal(token);
-        uint256 tokenBefore = projectToken.balanceOf(address(this));
-        if (tokenBefore < amountIn) revert InsufficientFounderTokens();
-
+        if (IERC20Minimal(token).balanceOf(address(this)) < amountIn) revert InsufficientFounderTokens();
         uint256 minOut = minimumUsdcOut(token);
-        uint256 usdcBefore = IERC20Minimal(baseUsdc).balanceOf(address(this));
 
-        _forceApprove(token, router, amountIn);
-        (bool ok,) = router.call(routerCalldata);
-        _forceApprove(token, router, 0);
-        if (!ok) revert RouterCallFailed();
-
-        uint256 tokenAfter = projectToken.balanceOf(address(this));
-        uint256 spent = tokenBefore - tokenAfter;
-        if (spent == 0 || spent > amountIn) revert TokenSpendMismatch();
-
-        uint256 usdcAfter = IERC20Minimal(baseUsdc).balanceOf(address(this));
-        usdcOut = usdcAfter - usdcBefore;
-        if (usdcOut < minOut) revert MinimumOutputNotMet();
-
-        nextTranche[token] = i + 1;
+        usdcOut = _swapExactFounderTranche(token, amountIn, minOut, routerCalldata);
+        nextTranche[token] = tranche + 1;
         _safeTransfer(baseUsdc, beneficiary, usdcOut);
-        emit ExitExecuted(token, i, spent, usdcOut, minOut);
+        emit ExitExecuted(token, tranche, amountIn, usdcOut, minOut);
     }
 
-    /// @notice Recover accidental tokens, except project-token sale logic is intentionally
-    ///         not exposed to the executor. Only the beneficiary can recover assets.
+    function _swapExactFounderTranche(address token, uint256 amountIn, uint256 minOut, bytes calldata routerCalldata)
+        internal
+        returns (uint256 usdcOut)
+    {
+        if (amountIn > type(uint160).max) revert AmountTooLarge();
+        IERC20Minimal projectToken = IERC20Minimal(token);
+        uint256 tokenBefore = projectToken.balanceOf(address(this));
+        uint256 usdcBefore = IERC20Minimal(baseUsdc).balanceOf(address(this));
+
+        // Universal Router V4 token pulls use Permit2. Approve only this fixed tranche.
+        _forceApprove(token, PERMIT2, amountIn);
+        IPermit2Allowance(PERMIT2).approve(token, router, uint160(amountIn), uint48(block.timestamp + 300));
+
+        (bool ok,) = router.call(routerCalldata);
+
+        // Revoke both allowance layers immediately, even though the whole transaction
+        // would revert on failure.
+        IPermit2Allowance(PERMIT2).approve(token, router, 0, 0);
+        _forceApprove(token, PERMIT2, 0);
+        if (!ok) revert RouterCallFailed();
+
+        if (tokenBefore - projectToken.balanceOf(address(this)) != amountIn) revert TokenSpendMismatch();
+        usdcOut = IERC20Minimal(baseUsdc).balanceOf(address(this)) - usdcBefore;
+        if (usdcOut < minOut) revert MinimumOutputNotMet();
+    }
+
     function recover(address token, uint256 amount) external onlyBeneficiary {
         _safeTransfer(token, beneficiary, amount);
     }
