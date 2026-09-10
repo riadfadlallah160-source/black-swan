@@ -1,104 +1,31 @@
 {
-  "generatedAt": "2026-09-10T22:45:14.572Z",
+  "generatedAt": "2026-09-10T22:45:48.127Z",
   "targetPerScan": 9,
   "targetPerHour": 108,
   "issuanceRail": "clanker-v4",
   "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
   "baseUsdc": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-  "count": 9,
+  "count": 3,
   "packages": [
     {
-      "narrative": "bayern match today",
-      "score": 68,
-      "category": "sports",
-      "saturation": {
-        "pairs": 30,
-        "active": 2,
-        "liquid": 10
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "2 active matching DEX pairs (saturation risk)"
-      ],
-      "token": {
-        "name": "Bayern Match Today",
-        "symbol": "BAYERN",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Bayern Match Today. Creator allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/8c67750c3264c472.svg",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/8c67750c3264c472.svg"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
-        "stream2": "10% founder allocation at mint; disclosed and locked before release",
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
-      },
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Bayern Match Today",
-          "symbol": "BAYERN",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/8c67750c3264c472.svg",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Bayern Match Today. Creator allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "4bd4fc949f536408267da2d2320c7827"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 10,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "devBuy": null,
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "waiting-for-exit-vault-address"
-    },
-    {
-      "narrative": "ontario science centre",
-      "score": 68,
+      "narrative": "arsenal news",
+      "score": 67,
       "category": "general-culture",
       "saturation": {
-        "pairs": 19,
+        "pairs": 30,
         "active": 0,
-        "liquid": 3
+        "liquid": 17
       },
       "rationale": [
         "active search trend",
         "approx trend traffic 100"
       ],
       "token": {
-        "name": "Ontario Science Centre",
-        "symbol": "ONTARIO",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Ontario Science Centre. Creator allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/a8371b55d201cefa.svg",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/a8371b55d201cefa.svg"
+        "name": "Arsenal News",
+        "symbol": "ARSENAL",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Arsenal News. Creator allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/f40d203b80373f06.svg",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/f40d203b80373f06.svg"
       },
       "economics": {
         "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
@@ -113,12 +40,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Ontario Science Centre",
-          "symbol": "ONTARIO",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/a8371b55d201cefa.svg",
+          "name": "Arsenal News",
+          "symbol": "ARSENAL",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/f40d203b80373f06.svg",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Ontario Science Centre. Creator allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "a9a885186a726d0095558145c98c7a4e"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Arsenal News. Creator allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "87e330aff2f0d8fccb4031b01bc6c1d7"
         },
         "rewards": [
           {
@@ -153,244 +80,25 @@
       "readiness": "waiting-for-exit-vault-address"
     },
     {
-      "narrative": "twin towers",
-      "score": 68,
+      "narrative": "migraines pharmacy first",
+      "score": 66,
       "category": "general-culture",
       "saturation": {
         "pairs": 30,
-        "active": 1,
-        "liquid": 6
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "1 active matching DEX pairs (saturation risk)"
-      ],
-      "token": {
-        "name": "Twin Towers",
-        "symbol": "TWIN",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Twin Towers. Creator allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/5229f3cbf792ef5a.svg",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/5229f3cbf792ef5a.svg"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
-        "stream2": "10% founder allocation at mint; disclosed and locked before release",
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
-      },
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Twin Towers",
-          "symbol": "TWIN",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/5229f3cbf792ef5a.svg",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Twin Towers. Creator allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "dd33febbb122db7b61dd574c58dc4d9c"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 10,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "devBuy": null,
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "waiting-for-exit-vault-address"
-    },
-    {
-      "narrative": "leshon johnson",
-      "score": 67,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 30,
-        "active": 3,
-        "liquid": 11
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 10,000",
-        "3 active matching DEX pairs (saturation risk)"
-      ],
-      "token": {
-        "name": "Leshon Johnson",
-        "symbol": "LESHON",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Leshon Johnson. Creator allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/cb1f7d5129cfdbcb.svg",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/cb1f7d5129cfdbcb.svg"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
-        "stream2": "10% founder allocation at mint; disclosed and locked before release",
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
-      },
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Leshon Johnson",
-          "symbol": "LESHON",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/cb1f7d5129cfdbcb.svg",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Leshon Johnson. Creator allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "d22af40121a859794ecdac91764d1252"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 10,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "devBuy": null,
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "waiting-for-exit-vault-address"
-    },
-    {
-      "narrative": "internet outages",
-      "score": 67,
-      "category": "internet-culture",
-      "saturation": {
-        "pairs": 30,
-        "active": 6,
-        "liquid": 17
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 5,000",
-        "6 active matching DEX pairs (saturation risk)"
-      ],
-      "token": {
-        "name": "Internet Outages",
-        "symbol": "INTERNET",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Internet Outages. Creator allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/00881dec1f9f54a6.svg",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/00881dec1f9f54a6.svg"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
-        "stream2": "10% founder allocation at mint; disclosed and locked before release",
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
-      },
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Internet Outages",
-          "symbol": "INTERNET",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/00881dec1f9f54a6.svg",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Internet Outages. Creator allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "9b1c437554a360ca6e3e6d1cb1d8759e"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 10,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "devBuy": null,
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "waiting-for-exit-vault-address"
-    },
-    {
-      "narrative": "como 1907 vs rb leipzig standings",
-      "score": 67,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 30,
-        "active": 7,
-        "liquid": 23
+        "active": 4,
+        "liquid": 19
       },
       "rationale": [
         "active search trend",
         "approx trend traffic 2,000",
-        "7 active matching DEX pairs (saturation risk)"
+        "4 active matching DEX pairs (saturation risk)"
       ],
       "token": {
-        "name": "Como 1907 Vs Rb Leipzig Standings",
-        "symbol": "COMO",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Como 1907 Vs Rb Leipzig Standings. Creator allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/fbbfdf8348628dd1.svg",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/fbbfdf8348628dd1.svg"
+        "name": "Migraines Pharmacy First",
+        "symbol": "MIGRAINE",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Migraines Pharmacy First. Creator allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/7f057e42c8974d47.svg",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/7f057e42c8974d47.svg"
       },
       "economics": {
         "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
@@ -405,12 +113,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Como 1907 Vs Rb Leipzig Standings",
-          "symbol": "COMO",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/fbbfdf8348628dd1.svg",
+          "name": "Migraines Pharmacy First",
+          "symbol": "MIGRAINE",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/7f057e42c8974d47.svg",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Como 1907 Vs Rb Leipzig Standings. Creator allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "a7260596245744aefb9c458e8bed2ca2"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Migraines Pharmacy First. Creator allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "d40d825fb9edbc66fcb28af996ba63d6"
         },
         "rewards": [
           {
@@ -445,24 +153,25 @@
       "readiness": "waiting-for-exit-vault-address"
     },
     {
-      "narrative": "armond paige mail dumping indictment",
-      "score": 67,
+      "narrative": "canada ukraine",
+      "score": 66,
       "category": "general-culture",
       "saturation": {
-        "pairs": 30,
-        "active": 0,
-        "liquid": 6
+        "pairs": 20,
+        "active": 3,
+        "liquid": 2
       },
       "rationale": [
         "active search trend",
-        "approx trend traffic 500"
+        "approx trend traffic 2,000",
+        "3 active matching DEX pairs (saturation risk)"
       ],
       "token": {
-        "name": "Armond Paige Mail Dumping Indictment",
-        "symbol": "ARMOND",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Armond Paige Mail Dumping Indictment. Creator allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/d094cfd63e9d1287.svg",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/d094cfd63e9d1287.svg"
+        "name": "Canada Ukraine",
+        "symbol": "CANADA",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Canada Ukraine. Creator allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/836eaa1e967f4c91.svg",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/836eaa1e967f4c91.svg"
       },
       "economics": {
         "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
@@ -477,158 +186,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Armond Paige Mail Dumping Indictment",
-          "symbol": "ARMOND",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/d094cfd63e9d1287.svg",
+          "name": "Canada Ukraine",
+          "symbol": "CANADA",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/836eaa1e967f4c91.svg",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Armond Paige Mail Dumping Indictment. Creator allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "506025889eac941ca1d47c7ef31464b7"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 10,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "devBuy": null,
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "waiting-for-exit-vault-address"
-    },
-    {
-      "narrative": "dallas weather",
-      "score": 67,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 19,
-        "active": 1,
-        "liquid": 3
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "1 active matching DEX pairs (saturation risk)"
-      ],
-      "token": {
-        "name": "Dallas Weather",
-        "symbol": "DALLAS",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Dallas Weather. Creator allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/3dfafd7f4f77f6f6.svg",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/3dfafd7f4f77f6f6.svg"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
-        "stream2": "10% founder allocation at mint; disclosed and locked before release",
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
-      },
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Dallas Weather",
-          "symbol": "DALLAS",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/3dfafd7f4f77f6f6.svg",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Dallas Weather. Creator allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "21ca58abfc99ee17fb684c6acc07dc2b"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 10,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "devBuy": null,
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "waiting-for-exit-vault-address"
-    },
-    {
-      "narrative": "harry kane",
-      "score": 67,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 30,
-        "active": 2,
-        "liquid": 21
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "2 active matching DEX pairs (saturation risk)"
-      ],
-      "token": {
-        "name": "Harry Kane",
-        "symbol": "HARRY",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Harry Kane. Creator allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/ed05e654be34b582.svg",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ed05e654be34b582.svg"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards paid in Base USDC to beneficiary",
-        "stream2": "10% founder allocation at mint; disclosed and locked before release",
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
-      },
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Harry Kane",
-          "symbol": "HARRY",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ed05e654be34b582.svg",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Harry Kane. Creator allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "130511c72daea54b1633f9111109f289"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Canada Ukraine. Creator allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "ed17d54ca91742ebf593e4bda8e7c41d"
         },
         "rewards": [
           {
