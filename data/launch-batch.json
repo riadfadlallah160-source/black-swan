@@ -1,0 +1,266 @@
+{
+  "generatedAt": "2026-09-10T22:20:21.844Z",
+  "targetPerScan": 9,
+  "targetPerHour": 108,
+  "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+  "count": 9,
+  "packages": [
+    {
+      "narrative": "shailene woodley",
+      "score": 84,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Shailene Woodley",
+        "symbol": "SHAILENE",
+        "description": "Unofficial culture token inspired by current public interest in Shailene Woodley. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
+        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Shailene Woodley. No logos, no trademarks, no realistic impersonation, no violence, no text except SHAILENE."
+      },
+      "flaunch": {
+        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "marketCap": "10000000000",
+        "creatorFeeSplit": "8000",
+        "fairLaunchDuration": "1800",
+        "fairLaunchSupply": 60,
+        "sniperProtection": true
+      }
+    },
+    {
+      "narrative": "braeden bowman",
+      "score": 84,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Braeden Bowman",
+        "symbol": "BRAEDEN",
+        "description": "Unofficial culture token inspired by current public interest in Braeden Bowman. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
+        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Braeden Bowman. No logos, no trademarks, no realistic impersonation, no violence, no text except BRAEDEN."
+      },
+      "flaunch": {
+        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "marketCap": "10000000000",
+        "creatorFeeSplit": "8000",
+        "fairLaunchDuration": "1800",
+        "fairLaunchSupply": 60,
+        "sniperProtection": true
+      }
+    },
+    {
+      "narrative": "futbol24",
+      "score": 83,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Futbol24",
+        "symbol": "FUTBOL24",
+        "description": "Unofficial culture token inspired by current public interest in Futbol24. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
+        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Futbol24. No logos, no trademarks, no realistic impersonation, no violence, no text except FUTBOL24."
+      },
+      "flaunch": {
+        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "marketCap": "10000000000",
+        "creatorFeeSplit": "8000",
+        "fairLaunchDuration": "1800",
+        "fairLaunchSupply": 60,
+        "sniperProtection": true
+      }
+    },
+    {
+      "narrative": "burlington",
+      "score": 83,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Burlington",
+        "symbol": "BURLINGT",
+        "description": "Unofficial culture token inspired by current public interest in Burlington. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
+        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Burlington. No logos, no trademarks, no realistic impersonation, no violence, no text except BURLINGT."
+      },
+      "flaunch": {
+        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "marketCap": "10000000000",
+        "creatorFeeSplit": "8000",
+        "fairLaunchDuration": "1800",
+        "fairLaunchSupply": 60,
+        "sniperProtection": true
+      }
+    },
+    {
+      "narrative": "rangers",
+      "score": 79,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 3,
+        "active": 0,
+        "liquid": 1
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 1,000"
+      ],
+      "token": {
+        "name": "Rangers",
+        "symbol": "RANGERS",
+        "description": "Unofficial culture token inspired by current public interest in Rangers. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
+        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Rangers. No logos, no trademarks, no realistic impersonation, no violence, no text except RANGERS."
+      },
+      "flaunch": {
+        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "marketCap": "10000000000",
+        "creatorFeeSplit": "8000",
+        "fairLaunchDuration": "1800",
+        "fairLaunchSupply": 60,
+        "sniperProtection": true
+      }
+    },
+    {
+      "narrative": "bernie sanders",
+      "score": 79,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 1,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500"
+      ],
+      "token": {
+        "name": "Bernie Sanders",
+        "symbol": "BERNIE",
+        "description": "Unofficial culture token inspired by current public interest in Bernie Sanders. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
+        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Bernie Sanders. No logos, no trademarks, no realistic impersonation, no violence, no text except BERNIE."
+      },
+      "flaunch": {
+        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "marketCap": "10000000000",
+        "creatorFeeSplit": "8000",
+        "fairLaunchDuration": "1800",
+        "fairLaunchSupply": 60,
+        "sniperProtection": true
+      }
+    },
+    {
+      "narrative": "deebo samuel",
+      "score": 78,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 5,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 1,000"
+      ],
+      "token": {
+        "name": "Deebo Samuel",
+        "symbol": "DEEBO",
+        "description": "Unofficial culture token inspired by current public interest in Deebo Samuel. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
+        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Deebo Samuel. No logos, no trademarks, no realistic impersonation, no violence, no text except DEEBO."
+      },
+      "flaunch": {
+        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "marketCap": "10000000000",
+        "creatorFeeSplit": "8000",
+        "fairLaunchDuration": "1800",
+        "fairLaunchSupply": 60,
+        "sniperProtection": true
+      }
+    },
+    {
+      "narrative": "kyren williams",
+      "score": 78,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 5,
+        "active": 0,
+        "liquid": 1
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500"
+      ],
+      "token": {
+        "name": "Kyren Williams",
+        "symbol": "KYREN",
+        "description": "Unofficial culture token inspired by current public interest in Kyren Williams. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
+        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Kyren Williams. No logos, no trademarks, no realistic impersonation, no violence, no text except KYREN."
+      },
+      "flaunch": {
+        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "marketCap": "10000000000",
+        "creatorFeeSplit": "8000",
+        "fairLaunchDuration": "1800",
+        "fairLaunchSupply": 60,
+        "sniperProtection": true
+      }
+    },
+    {
+      "narrative": "judge",
+      "score": 78,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 10,
+        "active": 0,
+        "liquid": 1
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100"
+      ],
+      "token": {
+        "name": "Judge",
+        "symbol": "JUDGE",
+        "description": "Unofficial culture token inspired by current public interest in Judge. No affiliation or endorsement is claimed. Creator fees may accrue to the disclosed creator address.",
+        "imagePrompt": "Bold original square meme-token artwork inspired by the theme: Judge. No logos, no trademarks, no realistic impersonation, no violence, no text except JUDGE."
+      },
+      "flaunch": {
+        "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "marketCap": "10000000000",
+        "creatorFeeSplit": "8000",
+        "fairLaunchDuration": "1800",
+        "fairLaunchSupply": 60,
+        "sniperProtection": true
+      }
+    }
+  ],
+  "status": "approval-ready; not submitted by this workflow"
+}

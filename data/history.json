@@ -199,6 +199,116 @@
           "symbol": "CANADA"
         }
       ]
+    },
+    {
+      "generatedAt": "2026-09-10T22:20:21.674Z",
+      "qualified": [
+        {
+          "title": "shailene woodley",
+          "score": 84,
+          "symbol": "SHAILENE"
+        },
+        {
+          "title": "braeden bowman",
+          "score": 84,
+          "symbol": "BRAEDEN"
+        },
+        {
+          "title": "futbol24",
+          "score": 83,
+          "symbol": "FUTBOL24"
+        },
+        {
+          "title": "burlington",
+          "score": 83,
+          "symbol": "BURLINGT"
+        },
+        {
+          "title": "rangers",
+          "score": 79,
+          "symbol": "RANGERS"
+        },
+        {
+          "title": "bernie sanders",
+          "score": 79,
+          "symbol": "BERNIE"
+        },
+        {
+          "title": "deebo samuel",
+          "score": 78,
+          "symbol": "DEEBO"
+        },
+        {
+          "title": "kyren williams",
+          "score": 78,
+          "symbol": "KYREN"
+        },
+        {
+          "title": "judge",
+          "score": 78,
+          "symbol": "JUDGE"
+        },
+        {
+          "title": "ismail kartal",
+          "score": 78,
+          "symbol": "ISMAIL"
+        },
+        {
+          "title": "russian",
+          "score": 76,
+          "symbol": "RUSSIAN"
+        },
+        {
+          "title": "channel 7",
+          "score": 76,
+          "symbol": "CHANNEL"
+        },
+        {
+          "title": "christian mccaffrey",
+          "score": 74,
+          "symbol": "CHRISTIA"
+        },
+        {
+          "title": "49ers depth chart",
+          "score": 71,
+          "symbol": "49ERS"
+        },
+        {
+          "title": "aurora - municipal",
+          "score": 68,
+          "symbol": "AURORA"
+        },
+        {
+          "title": "cody simpson",
+          "score": 68,
+          "symbol": "CODY"
+        },
+        {
+          "title": "bayern match today",
+          "score": 67,
+          "symbol": "BAYERN"
+        },
+        {
+          "title": "harry kane",
+          "score": 67,
+          "symbol": "HARRY"
+        },
+        {
+          "title": "arsenal news",
+          "score": 67,
+          "symbol": "ARSENAL"
+        },
+        {
+          "title": "saudi arabia",
+          "score": 67,
+          "symbol": "SAUDI"
+        },
+        {
+          "title": "canada ukraine",
+          "score": 66,
+          "symbol": "CANADA"
+        }
+      ]
     }
   ]
 }
