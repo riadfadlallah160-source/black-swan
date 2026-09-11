@@ -1,6 +1,6 @@
 {
   "name": "black-swan-launch-factory",
-  "version": "0.8.2",
+  "version": "0.9.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,6 +8,7 @@
     "scan": "node src/scanner.js",
     "package": "node src/packager.js",
     "queue": "node src/batch-queue.js",
+    "bundle": "node src/wallet-bundle.js",
     "authorize": "node src/authorize-batch.js",
     "monitor": "node src/finance-monitor.js",
     "exit:queue": "node src/exit-queue.js",
