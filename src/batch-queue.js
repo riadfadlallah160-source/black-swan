@@ -13,9 +13,15 @@ const EARLY_LOCK_SECONDS = 24 * 60 * 60;
 
 const keyOf = p => p?.clanker?.token?.requestKey || `${p?.token?.name || ''}|${p?.token?.symbol || ''}`.toLowerCase();
 const validAddress = s => /^0x[a-fA-F0-9]{40}$/.test(String(s||''));
+const hasAirdropClaim = p => Boolean(
+  p?.earlyAirdropClaim &&
+  validAddress(p.earlyAirdropClaim.recipient) &&
+  Array.isArray(p.earlyAirdropClaim.proof) &&
+  /^0x[a-fA-F0-9]{64}$/.test(String(p?.clanker?.airdrop?.merkleRoot || ''))
+);
 const isLaunchReady = p => Boolean(
   p?.readiness === 'launch-api-ready' &&
-  p?.earlyAirdropClaim?.proof?.length &&
+  hasAirdropClaim(p) &&
   Number(p?.clanker?.vault?.percentage) === 7 &&
   p?.clanker?.airdrop &&
   Number(p?.economics?.totalFounderAllocationPercentage) === 10 &&
