@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   compile:
@@ -19,8 +19,19 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
       - name: Compile FounderExitVault
         run: |
           npm install --no-save solc@0.8.30
+          rm -rf build/contracts
+          mkdir -p build/contracts
           npx solcjs --bin --abi contracts/FounderExitVault.sol -o build/contracts
+      - name: Publish deployment artifacts
+        run: |
+          git config user.name 'black-swan-bot'
+          git config user.email 'black-swan-bot@users.noreply.github.com'
+          git add -f build/contracts/*.bin build/contracts/*.abi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish compiled ExitVault artifacts [skip ci]'
+            git push
+          fi
