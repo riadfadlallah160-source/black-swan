@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-11T21:20:46.457Z",
+  "generatedAt": "2026-09-11T21:21:28.073Z",
   "threshold": 65,
   "targetPackagesPerScan": 9,
   "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
   "sourceItems": 1288,
   "uniqueNarratives": 1219,
-  "qualifiedCount": 59,
+  "qualifiedCount": 58,
   "qualified": [
     {
       "title": "az alkmaar",
@@ -1373,32 +1373,6 @@
       "rationale": [
         "active search trend",
         "approx trend traffic 500"
-      ]
-    },
-    {
-      "title": "cpi",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 9,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 67,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 2,
-        "liquid": 11
-      },
-      "qualified": true,
-      "suggestedSymbol": "CPI",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "2 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -2901,32 +2875,6 @@
       ]
     },
     {
-      "title": "cpi",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 9,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 67,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 2,
-        "liquid": 11
-      },
-      "qualified": true,
-      "suggestedSymbol": "CPI",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "2 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
       "title": "union berlin vs schalke",
       "mentions": [
         "google-trends"
@@ -3498,6 +3446,32 @@
       ]
     },
     {
+      "title": "cpi",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 9,
+      "traffic": 500,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 62,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 3,
+        "liquid": 12
+      },
+      "qualified": false,
+      "suggestedSymbol": "CPI",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500",
+        "3 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
       "title": "deportivo vs real madrid",
       "mentions": [
         "google-trends"
@@ -3783,7 +3757,7 @@
       "mentions": [
         "google-news"
       ],
-      "bestRank": 1,
+      "bestRank": 3,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -3801,31 +3775,6 @@
       "rationale": [
         "news confirmation",
         "2 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "Kylian Mbappé reacts to viral memes comparing him to a dictator - Yahoo Sports",
-      "mentions": [
-        "google-news"
-      ],
-      "bestRank": 4,
-      "traffic": 0,
-      "sources": [
-        "google-news"
-      ],
-      "score": 56,
-      "category": "internet-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 1,
-        "liquid": 7
-      },
-      "qualified": false,
-      "suggestedSymbol": "KYLIAN",
-      "rationale": [
-        "news confirmation",
-        "1 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -3979,7 +3928,7 @@
       ]
     },
     {
-      "title": "Colorado teen arrested after posting viral ‘Cat in the Hat’ meme - The Denver Post",
+      "title": "Colorado teen arrested after posting viral ‘Cat in the Hat’ meme - denverpost.com",
       "mentions": [
         "google-news"
       ],
@@ -4080,7 +4029,7 @@
       ]
     },
     {
-      "title": "Waymo goes on offense ahead of Tesla’s Cybercab launch - TechCrunch",
+      "title": "Waymo goes on offense ahead of Tesla’s Cybercab launch - techcrunch.com",
       "mentions": [
         "google-news"
       ],
@@ -4145,6 +4094,31 @@
         "pairs": 30,
         "active": 1,
         "liquid": 3
+      },
+      "qualified": false,
+      "suggestedSymbol": "KYLIAN",
+      "rationale": [
+        "news confirmation",
+        "1 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Kylian Mbappé reacts to viral memes comparing him to a dictator - Yahoo Sports",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 8,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 55,
+      "category": "internet-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 1,
+        "liquid": 7
       },
       "qualified": false,
       "suggestedSymbol": "KYLIAN",
@@ -4745,7 +4719,7 @@
       ]
     },
     {
-      "title": "Apple unveils foldable iPhone Duo and other highlights from its annual tech showcase - cbsnews.com",
+      "title": "Apple unveils foldable iPhone Duo and other highlights from its annual tech showcase - CBS News",
       "mentions": [
         "google-news"
       ],
@@ -4870,7 +4844,7 @@
       ]
     },
     {
-      "title": "Newport Beach Surfer Dude Recreates 20-Year-Old Viral Moment Live on Air - The Inertia",
+      "title": "Newport Beach Surfer Dude Recreates 20-Year-Old Viral Moment Live on Air - theinertia.com",
       "mentions": [
         "google-news"
       ],
@@ -5020,7 +4994,7 @@
       ]
     },
     {
-      "title": "The viral 80s AI photo trend is giving Internet a serious retro makeover - indiatoday.in",
+      "title": "The viral 80s AI photo trend is giving Internet a serious retro makeover - India Today",
       "mentions": [
         "google-news",
         "google-news"
@@ -5173,7 +5147,7 @@
       ]
     },
     {
-      "title": "Overwatch introduces Shion as a new hero ahead of Season 3 launch - techedt.com",
+      "title": "Overwatch introduces Shion as a new hero ahead of Season 3 launch - Tech Edition",
       "mentions": [
         "google-news"
       ],
@@ -5183,7 +5157,7 @@
         "google-news"
       ],
       "score": 50,
-      "category": "general-culture",
+      "category": "technology",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
@@ -5245,6 +5219,31 @@
       "rationale": [
         "news confirmation",
         "7 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Viral AI assistant Instinct now has its own email address - techcrunch.com",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 9,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 50,
+      "category": "technology",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 6,
+        "liquid": 18
+      },
+      "qualified": false,
+      "suggestedSymbol": "VIRAL",
+      "rationale": [
+        "news confirmation",
+        "6 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5452,7 +5451,7 @@
       "mentions": [
         "google-news"
       ],
-      "bestRank": 3,
+      "bestRank": 4,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -5473,7 +5472,7 @@
       ]
     },
     {
-      "title": "Why moms on your social feed are suddenly saying not to post your kids' pics anymore - businessinsider.com",
+      "title": "Why moms on your social feed are suddenly saying not to post your kids' pics anymore - Business Insider",
       "mentions": [
         "google-news"
       ],
@@ -5574,32 +5573,7 @@
       ]
     },
     {
-      "title": "Viral sketch group ‘SEC Shorts’ brings live comedy show to MSU’s Lyceum Series Nov. 13 - The Star-Herald",
-      "mentions": [
-        "google-news"
-      ],
-      "bestRank": 4,
-      "traffic": 0,
-      "sources": [
-        "google-news"
-      ],
-      "score": 40,
-      "category": "internet-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 8,
-        "liquid": 9
-      },
-      "qualified": false,
-      "suggestedSymbol": "VIRAL",
-      "rationale": [
-        "news confirmation",
-        "8 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "What are Therians? The viral phenomenon taking over Latin America - HOLA",
+      "title": "What are Therians? The viral phenomenon taking over Latin America - hola.com",
       "mentions": [
         "google-news"
       ],
@@ -5750,7 +5724,7 @@
       ]
     },
     {
-      "title": "The viral game with ChatGPT that worries users over the violation of their privacy - marca.com",
+      "title": "The viral game with ChatGPT that worries users over the violation of their privacy - MARCA",
       "mentions": [
         "google-news"
       ],
@@ -5775,7 +5749,7 @@
       ]
     },
     {
-      "title": "Viral Reload EX review - Tech-Gaming",
+      "title": "Viral Reload EX review - tech-gaming.com",
       "mentions": [
         "google-news"
       ],
@@ -5901,7 +5875,7 @@
       ]
     },
     {
-      "title": "ESGAMING to Launch EDGEFLOW and ZERO MAX Chassis at Global Sources Consumer Electronics 2026 - mymalonetelegram.com",
+      "title": "ESGAMING to Launch EDGEFLOW and ZERO MAX Chassis at Global Sources Consumer Electronics 2026 - nny360.com",
       "mentions": [
         "google-news"
       ],
@@ -5976,7 +5950,7 @@
       ]
     },
     {
-      "title": "Why the ‘Kinda Chic’ trend has celebrities joining in - HOLA",
+      "title": "Why the ‘Kinda Chic’ trend has celebrities joining in - hola.com",
       "mentions": [
         "google-news"
       ],
@@ -6055,7 +6029,7 @@
       "mentions": [
         "google-news"
       ],
-      "bestRank": 8,
+      "bestRank": 9,
       "traffic": 0,
       "sources": [
         "google-news"
