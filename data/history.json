@@ -4554,6 +4554,288 @@
           "symbol": "APOS"
         }
       ]
+    },
+    {
+      "generatedAt": "2026-09-11T21:54:23.903Z",
+      "sourceItems": 1288,
+      "uniqueNarratives": 1222,
+      "qualified": [
+        {
+          "title": "temporal",
+          "score": 88,
+          "symbol": "TEMPORAL"
+        },
+        {
+          "title": "az alkmaar",
+          "score": 86,
+          "symbol": "ALKMAAR"
+        },
+        {
+          "title": "traitors",
+          "score": 84,
+          "symbol": "TRAITORS"
+        },
+        {
+          "title": "autonomiste",
+          "score": 84,
+          "symbol": "AUTONOMI"
+        },
+        {
+          "title": "venezia vs fiorentina",
+          "score": 84,
+          "symbol": "VENEZIA"
+        },
+        {
+          "title": "atacante",
+          "score": 84,
+          "symbol": "ATACANTE"
+        },
+        {
+          "title": "sinaloa",
+          "score": 84,
+          "symbol": "SINALOA"
+        },
+        {
+          "title": "matthew mcconaughey",
+          "score": 83,
+          "symbol": "MATTHEW"
+        },
+        {
+          "title": "derailment",
+          "score": 83,
+          "symbol": "DERAILME"
+        },
+        {
+          "title": "fiorentina",
+          "score": 83,
+          "symbol": "FIORENTI"
+        },
+        {
+          "title": "bhojpuri",
+          "score": 83,
+          "symbol": "BHOJPURI"
+        },
+        {
+          "title": "reforma",
+          "score": 83,
+          "symbol": "REFORMA"
+        },
+        {
+          "title": "windy",
+          "score": 83,
+          "symbol": "WINDY"
+        },
+        {
+          "title": "csna3",
+          "score": 83,
+          "symbol": "CSNA3"
+        },
+        {
+          "title": "fiorentina fc",
+          "score": 83,
+          "symbol": "FIORENTI"
+        },
+        {
+          "title": "janette bertrand",
+          "score": 82,
+          "symbol": "JANETTE"
+        },
+        {
+          "title": "sevilla vs valencia",
+          "score": 79,
+          "symbol": "SEVILLA"
+        },
+        {
+          "title": "emily compagno",
+          "score": 79,
+          "symbol": "EMILY"
+        },
+        {
+          "title": "jeremy clarkson",
+          "score": 79,
+          "symbol": "JEREMY"
+        },
+        {
+          "title": "franco mastantuono",
+          "score": 79,
+          "symbol": "FRANCO"
+        },
+        {
+          "title": "paula copenhaver",
+          "score": 79,
+          "symbol": "PAULA"
+        },
+        {
+          "title": "nifty",
+          "score": 79,
+          "symbol": "NIFTY"
+        },
+        {
+          "title": "alexander zverev",
+          "score": 79,
+          "symbol": "ALEXANDE"
+        },
+        {
+          "title": "championship",
+          "score": 79,
+          "symbol": "CHAMPION"
+        },
+        {
+          "title": "ricardo nunes",
+          "score": 79,
+          "symbol": "RICARDO"
+        },
+        {
+          "title": "liverpool vs fulham",
+          "score": 79,
+          "symbol": "LIVERPOO"
+        },
+        {
+          "title": "sylvester stallone",
+          "score": 78,
+          "symbol": "SYLVESTE"
+        },
+        {
+          "title": "zverev",
+          "score": 78,
+          "symbol": "ZVEREV"
+        },
+        {
+          "title": "rennes vs marseille",
+          "score": 78,
+          "symbol": "RENNES"
+        },
+        {
+          "title": "graciele lacerda",
+          "score": 77,
+          "symbol": "GRACIELE"
+        },
+        {
+          "title": "scandal",
+          "score": 77,
+          "symbol": "SCANDAL"
+        },
+        {
+          "title": "marcy borders",
+          "score": 76,
+          "symbol": "MARCY"
+        },
+        {
+          "title": "sharks",
+          "score": 76,
+          "symbol": "SHARKS"
+        },
+        {
+          "title": "karen khachanov",
+          "score": 75,
+          "symbol": "KAREN"
+        },
+        {
+          "title": "harriet dyer",
+          "score": 75,
+          "symbol": "HARRIET"
+        },
+        {
+          "title": "pase",
+          "score": 75,
+          "symbol": "PASE"
+        },
+        {
+          "title": "photos",
+          "score": 75,
+          "symbol": "PHOTOS"
+        },
+        {
+          "title": "al-ahli saudi fc vs al-hazem f.c. standings",
+          "score": 72,
+          "symbol": "AHLI"
+        },
+        {
+          "title": "boston college football",
+          "score": 71,
+          "symbol": "BOSTON"
+        },
+        {
+          "title": "singapore alumni primary school priority",
+          "score": 71,
+          "symbol": "SINGAPOR"
+        },
+        {
+          "title": "michael sheen",
+          "score": 68,
+          "symbol": "MICHAEL"
+        },
+        {
+          "title": "kitten",
+          "score": 68,
+          "symbol": "KITTEN"
+        },
+        {
+          "title": "joão pedro",
+          "score": 68,
+          "symbol": "PEDRO"
+        },
+        {
+          "title": "akor adams",
+          "score": 68,
+          "symbol": "AKOR"
+        },
+        {
+          "title": "singapore weather forecast",
+          "score": 68,
+          "symbol": "SINGAPOR"
+        },
+        {
+          "title": "austin weather",
+          "score": 67,
+          "symbol": "AUSTIN"
+        },
+        {
+          "title": "pete sampras",
+          "score": 67,
+          "symbol": "PETE"
+        },
+        {
+          "title": "jenna bush hager",
+          "score": 67,
+          "symbol": "JENNA"
+        },
+        {
+          "title": "larry silverstein",
+          "score": 67,
+          "symbol": "LARRY"
+        },
+        {
+          "title": "rebel wilson",
+          "score": 67,
+          "symbol": "REBEL"
+        },
+        {
+          "title": "perth weather",
+          "score": 67,
+          "symbol": "PERTH"
+        },
+        {
+          "title": "rosa maria nogueron",
+          "score": 67,
+          "symbol": "ROSA"
+        },
+        {
+          "title": "amber alert",
+          "score": 67,
+          "symbol": "AMBER"
+        },
+        {
+          "title": "union berlin vs schalke",
+          "score": 67,
+          "symbol": "UNION"
+        },
+        {
+          "title": "precio",
+          "score": 66,
+          "symbol": "PRECIO"
+        }
+      ]
     }
   ]
 }

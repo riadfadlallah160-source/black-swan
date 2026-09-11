@@ -1,10 +1,5 @@
 {
-  "generatedAt": "2026-09-11T21:54:24.538Z",
-  "targetPerScan": 9,
-  "targetPerHour": 108,
-  "issuanceRail": "clanker-v4",
-  "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-  "baseUsdc": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "updatedAt": "2026-09-11T21:54:24.689Z",
   "count": 9,
   "packages": [
     {
@@ -79,7 +74,8 @@
           "secondsToDecay": 15
         }
       },
-      "readiness": "waiting-for-exit-vault-address"
+      "readiness": "waiting-for-exit-vault-address",
+      "queuedAt": "2026-09-11T21:54:24.688Z"
     },
     {
       "narrative": "traitors",
@@ -153,7 +149,8 @@
           "secondsToDecay": 15
         }
       },
-      "readiness": "waiting-for-exit-vault-address"
+      "readiness": "waiting-for-exit-vault-address",
+      "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
       "narrative": "autonomiste",
@@ -227,7 +224,8 @@
           "secondsToDecay": 15
         }
       },
-      "readiness": "waiting-for-exit-vault-address"
+      "readiness": "waiting-for-exit-vault-address",
+      "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
       "narrative": "atacante",
@@ -301,7 +299,8 @@
           "secondsToDecay": 15
         }
       },
-      "readiness": "waiting-for-exit-vault-address"
+      "readiness": "waiting-for-exit-vault-address",
+      "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
       "narrative": "matthew mcconaughey",
@@ -374,7 +373,8 @@
           "secondsToDecay": 15
         }
       },
-      "readiness": "waiting-for-exit-vault-address"
+      "readiness": "waiting-for-exit-vault-address",
+      "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
       "narrative": "derailment",
@@ -448,7 +448,8 @@
           "secondsToDecay": 15
         }
       },
-      "readiness": "waiting-for-exit-vault-address"
+      "readiness": "waiting-for-exit-vault-address",
+      "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
       "narrative": "reforma",
@@ -522,7 +523,8 @@
           "secondsToDecay": 15
         }
       },
-      "readiness": "waiting-for-exit-vault-address"
+      "readiness": "waiting-for-exit-vault-address",
+      "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
       "narrative": "windy",
@@ -596,7 +598,8 @@
           "secondsToDecay": 15
         }
       },
-      "readiness": "waiting-for-exit-vault-address"
+      "readiness": "waiting-for-exit-vault-address",
+      "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
       "narrative": "csna3",
@@ -670,8 +673,8 @@
           "secondsToDecay": 15
         }
       },
-      "readiness": "waiting-for-exit-vault-address"
+      "readiness": "waiting-for-exit-vault-address",
+      "queuedAt": "2026-09-11T21:54:24.689Z"
     }
-  ],
-  "status": "economics packaged; deploy ExitVault once before live issuance"
+  ]
 }
