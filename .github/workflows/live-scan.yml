@@ -31,11 +31,11 @@ jobs:
         run: npm run scan
       - name: Build deduplicated Clanker launch packages
         run: npm run package
-      - name: Accumulate one approval batch of up to 100 packages
+      - name: Accumulate and rotate 100-package wallet batches from Base chain state
         run: npm run queue
       - name: Build unsigned wallet call bundle for frozen batch
         run: npm run bundle
-      - name: Monitor creator fees and founder exit readiness
+      - name: Monitor creator fees and founder claim readiness
         run: npm run monitor
       - name: Build consolidated founder exit authorization batch
         run: npm run exit:queue
@@ -44,15 +44,7 @@ jobs:
           git config user.name 'black-swan-bot'
           git config user.email 'black-swan-bot@users.noreply.github.com'
           git add data/latest.json data/history.json data/launch-batch.json data/package-history.json data/approval-pool.json data/finance-status.json data/live-tokens.json assets/generated/
-          if [ -f data/approval-batch.json ]; then
-            git add data/approval-batch.json
-          fi
-          if [ -f data/wallet-launch-bundle.json ]; then
-            git add data/wallet-launch-bundle.json
-          fi
-          if [ -f data/exit-batch.json ]; then
-            git add data/exit-batch.json
-          fi
+          git add -A data/approval-batch.json data/wallet-launch-bundle.json data/batch-history.json data/exit-batch.json
           if git diff --cached --quiet; then
             echo 'No state change'
           else
