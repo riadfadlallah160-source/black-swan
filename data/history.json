@@ -2697,6 +2697,318 @@
           "symbol": "MERCURY"
         }
       ]
+    },
+    {
+      "generatedAt": "2026-09-11T13:27:38.239Z",
+      "sourceItems": 1287,
+      "uniqueNarratives": 1222,
+      "qualified": [
+        {
+          "title": "బిగ్ బాస్ 10",
+          "score": 88,
+          "symbol": "PULSE"
+        },
+        {
+          "title": "disbarment",
+          "score": 87,
+          "symbol": "DISBARME"
+        },
+        {
+          "title": "migrants uk",
+          "score": 84,
+          "symbol": "MIGRANTS"
+        },
+        {
+          "title": "howard lutnick",
+          "score": 84,
+          "symbol": "HOWARD"
+        },
+        {
+          "title": "welles crowther",
+          "score": 84,
+          "symbol": "WELLES"
+        },
+        {
+          "title": "clima durango",
+          "score": 84,
+          "symbol": "CLIMA"
+        },
+        {
+          "title": "motogp",
+          "score": 84,
+          "symbol": "MOTOGP"
+        },
+        {
+          "title": "barmm",
+          "score": 84,
+          "symbol": "BARMM"
+        },
+        {
+          "title": "seungri",
+          "score": 84,
+          "symbol": "SEUNGRI"
+        },
+        {
+          "title": "greve correios",
+          "score": 83,
+          "symbol": "GREVE"
+        },
+        {
+          "title": "sportsnet+",
+          "score": 83,
+          "symbol": "SPORTSNE"
+        },
+        {
+          "title": "f1 tv",
+          "score": 83,
+          "symbol": "PULSE"
+        },
+        {
+          "title": "país",
+          "score": 83,
+          "symbol": "PULSE"
+        },
+        {
+          "title": "cuarta transformación",
+          "score": 83,
+          "symbol": "CUARTA"
+        },
+        {
+          "title": "terremoto",
+          "score": 82,
+          "symbol": "TERREMOT"
+        },
+        {
+          "title": "basketball",
+          "score": 79,
+          "symbol": "BASKETBA"
+        },
+        {
+          "title": "paraná pesquisas",
+          "score": 79,
+          "symbol": "PARAN"
+        },
+        {
+          "title": "sandra bullock",
+          "score": 79,
+          "symbol": "SANDRA"
+        },
+        {
+          "title": "tampines rovers vs balestier khalsa",
+          "score": 79,
+          "symbol": "TAMPINES"
+        },
+        {
+          "title": "lagos-calabar coastal highway",
+          "score": 78,
+          "symbol": "LAGOS"
+        },
+        {
+          "title": "ransom canyon",
+          "score": 78,
+          "symbol": "RANSOM"
+        },
+        {
+          "title": "pemex",
+          "score": 78,
+          "symbol": "PEMEX"
+        },
+        {
+          "title": "johann rupert",
+          "score": 78,
+          "symbol": "JOHANN"
+        },
+        {
+          "title": "kyoto sanga vs kashiwa reysol",
+          "score": 78,
+          "symbol": "KYOTO"
+        },
+        {
+          "title": "chinook helicopter",
+          "score": 77,
+          "symbol": "CHINOOK"
+        },
+        {
+          "title": "earthquake",
+          "score": 77,
+          "symbol": "EARTHQUA"
+        },
+        {
+          "title": "mikel arteta",
+          "score": 77,
+          "symbol": "MIKEL"
+        },
+        {
+          "title": "saudi arabia",
+          "score": 76,
+          "symbol": "SAUDI"
+        },
+        {
+          "title": "bloomberg",
+          "score": 75,
+          "symbol": "BLOOMBER"
+        },
+        {
+          "title": "nicholas hoult",
+          "score": 75,
+          "symbol": "NICHOLAS"
+        },
+        {
+          "title": "patrick dangerfield",
+          "score": 74,
+          "symbol": "PATRICK"
+        },
+        {
+          "title": "shan masood",
+          "score": 72,
+          "symbol": "SHAN"
+        },
+        {
+          "title": "1980s ai photo trend",
+          "score": 72,
+          "symbol": "1980S"
+        },
+        {
+          "title": "khalid sheikh mohammed",
+          "score": 70,
+          "symbol": "KHALID"
+        },
+        {
+          "title": "christian ho",
+          "score": 69,
+          "symbol": "CHRISTIA"
+        },
+        {
+          "title": "rick rescorla",
+          "score": 68,
+          "symbol": "RICK"
+        },
+        {
+          "title": "celtic news",
+          "score": 68,
+          "symbol": "CELTIC"
+        },
+        {
+          "title": "epic",
+          "score": 68,
+          "symbol": "EPIC"
+        },
+        {
+          "title": "supreme court",
+          "score": 68,
+          "symbol": "SUPREME"
+        },
+        {
+          "title": "gary neville",
+          "score": 68,
+          "symbol": "GARY"
+        },
+        {
+          "title": "vissel kobe vs kashima antlers",
+          "score": 68,
+          "symbol": "VISSEL"
+        },
+        {
+          "title": "clay",
+          "score": 68,
+          "symbol": "CLAY"
+        },
+        {
+          "title": "psis semarang vs psps pekanbaru",
+          "score": 68,
+          "symbol": "PSIS"
+        },
+        {
+          "title": "ipca",
+          "score": 67,
+          "symbol": "IPCA"
+        },
+        {
+          "title": "scott davidson",
+          "score": 67,
+          "symbol": "SCOTT"
+        },
+        {
+          "title": "ruba ghazal",
+          "score": 67,
+          "symbol": "RUBA"
+        },
+        {
+          "title": "flight 93",
+          "score": 67,
+          "symbol": "FLIGHT"
+        },
+        {
+          "title": "billy joel",
+          "score": 67,
+          "symbol": "BILLY"
+        },
+        {
+          "title": "ollie henry",
+          "score": 67,
+          "symbol": "OLLIE"
+        },
+        {
+          "title": "tyler perry",
+          "score": 67,
+          "symbol": "TYLER"
+        },
+        {
+          "title": "la nación",
+          "score": 67,
+          "symbol": "NACI"
+        },
+        {
+          "title": "leonor de borbón",
+          "score": 67,
+          "symbol": "LEONOR"
+        },
+        {
+          "title": "africa",
+          "score": 67,
+          "symbol": "AFRICA"
+        },
+        {
+          "title": "car",
+          "score": 67,
+          "symbol": "CAR"
+        },
+        {
+          "title": "fuel",
+          "score": 67,
+          "symbol": "FUEL"
+        },
+        {
+          "title": "solomon pappaiah",
+          "score": 67,
+          "symbol": "SOLOMON"
+        },
+        {
+          "title": "babar azam",
+          "score": 67,
+          "symbol": "BABAR"
+        },
+        {
+          "title": "victor boniface",
+          "score": 66,
+          "symbol": "VICTOR"
+        },
+        {
+          "title": "ufrj",
+          "score": 66,
+          "symbol": "UFRJ"
+        },
+        {
+          "title": "today show",
+          "score": 65,
+          "symbol": "SHOW"
+        },
+        {
+          "title": "2027 holidays philippines",
+          "score": 65,
+          "symbol": "2027"
+        }
+      ]
     }
   ]
 }
