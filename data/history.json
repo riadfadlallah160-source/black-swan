@@ -6910,6 +6910,373 @@
           "symbol": "GREG"
         }
       ]
+    },
+    {
+      "generatedAt": "2026-09-11T22:29:15.507Z",
+      "sourceItems": 1289,
+      "uniqueNarratives": 1225,
+      "qualified": [
+        {
+          "title": "villanova vs louisville",
+          "score": 88,
+          "symbol": "VILLANOV"
+        },
+        {
+          "title": "az alkmaar",
+          "score": 87,
+          "symbol": "ALKMAAR"
+        },
+        {
+          "title": "pesquisa senado sp",
+          "score": 86,
+          "symbol": "PESQUISA"
+        },
+        {
+          "title": "venezia vs fiorentina",
+          "score": 84,
+          "symbol": "VENEZIA"
+        },
+        {
+          "title": "mastantuono",
+          "score": 84,
+          "symbol": "MASTANTU"
+        },
+        {
+          "title": "siddharth shukla",
+          "score": 84,
+          "symbol": "SIDDHART"
+        },
+        {
+          "title": "pesquisa senado pr",
+          "score": 84,
+          "symbol": "PESQUISA"
+        },
+        {
+          "title": "astronauta",
+          "score": 84,
+          "symbol": "ASTRONAU"
+        },
+        {
+          "title": "autonomiste",
+          "score": 83,
+          "symbol": "AUTONOMI"
+        },
+        {
+          "title": "fiorentina",
+          "score": 83,
+          "symbol": "FIORENTI"
+        },
+        {
+          "title": "garotinho",
+          "score": 83,
+          "symbol": "GAROTINH"
+        },
+        {
+          "title": "conselho nacional de trânsito",
+          "score": 83,
+          "symbol": "CONSELHO"
+        },
+        {
+          "title": "fabricio bustos",
+          "score": 83,
+          "symbol": "FABRICIO"
+        },
+        {
+          "title": "atlante vs pachuca",
+          "score": 83,
+          "symbol": "ATLANTE"
+        },
+        {
+          "title": "sinaloa",
+          "score": 83,
+          "symbol": "SINALOA"
+        },
+        {
+          "title": "fiorentina fc",
+          "score": 83,
+          "symbol": "FIORENTI"
+        },
+        {
+          "title": "rockies vs tigers",
+          "score": 82,
+          "symbol": "ROCKIES"
+        },
+        {
+          "title": "traitors",
+          "score": 82,
+          "symbol": "TRAITORS"
+        },
+        {
+          "title": "empoli fc",
+          "score": 82,
+          "symbol": "EMPOLI"
+        },
+        {
+          "title": "sevilla vs valencia",
+          "score": 79,
+          "symbol": "SEVILLA"
+        },
+        {
+          "title": "matthew mcconaughey",
+          "score": 79,
+          "symbol": "MATTHEW"
+        },
+        {
+          "title": "warriors vs dolphins",
+          "score": 79,
+          "symbol": "WARRIORS"
+        },
+        {
+          "title": "gabriel souza",
+          "score": 79,
+          "symbol": "GABRIEL"
+        },
+        {
+          "title": "marlins - dodgers",
+          "score": 79,
+          "symbol": "MARLINS"
+        },
+        {
+          "title": "liverpool vs fulham",
+          "score": 79,
+          "symbol": "LIVERPOO"
+        },
+        {
+          "title": "nifty",
+          "score": 79,
+          "symbol": "NIFTY"
+        },
+        {
+          "title": "dodgers vs marlins",
+          "score": 78,
+          "symbol": "DODGERS"
+        },
+        {
+          "title": "paula copenhaver",
+          "score": 78,
+          "symbol": "PAULA"
+        },
+        {
+          "title": "meghan, duchess of sussex",
+          "score": 78,
+          "symbol": "MEGHAN"
+        },
+        {
+          "title": "alexander zverev",
+          "score": 78,
+          "symbol": "ALEXANDE"
+        },
+        {
+          "title": "franco mastantuono",
+          "score": 78,
+          "symbol": "FRANCO"
+        },
+        {
+          "title": "santiago bueno",
+          "score": 78,
+          "symbol": "SANTIAGO"
+        },
+        {
+          "title": "zverev",
+          "score": 78,
+          "symbol": "ZVEREV"
+        },
+        {
+          "title": "rennes vs marseille",
+          "score": 78,
+          "symbol": "RENNES"
+        },
+        {
+          "title": "marcy borders",
+          "score": 75,
+          "symbol": "MARCY"
+        },
+        {
+          "title": "sharks",
+          "score": 75,
+          "symbol": "SHARKS"
+        },
+        {
+          "title": "akor adams",
+          "score": 75,
+          "symbol": "AKOR"
+        },
+        {
+          "title": "escalações de santos futebol clube x cruzeiro esporte clube",
+          "score": 75,
+          "symbol": "ESCALA"
+        },
+        {
+          "title": "photos",
+          "score": 74,
+          "symbol": "PHOTOS"
+        },
+        {
+          "title": "al-ahli saudi fc vs al-hazem f.c. standings",
+          "score": 72,
+          "symbol": "AHLI"
+        },
+        {
+          "title": "karen khachanov",
+          "score": 72,
+          "symbol": "KAREN"
+        },
+        {
+          "title": "cookies",
+          "score": 70,
+          "symbol": "COOKIES"
+        },
+        {
+          "title": "david blunkett",
+          "score": 68,
+          "symbol": "DAVID"
+        },
+        {
+          "title": "the uprising",
+          "score": 68,
+          "symbol": "UPRISING"
+        },
+        {
+          "title": "woody harrelson",
+          "score": 68,
+          "symbol": "WOODY"
+        },
+        {
+          "title": "import",
+          "score": 68,
+          "symbol": "IMPORT"
+        },
+        {
+          "title": "joão pedro",
+          "score": 68,
+          "symbol": "PEDRO"
+        },
+        {
+          "title": "nigeria airways",
+          "score": 68,
+          "symbol": "NIGERIA"
+        },
+        {
+          "title": "judge judy",
+          "score": 67,
+          "symbol": "JUDGE"
+        },
+        {
+          "title": "diane morgan",
+          "score": 67,
+          "symbol": "DIANE"
+        },
+        {
+          "title": "michael sheen",
+          "score": 67,
+          "symbol": "MICHAEL"
+        },
+        {
+          "title": "kitten",
+          "score": 67,
+          "symbol": "KITTEN"
+        },
+        {
+          "title": "argentine football association",
+          "score": 67,
+          "symbol": "ARGENTIN"
+        },
+        {
+          "title": "demi lovato",
+          "score": 67,
+          "symbol": "DEMI"
+        },
+        {
+          "title": "pakistan vs sri lanka",
+          "score": 67,
+          "symbol": "PAKISTAN"
+        },
+        {
+          "title": "amber alert",
+          "score": 67,
+          "symbol": "AMBER"
+        },
+        {
+          "title": "union berlin vs schalke",
+          "score": 67,
+          "symbol": "UNION"
+        },
+        {
+          "title": "greg gutfeld",
+          "score": 65,
+          "symbol": "GREG"
+        },
+        {
+          "title": "28 days later",
+          "score": 63,
+          "symbol": "DAYS"
+        },
+        {
+          "title": "princess astrid, mrs. ferner",
+          "score": 63,
+          "symbol": "PRINCESS"
+        },
+        {
+          "title": "kim zolciak",
+          "score": 63,
+          "symbol": "KIM"
+        },
+        {
+          "title": "airbus vs tns",
+          "score": 63,
+          "symbol": "AIRBUS"
+        },
+        {
+          "title": "joe lycett",
+          "score": 62,
+          "symbol": "JOE"
+        },
+        {
+          "title": "dow jones moneycontrol",
+          "score": 62,
+          "symbol": "DOW"
+        },
+        {
+          "title": "spanish grand prix",
+          "score": 62,
+          "symbol": "SPANISH"
+        },
+        {
+          "title": "nba",
+          "score": 62,
+          "symbol": "NBA"
+        },
+        {
+          "title": "tan su shan",
+          "score": 62,
+          "symbol": "TAN"
+        },
+        {
+          "title": "thailand monk",
+          "score": 62,
+          "symbol": "THAILAND"
+        },
+        {
+          "title": "deportivo vs real madrid",
+          "score": 62,
+          "symbol": "DEPORTIV"
+        },
+        {
+          "title": "greg norman",
+          "score": 61,
+          "symbol": "GREG"
+        },
+        {
+          "title": "champions league team of the week",
+          "score": 61,
+          "symbol": "CHAMPION"
+        },
+        {
+          "title": "alexis vega",
+          "score": 61,
+          "symbol": "ALEXIS"
+        }
+      ]
     }
   ]
 }
