@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-11T22:24:02.823Z",
-  "count": 54,
-  "readyCount": 0,
-  "pendingInfrastructureCount": 54,
+  "updatedAt": "2026-09-11T22:25:10.523Z",
+  "count": 61,
+  "readyCount": 61,
+  "pendingInfrastructureCount": 0,
   "target": 100,
   "packages": [
     {
@@ -5704,6 +5704,746 @@
       },
       "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T22:24:02.823Z"
+    },
+    {
+      "narrative": "diane morgan",
+      "score": 67,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 2,
+        "liquid": 13
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "2 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Diane Morgan",
+        "symbol": "DIANE",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Diane Morgan. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/08637be3f4597127.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/08637be3f4597127.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Diane Morgan",
+          "symbol": "DIANE",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/08637be3f4597127.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Diane Morgan. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "3372c5da1a050f08ad3c317776b92932"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:25:10.523Z"
+    },
+    {
+      "narrative": "michael sheen",
+      "score": 67,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 0,
+        "liquid": 4
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200"
+      ],
+      "token": {
+        "name": "Michael Sheen",
+        "symbol": "MICHAEL",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Michael Sheen. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/137e4ab8df6a0688.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/137e4ab8df6a0688.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Michael Sheen",
+          "symbol": "MICHAEL",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/137e4ab8df6a0688.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Michael Sheen. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "c4501460085eec37bed581a79b6a4702"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:25:10.523Z"
+    },
+    {
+      "narrative": "perth weather",
+      "score": 67,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 16,
+        "active": 0,
+        "liquid": 3
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500"
+      ],
+      "token": {
+        "name": "Perth Weather",
+        "symbol": "PERTH",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Perth Weather. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/e0577b0a9dc42058.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/e0577b0a9dc42058.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Perth Weather",
+          "symbol": "PERTH",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/e0577b0a9dc42058.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Perth Weather. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "d0d1319592df3c155383f66a51ed5231"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:25:10.523Z"
+    },
+    {
+      "narrative": "amber alert",
+      "score": 67,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 1,
+        "liquid": 9
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "1 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Amber Alert",
+        "symbol": "AMBER",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Amber Alert. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/768b9f5c1723fa47.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/768b9f5c1723fa47.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Amber Alert",
+          "symbol": "AMBER",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/768b9f5c1723fa47.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Amber Alert. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "aa9f61cc157e2a841ad5c000cbaae93e"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:25:10.523Z"
+    },
+    {
+      "narrative": "union berlin vs schalke",
+      "score": 67,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 2,
+        "liquid": 8
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "2 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Union Berlin Vs Schalke",
+        "symbol": "UNION",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Union Berlin Vs Schalke. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/c3e39ee4e1a6cff4.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/c3e39ee4e1a6cff4.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Union Berlin Vs Schalke",
+          "symbol": "UNION",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/c3e39ee4e1a6cff4.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Union Berlin Vs Schalke. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "b1dabf451b4cb15e74bfed6dd442aa04"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:25:10.523Z"
+    },
+    {
+      "narrative": "rosa maria nogueron",
+      "score": 66,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 1,
+        "liquid": 1
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "1 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Rosa Maria Nogueron",
+        "symbol": "ROSA",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Rosa Maria Nogueron. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/4d85585a0bf030c9.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/4d85585a0bf030c9.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Rosa Maria Nogueron",
+          "symbol": "ROSA",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/4d85585a0bf030c9.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Rosa Maria Nogueron. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "f90fb4cd01ea86042ebabaf565914986"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:25:10.523Z"
+    },
+    {
+      "narrative": "greg gutfeld",
+      "score": 65,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 4,
+        "liquid": 7
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "4 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Greg Gutfeld",
+        "symbol": "GREG",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Greg Gutfeld. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/9521a0f2de6fb117.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/9521a0f2de6fb117.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Greg Gutfeld",
+          "symbol": "GREG",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/9521a0f2de6fb117.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Greg Gutfeld. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "6403abdb475774942fec65d5abfe99f1"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:25:10.523Z"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-11T22:24:01.888Z",
+  "generatedAt": "2026-09-11T22:25:09.717Z",
   "threshold": 65,
   "targetPackagesPerScan": 9,
   "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
   "sourceItems": 1289,
   "uniqueNarratives": 1225,
-  "qualifiedCount": 57,
+  "qualifiedCount": 56,
   "qualified": [
     {
       "title": "rayados vs tigres",
@@ -378,7 +378,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 6,
+      "bestRank": 7,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -839,7 +839,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 8,
+      "bestRank": 9,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -981,32 +981,6 @@
       },
       "qualified": true,
       "suggestedSymbol": "AKOR",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "1 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "photos",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 10,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 74,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 5,
-        "active": 1,
-        "liquid": 1
-      },
-      "qualified": true,
-      "suggestedSymbol": "PHOTOS",
       "rationale": [
         "active search trend",
         "approx trend traffic 100",
@@ -1311,7 +1285,7 @@
       "dex": {
         "pairs": 30,
         "active": 2,
-        "liquid": 14
+        "liquid": 13
       },
       "qualified": true,
       "suggestedSymbol": "DIANE",
@@ -1848,7 +1822,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 6,
+      "bestRank": 7,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -2309,7 +2283,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 8,
+      "bestRank": 9,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -2451,32 +2425,6 @@
       },
       "qualified": true,
       "suggestedSymbol": "AKOR",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "1 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "photos",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 10,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 74,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 5,
-        "active": 1,
-        "liquid": 1
-      },
-      "qualified": true,
-      "suggestedSymbol": "PHOTOS",
       "rationale": [
         "active search trend",
         "approx trend traffic 100",
@@ -2781,7 +2729,7 @@
       "dex": {
         "pairs": 30,
         "active": 2,
-        "liquid": 14
+        "liquid": 13
       },
       "qualified": true,
       "suggestedSymbol": "DIANE",
@@ -2987,7 +2935,7 @@
       "dex": {
         "pairs": 30,
         "active": 4,
-        "liquid": 24
+        "liquid": 25
       },
       "qualified": false,
       "suggestedSymbol": "KIM",
@@ -3003,7 +2951,7 @@
         "google-trends",
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 4,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -3014,7 +2962,7 @@
       "dex": {
         "pairs": 30,
         "active": 4,
-        "liquid": 18
+        "liquid": 17
       },
       "qualified": false,
       "suggestedSymbol": "PRINCESS",
@@ -3040,7 +2988,7 @@
       "dex": {
         "pairs": 30,
         "active": 7,
-        "liquid": 25
+        "liquid": 26
       },
       "qualified": false,
       "suggestedSymbol": "AIRBUS",
@@ -3048,32 +2996,6 @@
         "active search trend",
         "approx trend traffic 500",
         "7 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "nba",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 4,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 63,
-      "category": "sports",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 6,
-        "liquid": 15
-      },
-      "qualified": false,
-      "suggestedSymbol": "NBA",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "6 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -3233,29 +3155,29 @@
       ]
     },
     {
-      "title": "jacob coxon",
+      "title": "nba",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 5,
-      "traffic": 100,
+      "bestRank": 6,
+      "traffic": 200,
       "sources": [
         "google-trends"
       ],
       "score": 62,
-      "category": "general-culture",
+      "category": "sports",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 4,
-        "liquid": 5
+        "active": 7,
+        "liquid": 15
       },
       "qualified": false,
-      "suggestedSymbol": "JACOB",
+      "suggestedSymbol": "NBA",
       "rationale": [
         "active search trend",
-        "approx trend traffic 100",
-        "4 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 200",
+        "7 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -3389,6 +3311,30 @@
       ]
     },
     {
+      "title": "‘They’re gambling with our lives’: AI engineer’s resignation goes viral - cnn.com",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 5,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 58,
+      "category": "technology",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": false,
+      "suggestedSymbol": "THEY",
+      "rationale": [
+        "news confirmation"
+      ]
+    },
+    {
       "title": "mets vs yankees",
       "mentions": [
         "google-trends"
@@ -3420,7 +3366,7 @@
         "google-trends"
       ],
       "bestRank": 4,
-      "traffic": 5000,
+      "traffic": 10000,
       "sources": [
         "google-trends"
       ],
@@ -3436,7 +3382,7 @@
       "suggestedSymbol": "PAKISTAN",
       "rationale": [
         "active search trend",
-        "approx trend traffic 5,000",
+        "approx trend traffic 10,000",
         "9 active matching DEX pairs (saturation risk)"
       ]
     },
@@ -3617,7 +3563,7 @@
       ]
     },
     {
-      "title": "Here Are The Internet’s 51 Funniest Memes Today - BroBible",
+      "title": "Here Are The Internet’s 51 Funniest Memes Today - brobible.com",
       "mentions": [
         "google-news"
       ],
@@ -3646,7 +3592,7 @@
       "mentions": [
         "google-news"
       ],
-      "bestRank": 1,
+      "bestRank": 4,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -3866,31 +3812,6 @@
       ]
     },
     {
-      "title": "🎥 Kylian Mbappé finally responds to the dictator meme - Yahoo Sports Canada",
-      "mentions": [
-        "google-news"
-      ],
-      "bestRank": 5,
-      "traffic": 0,
-      "sources": [
-        "google-news"
-      ],
-      "score": 55,
-      "category": "internet-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 2,
-        "liquid": 4
-      },
-      "qualified": false,
-      "suggestedSymbol": "KYLIAN",
-      "rationale": [
-        "news confirmation",
-        "2 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
       "title": "Kylian Mbappé Breaks Silence On Viral 'Dictator' Memes: 'It Doesn't Go Far But...' - News18",
       "mentions": [
         "google-news"
@@ -3913,6 +3834,31 @@
       "rationale": [
         "news confirmation",
         "1 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "🎥 Kylian Mbappé finally responds to the dictator meme - Yahoo Sports Canada",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 9,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 55,
+      "category": "internet-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 2,
+        "liquid": 4
+      },
+      "qualified": false,
+      "suggestedSymbol": "KYLIAN",
+      "rationale": [
+        "news confirmation",
+        "2 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -4034,7 +3980,7 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 19,
+        "active": 18,
         "liquid": 24
       },
       "qualified": false,
@@ -4042,7 +3988,7 @@
       "rationale": [
         "active search trend",
         "approx trend traffic 100",
-        "19 active matching DEX pairs (saturation risk)"
+        "18 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -4098,12 +4044,38 @@
       ]
     },
     {
-      "title": "tim cook",
+      "title": "jacob coxon leaves anthropic ai",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
-      "traffic": 500,
+      "bestRank": 1,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 52,
+      "category": "technology",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 10,
+        "liquid": 14
+      },
+      "qualified": false,
+      "suggestedSymbol": "JACOB",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "10 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "oil price hike",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 2,
+      "traffic": 100,
       "sources": [
         "google-trends"
       ],
@@ -4112,15 +4084,15 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 13,
-        "liquid": 14
+        "active": 9,
+        "liquid": 15
       },
       "qualified": false,
-      "suggestedSymbol": "TIM",
+      "suggestedSymbol": "OIL",
       "rationale": [
         "active search trend",
-        "approx trend traffic 500",
-        "13 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 100",
+        "9 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -4192,7 +4164,7 @@
       "dex": {
         "pairs": 30,
         "active": 23,
-        "liquid": 21
+        "liquid": 20
       },
       "qualified": false,
       "suggestedSymbol": "SCP",
@@ -4373,15 +4345,15 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 11,
-        "liquid": 14
+        "active": 10,
+        "liquid": 13
       },
       "qualified": false,
       "suggestedSymbol": "DOW",
       "rationale": [
         "active search trend",
         "approx trend traffic 1,000",
-        "11 active matching DEX pairs (saturation risk)"
+        "10 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -4467,7 +4439,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 7,
+      "bestRank": 6,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -4489,11 +4461,37 @@
       ]
     },
     {
+      "title": "tim cook",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 5,
+      "traffic": 500,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 51,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 13,
+        "liquid": 14
+      },
+      "qualified": false,
+      "suggestedSymbol": "TIM",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500",
+        "13 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
       "title": "wheel",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 6,
+      "bestRank": 7,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -4515,7 +4513,7 @@
       ]
     },
     {
-      "title": "Kylian Mbappé says viral meme depicting him as dictator 'shows a lack of political awareness in people' - ESPN",
+      "title": "Kylian Mbappé says viral meme depicting him as dictator 'shows a lack of political awareness in people' - espn.com",
       "mentions": [
         "google-news"
       ],
@@ -4690,7 +4688,7 @@
       ]
     },
     {
-      "title": "India-Built Apps Feature in Apple’s Global Product Launch - Deccan Chronicle",
+      "title": "India-Built Apps Feature in Apple’s Global Product Launch - deccanchronicle.com",
       "mentions": [
         "google-news"
       ],
@@ -4865,7 +4863,7 @@
       ]
     },
     {
-      "title": "The Internet Is Obsessed With Shark Beauty—Here's Our Review of the Top 3 Most Viral Products - Who What Wear",
+      "title": "The Internet Is Obsessed With Shark Beauty—Here's Our Review of the Top 3 Most Viral Products - whowhatwear.com",
       "mentions": [
         "google-news"
       ],
@@ -5043,7 +5041,7 @@
       ]
     },
     {
-      "title": "The 10 Best Viral Moments of 2025, Ranked - complex.com",
+      "title": "The 10 Best Viral Moments of 2025, Ranked - Complex",
       "mentions": [
         "google-news",
         "google-news"
@@ -5059,7 +5057,7 @@
       "dex": {
         "pairs": 30,
         "active": 7,
-        "liquid": 25
+        "liquid": 24
       },
       "qualified": false,
       "suggestedSymbol": "BEST",
@@ -5069,7 +5067,7 @@
       ]
     },
     {
-      "title": "Today’s 51 Funniest Memes From All Across The Internet - BroBible",
+      "title": "Today’s 51 Funniest Memes From All Across The Internet - brobible.com",
       "mentions": [
         "google-news"
       ],
@@ -5094,7 +5092,7 @@
       ]
     },
     {
-      "title": "The Best Viral Moments of 2026 (So Far) - complex.com",
+      "title": "The Best Viral Moments of 2026 (So Far) - Complex",
       "mentions": [
         "google-news"
       ],
@@ -5119,7 +5117,7 @@
       ]
     },
     {
-      "title": "Overwatch introduces Shion as a new hero ahead of Season 3 launch - techedt.com",
+      "title": "Overwatch introduces Shion as a new hero ahead of Season 3 launch - Tech Edition",
       "mentions": [
         "google-news"
       ],
@@ -5129,7 +5127,7 @@
         "google-news"
       ],
       "score": 50,
-      "category": "general-culture",
+      "category": "technology",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
@@ -5169,7 +5167,7 @@
       ]
     },
     {
-      "title": "If Your Fall Wardrobe Feels Boring, Try These Unexpected Color Combinations - marieclaire.com",
+      "title": "If Your Fall Wardrobe Feels Boring, Try These Unexpected Color Combinations - Marie Claire",
       "mentions": [
         "google-news"
       ],
@@ -5209,7 +5207,7 @@
       "dex": {
         "pairs": 30,
         "active": 20,
-        "liquid": 18
+        "liquid": 17
       },
       "qualified": false,
       "suggestedSymbol": "APPLE",
@@ -5219,7 +5217,7 @@
       ]
     },
     {
-      "title": "Siri AI's Beta Buzz Fades Ahead of Full Launch - techbuzz.ai",
+      "title": "Siri AI's Beta Buzz Fades Ahead of Full Launch - The Tech Buzz",
       "mentions": [
         "google-news"
       ],
@@ -5283,14 +5281,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 23,
-        "liquid": 14
+        "active": 24,
+        "liquid": 16
       },
       "qualified": false,
       "suggestedSymbol": "REESE",
       "rationale": [
         "news confirmation",
-        "23 active matching DEX pairs (saturation risk)"
+        "24 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5359,7 +5357,7 @@
       "dex": {
         "pairs": 30,
         "active": 11,
-        "liquid": 10
+        "liquid": 11
       },
       "qualified": false,
       "suggestedSymbol": "KYLIAN",
@@ -5369,32 +5367,7 @@
       ]
     },
     {
-      "title": "Myles Garrett gets the meme treatment for his zero-tackle Rams debut - larrybrownsports.com",
-      "mentions": [
-        "google-news"
-      ],
-      "bestRank": 4,
-      "traffic": 0,
-      "sources": [
-        "google-news"
-      ],
-      "score": 40,
-      "category": "internet-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 19,
-        "liquid": 17
-      },
-      "qualified": false,
-      "suggestedSymbol": "MYLES",
-      "rationale": [
-        "news confirmation",
-        "19 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "Why moms on your social feed are suddenly saying not to post your kids' pics anymore - Business Insider",
+      "title": "Why moms on your social feed are suddenly saying not to post your kids' pics anymore - businessinsider.com",
       "mentions": [
         "google-news"
       ],
@@ -5495,31 +5468,6 @@
       ]
     },
     {
-      "title": "Viral sketch group ‘SEC Shorts’ brings live comedy show to MSU’s Lyceum Series Nov. 13 - The Star-Herald",
-      "mentions": [
-        "google-news"
-      ],
-      "bestRank": 4,
-      "traffic": 0,
-      "sources": [
-        "google-news"
-      ],
-      "score": 40,
-      "category": "internet-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 8,
-        "liquid": 9
-      },
-      "qualified": false,
-      "suggestedSymbol": "VIRAL",
-      "rationale": [
-        "news confirmation",
-        "8 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
       "title": "What are Therians? The viral phenomenon taking over Latin America - HOLA",
       "mentions": [
         "google-news"
@@ -5534,14 +5482,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 23,
+        "active": 24,
         "liquid": 17
       },
       "qualified": false,
       "suggestedSymbol": "WHAT",
       "rationale": [
         "news confirmation",
-        "23 active matching DEX pairs (saturation risk)"
+        "24 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5621,7 +5569,7 @@
       ]
     },
     {
-      "title": "TOP 20 VIRAL CHALLENGE MARKETING STATISTICS 2026 THAT REVEAL INTERNET MADNESS - amraandelma.com",
+      "title": "TOP 20 VIRAL CHALLENGE MARKETING STATISTICS 2026 THAT REVEAL INTERNET MADNESS - Amra & Elma",
       "mentions": [
         "google-news"
       ],
@@ -5646,7 +5594,7 @@
       ]
     },
     {
-      "title": "Viral ’80s trend: Why is the internet suddenly looking back at the 1980s? | Hindustan Times - hindustantimes.com",
+      "title": "Viral ’80s trend: Why is the internet suddenly looking back at the 1980s? | Hindustan Times - Hindustan Times",
       "mentions": [
         "google-news"
       ],
@@ -5660,18 +5608,18 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 16,
+        "active": 17,
         "liquid": 24
       },
       "qualified": false,
       "suggestedSymbol": "VIRAL",
       "rationale": [
         "news confirmation",
-        "16 active matching DEX pairs (saturation risk)"
+        "17 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "From 'girl dinner' to 'boy kibble': The internet serves up a new meal trend - npr.org",
+      "title": "From 'girl dinner' to 'boy kibble': The internet serves up a new meal trend - NPR",
       "mentions": [
         "google-news"
       ],
@@ -5696,7 +5644,7 @@
       ]
     },
     {
-      "title": "What Does ‘6-7’ Mean? We Don’t Know Either, So We Asked a Linguistics Professor - Georgetown University",
+      "title": "What Does ‘6-7’ Mean? We Don’t Know Either, So We Asked a Linguistics Professor - georgetown.edu",
       "mentions": [
         "google-news"
       ],
@@ -5747,7 +5695,7 @@
       ]
     },
     {
-      "title": "The viral game with ChatGPT that worries users over the violation of their privacy - MARCA",
+      "title": "The viral game with ChatGPT that worries users over the violation of their privacy - marca.com",
       "mentions": [
         "google-news"
       ],
@@ -5948,7 +5896,7 @@
       ]
     },
     {
-      "title": "Forget the gym: Bollywood’s new favourite workout is padel - Prestige Online - Singapore",
+      "title": "Forget the gym: Bollywood’s new favourite workout is padel - prestigeonline.com",
       "mentions": [
         "google-news"
       ],
@@ -5973,7 +5921,7 @@
       ]
     },
     {
-      "title": "Off-Duty Celebrities in Venice Are Wearing This Specific New-Season Jeans Trend - Who What Wear",
+      "title": "Off-Duty Celebrities in Venice Are Wearing This Specific New-Season Jeans Trend - whowhatwear.com",
       "mentions": [
         "google-news"
       ],
@@ -6012,18 +5960,43 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 24,
+        "active": 25,
         "liquid": 18
       },
       "qualified": false,
       "suggestedSymbol": "PEOPLE",
       "rationale": [
         "news confirmation",
-        "24 active matching DEX pairs (saturation risk)"
+        "25 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "Mbappe frustrated with the viral meme about him - Mozzart Sport Kenya",
+      "title": "Myles Garrett gets the meme treatment for his zero-tackle Rams debut - Larry Brown Sports",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 5,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 39,
+      "category": "internet-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 19,
+        "liquid": 18
+      },
+      "qualified": false,
+      "suggestedSymbol": "MYLES",
+      "rationale": [
+        "news confirmation",
+        "19 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Mbappe frustrated with the viral meme about him - mozzartsport.co.ke",
       "mentions": [
         "google-news"
       ],
@@ -6063,7 +6036,7 @@
       "dex": {
         "pairs": 30,
         "active": 18,
-        "liquid": 26
+        "liquid": 25
       },
       "qualified": false,
       "suggestedSymbol": "MAMDANI",
