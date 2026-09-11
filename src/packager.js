@@ -12,9 +12,10 @@ const BASE_USDC = '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913';
 const EXIT_VAULT = process.env.EXIT_VAULT_ADDRESS || '';
 const now = Date.now();
 const DAY = 24 * 60 * 60 * 1000;
-const TOTAL_SUPPLY_TOKENS = 100_000_000_000n; // Clanker V4 fixed supply
+const TOTAL_SUPPLY_TOKENS = 100_000_000_000n;
 const norm = s => String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const titleCase = s => String(s||'').replace(/\b\w/g, c => c.toUpperCase()).slice(0,50);
+const isAddress = s => /^0x[a-fA-F0-9]{40}$/.test(String(s||''));
 
 function svgArtwork(name, symbol) {
   const seed = [...name].reduce((a,c)=>((a*33)+c.charCodeAt(0))>>>0, 5381);
@@ -25,7 +26,7 @@ function svgArtwork(name, symbol) {
 }
 
 function buildEarlyAirdrop(recipient) {
-  if (!/^0x[a-fA-F0-9]{40}$/.test(recipient)) return null;
+  if (!isAddress(recipient)) return null;
   const amountTokens = Number((TOTAL_SUPPLY_TOKENS * BigInt(CONFIG.clanker.earlyAirdropPercentage)) / 100n);
   const amountWei = (BigInt(amountTokens) * 10n ** 18n).toString();
   const tree = StandardMerkleTree.of([[recipient, amountWei]], ['address','uint256']);
@@ -54,10 +55,11 @@ async function makePackage(c) {
   const imagePath = `assets/generated/${assetKey}.png`;
   const imageUrl = `https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/${imagePath}`;
   const requestKey = crypto.createHash('sha256').update(`${clean}|${symbol}|${new Date().toISOString().slice(0,13)}`).digest('hex').slice(0,32);
-  const early = buildEarlyAirdrop(EXIT_VAULT);
-  const founderRecipient = early ? EXIT_VAULT : CONFIG.creatorAddress;
+  const founderRecipient = isAddress(EXIT_VAULT) ? EXIT_VAULT : CONFIG.creatorAddress;
+  const early = buildEarlyAirdrop(founderRecipient);
   const description = `${CONFIG.unofficialDisclosure} Theme: ${clean}. Founder allocation and creator rewards are disclosed on-chain.`;
 
+  if (!early) throw new Error('Unable to build founder airdrop');
   await fs.mkdir(path.dirname(imagePath), {recursive:true});
   await sharp(Buffer.from(svgArtwork(clean, symbol))).png({compressionLevel:9}).toFile(imagePath);
 
@@ -94,9 +96,9 @@ async function makePackage(c) {
       vestingDuration: CONFIG.clanker.founderVaultVestingSeconds,
       recipient: founderRecipient
     },
+    airdrop: early.config,
     sniperFees: CONFIG.clanker.sniperFees
   };
-  if (early) clanker.airdrop = early.config;
 
   return {
     narrative: c.title,
@@ -112,11 +114,12 @@ async function makePackage(c) {
       devBuyEth: 0,
       beneficiary: CONFIG.creatorAddress,
       founderRecipient,
-      exitVaultReady: Boolean(early)
+      founderCustody: isAddress(EXIT_VAULT) ? 'optional-exit-vault' : 'beneficiary-wallet',
+      exitVaultReady: isAddress(EXIT_VAULT)
     },
-    earlyAirdropClaim: early?.claim || null,
+    earlyAirdropClaim: early.claim,
     clanker,
-    readiness: early ? 'launch-api-ready' : 'waiting-for-exit-vault-address'
+    readiness: 'launch-api-ready'
   };
 }
 
@@ -146,11 +149,13 @@ async function main() {
     baseUsdc: BASE_USDC,
     count: chosen.length,
     packages: chosen,
-    status: EXIT_VAULT ? 'ready for authenticated Clanker deployment API' : 'economics packaged; deploy ExitVault once before live issuance'
+    status: isAddress(EXIT_VAULT)
+      ? 'launch-ready with optional ExitVault founder custody'
+      : 'launch-ready; founder allocations route directly to beneficiary wallet'
   };
   for (const p of chosen) history.items.push({key:norm(p.narrative),at:generatedAt,score:p.score});
   await fs.writeFile(OUT,JSON.stringify(batch,null,2));
   await fs.writeFile(HISTORY,JSON.stringify(history,null,2));
-  console.log(JSON.stringify({generatedAt,count:chosen.length,targetPerHour:batch.targetPerHour,rail:CONFIG.issuanceRail,exitVaultReady:Boolean(EXIT_VAULT),packages:chosen.map(x=>({name:x.token.name,symbol:x.token.symbol,score:x.score}))},null,2));
+  console.log(JSON.stringify({generatedAt,count:chosen.length,targetPerHour:batch.targetPerHour,rail:CONFIG.issuanceRail,founderRecipient:isAddress(EXIT_VAULT)?EXIT_VAULT:CONFIG.creatorAddress,packages:chosen.map(x=>({name:x.token.name,symbol:x.token.symbol,score:x.score}))},null,2));
 }
 main().catch(e=>{console.error(e);process.exit(1)});
