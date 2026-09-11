@@ -15,13 +15,11 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  scan-package-launch:
+  scan-package-queue:
     runs-on: ubuntu-latest
     timeout-minutes: 4
     env:
       EXIT_VAULT_ADDRESS: ${{ vars.EXIT_VAULT_ADDRESS }}
-      CLANKER_API_KEY: ${{ secrets.CLANKER_API_KEY }}
-      LIVE_LAUNCH_ENABLED: 'true'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -31,29 +29,18 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Run scanner
         run: npm run scan
-      - name: Build deduplicated Clanker launch batch
+      - name: Build deduplicated Clanker launch packages
         run: npm run package
-      - name: Publish scanner state, launch packages and PNG artwork
+      - name: Accumulate one approval batch of up to 100 packages
+        run: npm run queue
+      - name: Publish scanner state, packages, approval pool and PNG artwork
         run: |
           git config user.name 'black-swan-bot'
           git config user.email 'black-swan-bot@users.noreply.github.com'
-          git add data/latest.json data/history.json data/launch-batch.json data/package-history.json assets/generated/ || true
+          git add data/latest.json data/history.json data/launch-batch.json data/package-history.json data/approval-pool.json data/approval-batch.json assets/generated/ || true
           if git diff --cached --quiet; then
             echo 'No state change'
           else
-            git commit -m 'chore: publish live Clanker launch batch [skip ci]'
+            git commit -m 'chore: publish Black Swan approval queue [skip ci]'
             git push
-          fi
-      - name: Submit batch to Clanker when production access is armed
-        run: npm run launch
-      - name: Persist launch results
-        if: always()
-        run: |
-          if [ -f data/launch-results.json ]; then
-            git pull --rebase || true
-            git add data/launch-results.json
-            if ! git diff --cached --quiet; then
-              git commit -m 'chore: record Clanker launch results [skip ci]'
-              git push
-            fi
           fi
