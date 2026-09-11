@@ -33,17 +33,19 @@ jobs:
         run: npm run package
       - name: Accumulate one approval batch of up to 100 packages
         run: npm run queue
-      - name: Publish scanner state, packages, approval pool and PNG artwork
+      - name: Monitor creator fees and founder exit readiness
+        run: npm run monitor
+      - name: Publish scanner, finance and approval state
         run: |
           git config user.name 'black-swan-bot'
           git config user.email 'black-swan-bot@users.noreply.github.com'
-          git add data/latest.json data/history.json data/launch-batch.json data/package-history.json data/approval-pool.json assets/generated/
+          git add data/latest.json data/history.json data/launch-batch.json data/package-history.json data/approval-pool.json data/finance-status.json data/live-tokens.json assets/generated/
           if [ -f data/approval-batch.json ]; then
             git add data/approval-batch.json
           fi
           if git diff --cached --quiet; then
             echo 'No state change'
           else
-            git commit -m 'chore: publish Black Swan approval queue [skip ci]'
+            git commit -m 'chore: publish Black Swan operating state [skip ci]'
             git push
           fi
