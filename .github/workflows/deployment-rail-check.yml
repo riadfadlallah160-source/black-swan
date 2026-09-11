@@ -1,0 +1,32 @@
+name: Deployment Rail Check
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    env:
+      CLANKER_API_KEY: ${{ secrets.CLANKER_API_KEY }}
+      DIRECT_DEPLOYER_PRIVATE_KEY: ${{ secrets.DIRECT_DEPLOYER_PRIVATE_KEY }}
+    steps:
+      - name: Report deployment rail readiness without exposing secrets
+        shell: bash
+        run: |
+          api=false
+          direct=false
+          if [ -n "$CLANKER_API_KEY" ]; then api=true; fi
+          if [ -n "$DIRECT_DEPLOYER_PRIVATE_KEY" ]; then direct=true; fi
+          echo "clanker_partner_api=$api"
+          echo "direct_clanker_signer=$direct"
+          if [ "$api" = false ] && [ "$direct" = false ]; then
+            echo 'deployment_rail=missing'
+          else
+            echo 'deployment_rail=ready'
+          fi
