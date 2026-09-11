@@ -3628,6 +3628,333 @@
           "symbol": "AFL"
         }
       ]
+    },
+    {
+      "generatedAt": "2026-09-11T21:11:22.259Z",
+      "sourceItems": 1288,
+      "uniqueNarratives": 1220,
+      "qualified": [
+        {
+          "title": "sevilla",
+          "score": 87,
+          "symbol": "SEVILLA"
+        },
+        {
+          "title": "az alkmaar",
+          "score": 87,
+          "symbol": "ALKMAAR"
+        },
+        {
+          "title": "wrexham",
+          "score": 84,
+          "symbol": "WREXHAM"
+        },
+        {
+          "title": "bhojpuri",
+          "score": 84,
+          "symbol": "BHOJPURI"
+        },
+        {
+          "title": "defensa y justicia",
+          "score": 84,
+          "symbol": "DEFENSA"
+        },
+        {
+          "title": "khachanov",
+          "score": 84,
+          "symbol": "KHACHANO"
+        },
+        {
+          "title": "venezia vs fiorentina",
+          "score": 84,
+          "symbol": "VENEZIA"
+        },
+        {
+          "title": "tennis scores",
+          "score": 83,
+          "symbol": "TENNIS"
+        },
+        {
+          "title": "rennes vs marseille",
+          "score": 83,
+          "symbol": "RENNES"
+        },
+        {
+          "title": "janette bertrand",
+          "score": 83,
+          "symbol": "JANETTE"
+        },
+        {
+          "title": "roshel",
+          "score": 83,
+          "symbol": "ROSHEL"
+        },
+        {
+          "title": "fiorentina fc",
+          "score": 83,
+          "symbol": "FIORENTI"
+        },
+        {
+          "title": "salzburg vs",
+          "score": 83,
+          "symbol": "SALZBURG"
+        },
+        {
+          "title": "empoli fc",
+          "score": 83,
+          "symbol": "EMPOLI"
+        },
+        {
+          "title": "senador",
+          "score": 83,
+          "symbol": "SENADOR"
+        },
+        {
+          "title": "joão gomes",
+          "score": 83,
+          "symbol": "GOMES"
+        },
+        {
+          "title": "fiorentina",
+          "score": 83,
+          "symbol": "FIORENTI"
+        },
+        {
+          "title": "seungri",
+          "score": 83,
+          "symbol": "SEUNGRI"
+        },
+        {
+          "title": "multishow",
+          "score": 82,
+          "symbol": "MULTISHO"
+        },
+        {
+          "title": "alejandra de hannover",
+          "score": 82,
+          "symbol": "ALEJANDR"
+        },
+        {
+          "title": "paulo gonet",
+          "score": 79,
+          "symbol": "PAULO"
+        },
+        {
+          "title": "malik nabers",
+          "score": 79,
+          "symbol": "MALIK"
+        },
+        {
+          "title": "championship",
+          "score": 79,
+          "symbol": "CHAMPION"
+        },
+        {
+          "title": "franco mastantuono",
+          "score": 79,
+          "symbol": "FRANCO"
+        },
+        {
+          "title": "velez",
+          "score": 79,
+          "symbol": "VELEZ"
+        },
+        {
+          "title": "pase",
+          "score": 79,
+          "symbol": "PASE"
+        },
+        {
+          "title": "alexander zverev",
+          "score": 79,
+          "symbol": "ALEXANDE"
+        },
+        {
+          "title": "nifty",
+          "score": 79,
+          "symbol": "NIFTY"
+        },
+        {
+          "title": "gordon ramsay",
+          "score": 78,
+          "symbol": "GORDON"
+        },
+        {
+          "title": "marseille fc",
+          "score": 78,
+          "symbol": "MARSEILL"
+        },
+        {
+          "title": "bbse3",
+          "score": 78,
+          "symbol": "BBSE3"
+        },
+        {
+          "title": "octavio romero oropeza",
+          "score": 78,
+          "symbol": "OCTAVIO"
+        },
+        {
+          "title": "scandal",
+          "score": 78,
+          "symbol": "SCANDAL"
+        },
+        {
+          "title": "ludwig",
+          "score": 77,
+          "symbol": "LUDWIG"
+        },
+        {
+          "title": "tabac",
+          "score": 77,
+          "symbol": "TABAC"
+        },
+        {
+          "title": "parent",
+          "score": 77,
+          "symbol": "PARENT"
+        },
+        {
+          "title": "al-ahli vs al-hazem",
+          "score": 77,
+          "symbol": "AHLI"
+        },
+        {
+          "title": "karen khachanov",
+          "score": 75,
+          "symbol": "KAREN"
+        },
+        {
+          "title": "sevilla vs valencia",
+          "score": 75,
+          "symbol": "SEVILLA"
+        },
+        {
+          "title": "photos",
+          "score": 75,
+          "symbol": "PHOTOS"
+        },
+        {
+          "title": "sony playstation",
+          "score": 74,
+          "symbol": "SONY"
+        },
+        {
+          "title": "kansas football",
+          "score": 68,
+          "symbol": "KANSAS"
+        },
+        {
+          "title": "atlanta weather",
+          "score": 68,
+          "symbol": "ATLANTA"
+        },
+        {
+          "title": "al-ahli saudi fc vs al-hazem f.c. standings",
+          "score": 68,
+          "symbol": "AHLI"
+        },
+        {
+          "title": "rebel wilson",
+          "score": 68,
+          "symbol": "REBEL"
+        },
+        {
+          "title": "perth weather",
+          "score": 68,
+          "symbol": "PERTH"
+        },
+        {
+          "title": "precio",
+          "score": 68,
+          "symbol": "PRECIO"
+        },
+        {
+          "title": "amber alert",
+          "score": 68,
+          "symbol": "AMBER"
+        },
+        {
+          "title": "el nino",
+          "score": 68,
+          "symbol": "NINO"
+        },
+        {
+          "title": "the runner",
+          "score": 67,
+          "symbol": "RUNNER"
+        },
+        {
+          "title": "woody harrelson",
+          "score": 67,
+          "symbol": "WOODY"
+        },
+        {
+          "title": "travel warning",
+          "score": 67,
+          "symbol": "TRAVEL"
+        },
+        {
+          "title": "air force one",
+          "score": 67,
+          "symbol": "AIR"
+        },
+        {
+          "title": "josh hartnett",
+          "score": 67,
+          "symbol": "JOSH"
+        },
+        {
+          "title": "brisbane weather",
+          "score": 67,
+          "symbol": "BRISBANE"
+        },
+        {
+          "title": "weather brisbane",
+          "score": 67,
+          "symbol": "WEATHER"
+        },
+        {
+          "title": "bid",
+          "score": 67,
+          "symbol": "BID"
+        },
+        {
+          "title": "sanción económica",
+          "score": 67,
+          "symbol": "SANCI"
+        },
+        {
+          "title": "indonesia volcano eruption",
+          "score": 67,
+          "symbol": "INDONESI"
+        },
+        {
+          "title": "union berlin vs schalke",
+          "score": 67,
+          "symbol": "UNION"
+        },
+        {
+          "title": "afl scores",
+          "score": 66,
+          "symbol": "AFL"
+        },
+        {
+          "title": "indian women cricket team",
+          "score": 66,
+          "symbol": "INDIAN"
+        },
+        {
+          "title": "we are all strangers",
+          "score": 66,
+          "symbol": "ARE"
+        },
+        {
+          "title": "d&apos;andre swift",
+          "score": 65,
+          "symbol": "APOS"
+        }
+      ]
     }
   ]
 }
