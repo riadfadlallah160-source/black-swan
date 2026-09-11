@@ -1,0 +1,34 @@
+name: Authorize Frozen Batch
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: authorize-frozen-batch
+  cancel-in-progress: false
+
+jobs:
+  authorize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Record one authorization for the full frozen batch
+        run: npm run authorize
+      - name: Persist authorization record
+        run: |
+          git config user.name 'black-swan-bot'
+          git config user.email 'black-swan-bot@users.noreply.github.com'
+          git add data/approval-batch.json
+          if git diff --cached --quiet; then
+            echo 'Batch was already authorized'
+          else
+            git commit -m 'chore: authorize frozen Black Swan batch [skip ci]'
+            git push
+          fi
