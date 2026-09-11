@@ -37,7 +37,10 @@ jobs:
         run: |
           git config user.name 'black-swan-bot'
           git config user.email 'black-swan-bot@users.noreply.github.com'
-          git add data/latest.json data/history.json data/launch-batch.json data/package-history.json data/approval-pool.json data/approval-batch.json assets/generated/ || true
+          git add data/latest.json data/history.json data/launch-batch.json data/package-history.json data/approval-pool.json assets/generated/
+          if [ -f data/approval-batch.json ]; then
+            git add data/approval-batch.json
+          fi
           if git diff --cached --quiet; then
             echo 'No state change'
           else
