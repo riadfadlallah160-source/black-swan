@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-11T22:05:43.218Z",
-  "count": 36,
+  "updatedAt": "2026-09-11T22:21:13.291Z",
+  "count": 45,
   "readyCount": 0,
-  "pendingInfrastructureCount": 36,
+  "pendingInfrastructureCount": 45,
   "target": 100,
   "packages": [
     {
@@ -33,9 +33,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -75,9 +99,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:54:24.688Z"
     },
     {
@@ -108,9 +139,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -150,9 +205,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
@@ -183,9 +245,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -225,9 +311,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
@@ -258,9 +351,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -300,9 +417,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
@@ -332,9 +456,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -374,9 +522,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
@@ -407,9 +562,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -449,9 +628,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
@@ -482,9 +668,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -524,9 +734,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
@@ -557,9 +774,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -599,9 +840,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
@@ -632,9 +880,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -674,9 +946,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:54:24.689Z"
     },
     {
@@ -707,9 +986,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -749,9 +1052,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:56:52.481Z"
     },
     {
@@ -782,9 +1092,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -824,9 +1158,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:56:52.481Z"
     },
     {
@@ -857,9 +1198,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -899,9 +1264,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:56:52.481Z"
     },
     {
@@ -931,9 +1303,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -973,9 +1369,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:56:52.481Z"
     },
     {
@@ -1005,9 +1408,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -1047,9 +1474,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:56:52.481Z"
     },
     {
@@ -1079,9 +1513,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -1121,9 +1579,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:56:52.481Z"
     },
     {
@@ -1153,9 +1618,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -1195,9 +1684,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:56:52.481Z"
     },
     {
@@ -1227,9 +1723,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -1269,9 +1789,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:56:52.481Z"
     },
     {
@@ -1301,9 +1828,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -1343,9 +1894,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:56:52.481Z"
     },
     {
@@ -1376,9 +1934,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -1418,9 +2000,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:59:50.613Z"
     },
     {
@@ -1450,9 +2039,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -1492,9 +2105,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:59:50.613Z"
     },
     {
@@ -1524,9 +2144,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -1566,9 +2210,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:59:50.613Z"
     },
     {
@@ -1598,9 +2249,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -1640,9 +2315,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:59:50.613Z"
     },
     {
@@ -1672,9 +2354,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -1714,9 +2420,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:59:50.613Z"
     },
     {
@@ -1747,9 +2460,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -1789,9 +2526,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:59:50.613Z"
     },
     {
@@ -1822,9 +2566,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -1864,9 +2632,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:59:50.613Z"
     },
     {
@@ -1896,9 +2671,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -1938,9 +2737,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:59:50.613Z"
     },
     {
@@ -1971,9 +2777,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -2013,9 +2843,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T21:59:50.613Z"
     },
     {
@@ -2045,9 +2882,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -2087,9 +2948,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T22:05:43.218Z"
     },
     {
@@ -2120,9 +2988,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -2162,9 +3054,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T22:05:43.218Z"
     },
     {
@@ -2195,9 +3094,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -2237,9 +3160,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T22:05:43.218Z"
     },
     {
@@ -2269,9 +3199,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -2311,9 +3265,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T22:05:43.218Z"
     },
     {
@@ -2344,9 +3305,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -2386,9 +3371,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T22:05:43.218Z"
     },
     {
@@ -2419,9 +3411,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -2461,9 +3477,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T22:05:43.218Z"
     },
     {
@@ -2494,9 +3517,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -2536,9 +3583,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T22:05:43.218Z"
     },
     {
@@ -2569,9 +3623,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -2611,9 +3689,16 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T22:05:43.218Z"
     },
     {
@@ -2643,9 +3728,33 @@
         "devBuyEth": 0,
         "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
         "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
+        "exitVaultReady": false,
+        "founderCustody": "beneficiary-wallet"
       },
-      "earlyAirdropClaim": null,
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
       "clanker": {
         "endpoint": "https://www.clanker.world/api/tokens/deploy",
         "chainId": 8453,
@@ -2685,10 +3794,968 @@
           "startingFee": 666777,
           "endingFee": 41673,
           "secondsToDecay": 15
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
         }
       },
-      "readiness": "waiting-for-exit-vault-address",
+      "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T22:05:43.218Z"
+    },
+    {
+      "narrative": "rayados vs tigres",
+      "score": 91,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 20,000",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Rayados Vs Tigres",
+        "symbol": "RAYADOS",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Rayados Vs Tigres. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/69e2c1c5f8b5b212.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/69e2c1c5f8b5b212.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Rayados Vs Tigres",
+          "symbol": "RAYADOS",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/69e2c1c5f8b5b212.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Rayados Vs Tigres. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "4d3758025504be33784b00668439470e"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:21:13.286Z"
+    },
+    {
+      "narrative": "pesquisa senado sp",
+      "score": 88,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Pesquisa Senado Sp",
+        "symbol": "PESQUISA",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Pesquisa Senado Sp. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/85882277b1bef020.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/85882277b1bef020.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Pesquisa Senado Sp",
+          "symbol": "PESQUISA",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/85882277b1bef020.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Pesquisa Senado Sp. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "67a018d7f321e72fbb3850c1cc7e2a39"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:21:13.287Z"
+    },
+    {
+      "narrative": "siddharth shukla",
+      "score": 84,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Siddharth Shukla",
+        "symbol": "SIDDHART",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Siddharth Shukla. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/fb60f0b3d725f59a.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/fb60f0b3d725f59a.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Siddharth Shukla",
+          "symbol": "SIDDHART",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/fb60f0b3d725f59a.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Siddharth Shukla. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "af3e4a8f0f61254bb534842b0e0349de"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:21:13.288Z"
+    },
+    {
+      "narrative": "fabricio bustos",
+      "score": 84,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Fabricio Bustos",
+        "symbol": "FABRICIO",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Fabricio Bustos. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/c03bc67bf4cbdae2.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/c03bc67bf4cbdae2.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Fabricio Bustos",
+          "symbol": "FABRICIO",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/c03bc67bf4cbdae2.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Fabricio Bustos. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "1058f7d52a70ff06ddae697a8250ab35"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:21:13.289Z"
+    },
+    {
+      "narrative": "mastantuono",
+      "score": 83,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Mastantuono",
+        "symbol": "MASTANTU",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Mastantuono. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/a711b730c68076a1.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/a711b730c68076a1.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Mastantuono",
+          "symbol": "MASTANTU",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/a711b730c68076a1.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Mastantuono. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "56d3f24fb77a49bf1dc154ed4ef13c52"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:21:13.289Z"
+    },
+    {
+      "narrative": "helena afonso",
+      "score": 79,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 1,
+        "active": 0,
+        "liquid": 1
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100"
+      ],
+      "token": {
+        "name": "Helena Afonso",
+        "symbol": "HELENA",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Helena Afonso. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/7891aff7470766f6.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/7891aff7470766f6.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Helena Afonso",
+          "symbol": "HELENA",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/7891aff7470766f6.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Helena Afonso. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "cd655b6c01a7b58e0f20fe70516a1e12"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:21:13.290Z"
+    },
+    {
+      "narrative": "rainha matos",
+      "score": 76,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 5,
+        "active": 0,
+        "liquid": 2
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100"
+      ],
+      "token": {
+        "name": "Rainha Matos",
+        "symbol": "RAINHA",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Rainha Matos. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/4dc72a5ddfa45ceb.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/4dc72a5ddfa45ceb.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Rainha Matos",
+          "symbol": "RAINHA",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/4dc72a5ddfa45ceb.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Rainha Matos. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "2283550f6856868b46d1a913756880f9"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:21:13.290Z"
+    },
+    {
+      "narrative": "cookies",
+      "score": 71,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 14,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100"
+      ],
+      "token": {
+        "name": "Cookies",
+        "symbol": "COOKIES",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Cookies. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/814d5d4bd6785bf9.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/814d5d4bd6785bf9.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Cookies",
+          "symbol": "COOKIES",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/814d5d4bd6785bf9.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Cookies. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "3bba5fbd5b7a4b7f72bfac9dcf9c651c"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:21:13.291Z"
+    },
+    {
+      "narrative": "judge judy",
+      "score": 68,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 22,
+        "active": 1,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 1,000",
+        "1 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Judge Judy",
+        "symbol": "JUDGE",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Judge Judy. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/1876ed31660d2a89.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/1876ed31660d2a89.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Judge Judy",
+          "symbol": "JUDGE",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/1876ed31660d2a89.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Judge Judy. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "1200da668430160a9a64231470dc90da"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:21:13.291Z"
     }
   ]
 }
