@@ -1,0 +1,21 @@
+{
+  "updatedAt": "2026-09-11T21:59:51.754Z",
+  "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+  "baseUsdc": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "feeStream": {
+    "mode": "Clanker FeeLocker paired-asset rewards",
+    "claimableUsdc": "0",
+    "claimableUsdcRaw": "0",
+    "permissionlessClaim": true,
+    "payoutRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+    "automaticClaimExecutorArmed": false,
+    "error": null
+  },
+  "founderStream": {
+    "exitVaultAddress": null,
+    "exitVaultDeployedAndConfigured": false,
+    "liveTokenCount": 0,
+    "eligibleExitCount": 0,
+    "positions": []
+  }
+}
