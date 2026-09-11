@@ -1,32 +1,554 @@
 {
-  "generatedAt": "2026-09-11T22:29:16.398Z",
+  "generatedAt": "2026-09-11T22:30:08.939Z",
   "targetPerScan": 50,
   "targetPerHour": 108,
   "issuanceRail": "clanker-v4",
   "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
   "baseUsdc": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-  "count": 15,
+  "count": 22,
   "packages": [
     {
-      "narrative": "pakistan vs sri lanka",
-      "score": 67,
+      "narrative": "mets vs yankees",
+      "score": 56,
       "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 8,
+        "liquid": 5
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "8 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Mets Vs Yankees",
+        "symbol": "METS",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Mets Vs Yankees. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/0bd259d85e06e12a.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/0bd259d85e06e12a.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Mets Vs Yankees",
+          "symbol": "METS",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/0bd259d85e06e12a.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Mets Vs Yankees. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "49d0d87c758f1111ee0cba4cb984a404"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready"
+    },
+    {
+      "narrative": "orioles vs blue jays",
+      "score": 56,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 11,
+        "liquid": 28
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "11 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Orioles Vs Blue Jays",
+        "symbol": "ORIOLES",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Orioles Vs Blue Jays. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/ec659b87939f54b7.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ec659b87939f54b7.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Orioles Vs Blue Jays",
+          "symbol": "ORIOLES",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ec659b87939f54b7.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Orioles Vs Blue Jays. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "d544adbad5a2999cad74bdd34baceb5a"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready"
+    },
+    {
+      "narrative": "car dekho",
+      "score": 56,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 8,
+        "liquid": 11
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "8 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Car Dekho",
+        "symbol": "CAR",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Car Dekho. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/9f37d087d47fe115.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/9f37d087d47fe115.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Car Dekho",
+          "symbol": "CAR",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/9f37d087d47fe115.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Car Dekho. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "8146c19323db46b0b478e2e9e7aea393"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready"
+    },
+    {
+      "narrative": "Kylian Mbappe finally responds to viral ‘Dictator’ memes - The News International",
+      "score": 56,
+      "category": "internet-culture",
+      "saturation": {
+        "pairs": 28,
+        "active": 2,
+        "liquid": 3
+      },
+      "rationale": [
+        "news confirmation",
+        "2 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Kylian Mbappe Finally Responds To Viral ‘Dictator’",
+        "symbol": "KYLIAN",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Kylian Mbappe Finally Responds To Viral ‘Dictator’. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/e84fb7cb00cffc44.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/e84fb7cb00cffc44.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Kylian Mbappe Finally Responds To Viral ‘Dictator’",
+          "symbol": "KYLIAN",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/e84fb7cb00cffc44.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Kylian Mbappe Finally Responds To Viral ‘Dictator’. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "d2539ffef0aa63b33cac5fe729878639"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready"
+    },
+    {
+      "narrative": "Colorado teen arrested after posting viral ‘Cat in the Hat’ meme - The Denver Post",
+      "score": 56,
+      "category": "internet-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 2,
+        "liquid": 8
+      },
+      "rationale": [
+        "news confirmation",
+        "2 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Colorado Teen Arrested After Posting Viral ‘Cat In",
+        "symbol": "COLORADO",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Colorado Teen Arrested After Posting Viral ‘Cat In. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/ad5328e89c29adde.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ad5328e89c29adde.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Colorado Teen Arrested After Posting Viral ‘Cat In",
+          "symbol": "COLORADO",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ad5328e89c29adde.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Colorado Teen Arrested After Posting Viral ‘Cat In. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "5dbcd1dea32c334d2c2f155765c5dc5c"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready"
+    },
+    {
+      "narrative": "10 Bizarre Viral Trends That Took Things Too Far - Listverse",
+      "score": 56,
+      "category": "internet-culture",
       "saturation": {
         "pairs": 30,
         "active": 1,
-        "liquid": 15
+        "liquid": 16
       },
       "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
+        "news confirmation",
         "1 active matching DEX pairs (saturation risk)"
       ],
       "token": {
-        "name": "Pakistan Vs Sri Lanka",
-        "symbol": "PAKISTAN",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Pakistan Vs Sri Lanka. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/9e71ec39b5bdd5b1.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/9e71ec39b5bdd5b1.png"
+        "name": "10 Bizarre Viral Trends That Took Things Too Far -",
+        "symbol": "BIZARRE",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: 10 Bizarre Viral Trends That Took Things Too Far -. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/ab7e2fe2773de23f.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ab7e2fe2773de23f.png"
       },
       "economics": {
         "stream1": "Creator LP rewards in Base USDC to beneficiary",
@@ -67,12 +589,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Pakistan Vs Sri Lanka",
-          "symbol": "PAKISTAN",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/9e71ec39b5bdd5b1.png",
+          "name": "10 Bizarre Viral Trends That Took Things Too Far -",
+          "symbol": "BIZARRE",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ab7e2fe2773de23f.png",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Pakistan Vs Sri Lanka. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "e98e1b1a90968eda48ffcdb11e464337"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: 10 Bizarre Viral Trends That Took Things Too Far -. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "e58f5e6da44ce0ef50380c43af0ea31a"
         },
         "rewards": [
           {
@@ -113,25 +635,24 @@
       "readiness": "launch-api-ready"
     },
     {
-      "narrative": "28 days later",
-      "score": 63,
-      "category": "general-culture",
+      "narrative": "Subway Surfers Adds Viral Musician bbno$ As A Playable Character - Bleeding Cool News",
+      "score": 56,
+      "category": "internet-culture",
       "saturation": {
         "pairs": 30,
-        "active": 4,
-        "liquid": 6
+        "active": 1,
+        "liquid": 5
       },
       "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "4 active matching DEX pairs (saturation risk)"
+        "news confirmation",
+        "1 active matching DEX pairs (saturation risk)"
       ],
       "token": {
-        "name": "28 Days Later",
-        "symbol": "DAYS",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: 28 Days Later. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/89e8e5b655672d07.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/89e8e5b655672d07.png"
+        "name": "Subway Surfers Adds Viral Musician Bbno$ As A Play",
+        "symbol": "SUBWAY",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Subway Surfers Adds Viral Musician Bbno$ As A Play. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/ad88059f765404a0.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ad88059f765404a0.png"
       },
       "economics": {
         "stream1": "Creator LP rewards in Base USDC to beneficiary",
@@ -172,12 +693,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "28 Days Later",
-          "symbol": "DAYS",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/89e8e5b655672d07.png",
+          "name": "Subway Surfers Adds Viral Musician Bbno$ As A Play",
+          "symbol": "SUBWAY",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ad88059f765404a0.png",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: 28 Days Later. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "3336a3d9140a8019c92db062c19d85b5"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Subway Surfers Adds Viral Musician Bbno$ As A Play. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "9d24dbb727c91d04331942551c1e8d13"
         },
         "rewards": [
           {
@@ -218,25 +739,24 @@
       "readiness": "launch-api-ready"
     },
     {
-      "narrative": "princess astrid, mrs. ferner",
-      "score": 63,
-      "category": "general-culture",
+      "narrative": "\"Do We Really Both Have The Same Chance Of Winning\": This Woman's A++ Analogy Comparing Systemic Racism To The Game Monopoly Is Going Mega Viral - BuzzFeed",
+      "score": 56,
+      "category": "gaming",
       "saturation": {
         "pairs": 30,
-        "active": 3,
-        "liquid": 18
+        "active": 1,
+        "liquid": 10
       },
       "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "3 active matching DEX pairs (saturation risk)"
+        "news confirmation",
+        "1 active matching DEX pairs (saturation risk)"
       ],
       "token": {
-        "name": "Princess Astrid, Mrs. Ferner",
-        "symbol": "PRINCESS",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Princess Astrid, Mrs. Ferner. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/3c9d922283df5c1a.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/3c9d922283df5c1a.png"
+        "name": "\"Do We Really Both Have The Same Chance Of Winning",
+        "symbol": "REALLY",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: \"Do We Really Both Have The Same Chance Of Winning. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/759d6b0a57054844.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/759d6b0a57054844.png"
       },
       "economics": {
         "stream1": "Creator LP rewards in Base USDC to beneficiary",
@@ -277,12 +797,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Princess Astrid, Mrs. Ferner",
-          "symbol": "PRINCESS",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/3c9d922283df5c1a.png",
+          "name": "\"Do We Really Both Have The Same Chance Of Winning",
+          "symbol": "REALLY",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/759d6b0a57054844.png",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Princess Astrid, Mrs. Ferner. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "b0fff3e990c259fad36fe152b3ecbdf2"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: \"Do We Really Both Have The Same Chance Of Winning. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "7b156e8ebfda12d6f0fd8a2f0f2ccb71"
         },
         "rewards": [
           {
@@ -323,550 +843,23 @@
       "readiness": "launch-api-ready"
     },
     {
-      "narrative": "kim zolciak",
-      "score": 63,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 30,
-        "active": 3,
-        "liquid": 24
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "3 active matching DEX pairs (saturation risk)"
-      ],
-      "token": {
-        "name": "Kim Zolciak",
-        "symbol": "KIM",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Kim Zolciak. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/7a4126c6651b40cc.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/7a4126c6651b40cc.png"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards in Base USDC to beneficiary",
-        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
-        "totalFounderAllocationPercentage": 10,
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderCustody": "beneficiary-wallet",
-        "exitVaultReady": false
-      },
-      "earlyAirdropClaim": {
-        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "allocatedAmount": "3000000000000000000000000000",
-        "proof": [],
-        "tree": {
-          "format": "standard-v1",
-          "leafEncoding": [
-            "address",
-            "uint256"
-          ],
-          "tree": [
-            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
-          ],
-          "values": [
-            {
-              "value": [
-                "0xf744573cdfFC211163c11c0a31730851Da78f708",
-                "3000000000000000000000000000"
-              ],
-              "treeIndex": 0
-            }
-          ]
-        }
-      },
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Kim Zolciak",
-          "symbol": "KIM",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/7a4126c6651b40cc.png",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Kim Zolciak. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "2a9d7afaaedf8af8f2f0114d1955b5bd"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 7,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "airdrop": {
-          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
-          "lockupDuration": 86400,
-          "vestingDuration": 0,
-          "amount": 3000000000
-        },
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "launch-api-ready"
-    },
-    {
-      "narrative": "airbus vs tns",
-      "score": 63,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 30,
-        "active": 7,
-        "liquid": 26
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "7 active matching DEX pairs (saturation risk)"
-      ],
-      "token": {
-        "name": "Airbus Vs Tns",
-        "symbol": "AIRBUS",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Airbus Vs Tns. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/24d9a460179fd3b4.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/24d9a460179fd3b4.png"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards in Base USDC to beneficiary",
-        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
-        "totalFounderAllocationPercentage": 10,
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderCustody": "beneficiary-wallet",
-        "exitVaultReady": false
-      },
-      "earlyAirdropClaim": {
-        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "allocatedAmount": "3000000000000000000000000000",
-        "proof": [],
-        "tree": {
-          "format": "standard-v1",
-          "leafEncoding": [
-            "address",
-            "uint256"
-          ],
-          "tree": [
-            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
-          ],
-          "values": [
-            {
-              "value": [
-                "0xf744573cdfFC211163c11c0a31730851Da78f708",
-                "3000000000000000000000000000"
-              ],
-              "treeIndex": 0
-            }
-          ]
-        }
-      },
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Airbus Vs Tns",
-          "symbol": "AIRBUS",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/24d9a460179fd3b4.png",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Airbus Vs Tns. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "785509a890e6df1a6effa46984c3a4b2"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 7,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "airdrop": {
-          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
-          "lockupDuration": 86400,
-          "vestingDuration": 0,
-          "amount": 3000000000
-        },
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "launch-api-ready"
-    },
-    {
-      "narrative": "joe lycett",
-      "score": 62,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 30,
-        "active": 7,
-        "liquid": 23
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "7 active matching DEX pairs (saturation risk)"
-      ],
-      "token": {
-        "name": "Joe Lycett",
-        "symbol": "JOE",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Joe Lycett. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/df1af7e69057d002.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/df1af7e69057d002.png"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards in Base USDC to beneficiary",
-        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
-        "totalFounderAllocationPercentage": 10,
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderCustody": "beneficiary-wallet",
-        "exitVaultReady": false
-      },
-      "earlyAirdropClaim": {
-        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "allocatedAmount": "3000000000000000000000000000",
-        "proof": [],
-        "tree": {
-          "format": "standard-v1",
-          "leafEncoding": [
-            "address",
-            "uint256"
-          ],
-          "tree": [
-            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
-          ],
-          "values": [
-            {
-              "value": [
-                "0xf744573cdfFC211163c11c0a31730851Da78f708",
-                "3000000000000000000000000000"
-              ],
-              "treeIndex": 0
-            }
-          ]
-        }
-      },
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Joe Lycett",
-          "symbol": "JOE",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/df1af7e69057d002.png",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Joe Lycett. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "a05ac4ec1d5205d552ea306b11a3aa83"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 7,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "airdrop": {
-          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
-          "lockupDuration": 86400,
-          "vestingDuration": 0,
-          "amount": 3000000000
-        },
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "launch-api-ready"
-    },
-    {
-      "narrative": "dow jones moneycontrol",
-      "score": 62,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 30,
-        "active": 5,
-        "liquid": 15
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "5 active matching DEX pairs (saturation risk)"
-      ],
-      "token": {
-        "name": "Dow Jones Moneycontrol",
-        "symbol": "DOW",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Dow Jones Moneycontrol. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/c5e0305b31e98fb8.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/c5e0305b31e98fb8.png"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards in Base USDC to beneficiary",
-        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
-        "totalFounderAllocationPercentage": 10,
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderCustody": "beneficiary-wallet",
-        "exitVaultReady": false
-      },
-      "earlyAirdropClaim": {
-        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "allocatedAmount": "3000000000000000000000000000",
-        "proof": [],
-        "tree": {
-          "format": "standard-v1",
-          "leafEncoding": [
-            "address",
-            "uint256"
-          ],
-          "tree": [
-            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
-          ],
-          "values": [
-            {
-              "value": [
-                "0xf744573cdfFC211163c11c0a31730851Da78f708",
-                "3000000000000000000000000000"
-              ],
-              "treeIndex": 0
-            }
-          ]
-        }
-      },
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Dow Jones Moneycontrol",
-          "symbol": "DOW",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/c5e0305b31e98fb8.png",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Dow Jones Moneycontrol. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "95514fc7505077940459429d0d7512c3"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 7,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "airdrop": {
-          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
-          "lockupDuration": 86400,
-          "vestingDuration": 0,
-          "amount": 3000000000
-        },
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "launch-api-ready"
-    },
-    {
-      "narrative": "spanish grand prix",
-      "score": 62,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 30,
-        "active": 6,
-        "liquid": 15
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "6 active matching DEX pairs (saturation risk)"
-      ],
-      "token": {
-        "name": "Spanish Grand Prix",
-        "symbol": "SPANISH",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Spanish Grand Prix. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/68bd79e393702648.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/68bd79e393702648.png"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards in Base USDC to beneficiary",
-        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
-        "totalFounderAllocationPercentage": 10,
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderCustody": "beneficiary-wallet",
-        "exitVaultReady": false
-      },
-      "earlyAirdropClaim": {
-        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "allocatedAmount": "3000000000000000000000000000",
-        "proof": [],
-        "tree": {
-          "format": "standard-v1",
-          "leafEncoding": [
-            "address",
-            "uint256"
-          ],
-          "tree": [
-            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
-          ],
-          "values": [
-            {
-              "value": [
-                "0xf744573cdfFC211163c11c0a31730851Da78f708",
-                "3000000000000000000000000000"
-              ],
-              "treeIndex": 0
-            }
-          ]
-        }
-      },
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Spanish Grand Prix",
-          "symbol": "SPANISH",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/68bd79e393702648.png",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Spanish Grand Prix. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "cfb0fb7a8626ce2ca6f0d37f1ea6c526"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 7,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "airdrop": {
-          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
-          "lockupDuration": 86400,
-          "vestingDuration": 0,
-          "amount": 3000000000
-        },
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "launch-api-ready"
-    },
-    {
-      "narrative": "nba",
-      "score": 62,
+      "narrative": "Viral video prompts review of football postgame incident at Winter Park High School - WKMG",
+      "score": 56,
       "category": "sports",
       "saturation": {
         "pairs": 30,
-        "active": 7,
-        "liquid": 15
+        "active": 0,
+        "liquid": 6
       },
       "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "7 active matching DEX pairs (saturation risk)"
+        "news confirmation"
       ],
       "token": {
-        "name": "Nba",
-        "symbol": "NBA",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Nba. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/95027efdbf9172d5.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/95027efdbf9172d5.png"
+        "name": "Viral Video Prompts Review Of Football Postgame In",
+        "symbol": "VIRAL",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Viral Video Prompts Review Of Football Postgame In. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/b0f691d2fcf24d15.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/b0f691d2fcf24d15.png"
       },
       "economics": {
         "stream1": "Creator LP rewards in Base USDC to beneficiary",
@@ -907,12 +900,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Nba",
-          "symbol": "NBA",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/95027efdbf9172d5.png",
+          "name": "Viral Video Prompts Review Of Football Postgame In",
+          "symbol": "VIRAL",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/b0f691d2fcf24d15.png",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Nba. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "06dcadc5757c928c9aa3522f93ac780a"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Viral Video Prompts Review Of Football Postgame In. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "fd3d40ff05bde49976f25a071c54e2e7"
         },
         "rewards": [
           {
@@ -953,25 +946,24 @@
       "readiness": "launch-api-ready"
     },
     {
-      "narrative": "tan su shan",
-      "score": 62,
-      "category": "general-culture",
+      "narrative": "Here Are The Internet’s 51 Funniest Memes Today - BroBible",
+      "score": 56,
+      "category": "internet-culture",
       "saturation": {
         "pairs": 30,
-        "active": 7,
-        "liquid": 21
+        "active": 1,
+        "liquid": 1
       },
       "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "7 active matching DEX pairs (saturation risk)"
+        "news confirmation",
+        "1 active matching DEX pairs (saturation risk)"
       ],
       "token": {
-        "name": "Tan Su Shan",
-        "symbol": "TAN",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Tan Su Shan. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/f8ce36b26b6777af.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/f8ce36b26b6777af.png"
+        "name": "Here Are The Internet’S 51 Funniest Memes Today - ",
+        "symbol": "HERE",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Here Are The Internet’S 51 Funniest Memes Today - . Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/f74378a79bbe7e7a.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/f74378a79bbe7e7a.png"
       },
       "economics": {
         "stream1": "Creator LP rewards in Base USDC to beneficiary",
@@ -1012,12 +1004,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Tan Su Shan",
-          "symbol": "TAN",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/f8ce36b26b6777af.png",
+          "name": "Here Are The Internet’S 51 Funniest Memes Today - ",
+          "symbol": "HERE",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/f74378a79bbe7e7a.png",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Tan Su Shan. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "60248b5ff5d1cf5c1dcfc1f99b07e57e"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Here Are The Internet’S 51 Funniest Memes Today - . Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "d51849655020df451db28fd1fdd82b93"
         },
         "rewards": [
           {
@@ -1058,25 +1050,24 @@
       "readiness": "launch-api-ready"
     },
     {
-      "narrative": "thailand monk",
-      "score": 62,
-      "category": "general-culture",
+      "narrative": "Kylian Mbappé reacts to viral memes comparing him to a dictator - Yahoo Sports",
+      "score": 56,
+      "category": "internet-culture",
       "saturation": {
         "pairs": 30,
-        "active": 7,
-        "liquid": 22
+        "active": 1,
+        "liquid": 7
       },
       "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "7 active matching DEX pairs (saturation risk)"
+        "news confirmation",
+        "1 active matching DEX pairs (saturation risk)"
       ],
       "token": {
-        "name": "Thailand Monk",
-        "symbol": "THAILAND",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Thailand Monk. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/0ccb4f76cad468cb.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/0ccb4f76cad468cb.png"
+        "name": "Kylian Mbappé Reacts To Viral Memes Comparing Him ",
+        "symbol": "KYLIAN",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Kylian Mbappé Reacts To Viral Memes Comparing Him . Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/72f4e584a3f7f87c.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/72f4e584a3f7f87c.png"
       },
       "economics": {
         "stream1": "Creator LP rewards in Base USDC to beneficiary",
@@ -1117,12 +1108,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Thailand Monk",
-          "symbol": "THAILAND",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/0ccb4f76cad468cb.png",
+          "name": "Kylian Mbappé Reacts To Viral Memes Comparing Him ",
+          "symbol": "KYLIAN",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/72f4e584a3f7f87c.png",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Thailand Monk. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "3ec41fed9caa9b25d5aa16e4c61c7bbd"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Kylian Mbappé Reacts To Viral Memes Comparing Him . Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "153cdb998aff89e6594db90d79799b96"
         },
         "rewards": [
           {
@@ -1163,25 +1154,544 @@
       "readiness": "launch-api-ready"
     },
     {
-      "narrative": "deportivo vs real madrid",
-      "score": 62,
-      "category": "general-culture",
+      "narrative": "What Is The 'Remember November 2026' Meme? The Viral AI 'Polar Bear' Memes From The Future Explained - Yahoo",
+      "score": 56,
+      "category": "technology",
       "saturation": {
         "pairs": 30,
-        "active": 4,
+        "active": 1,
+        "liquid": 2
+      },
+      "rationale": [
+        "news confirmation",
+        "1 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "What Is The 'Remember November 2026' Meme? The Vir",
+        "symbol": "WHAT",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: What Is The 'Remember November 2026' Meme? The Vir. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/de80420751d53d18.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/de80420751d53d18.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "What Is The 'Remember November 2026' Meme? The Vir",
+          "symbol": "WHAT",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/de80420751d53d18.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: What Is The 'Remember November 2026' Meme? The Vir. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "9eb0f6ee0240f87923bec9bbbda39570"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready"
+    },
+    {
+      "narrative": "7 Film and TV Marketing Stunts That Went Viral This Summer - Event Marketer",
+      "score": 56,
+      "category": "internet-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 2,
+        "liquid": 11
+      },
+      "rationale": [
+        "news confirmation",
+        "2 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "7 Film And TV Marketing Stunts That Went Viral Thi",
+        "symbol": "FILM",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: 7 Film And TV Marketing Stunts That Went Viral Thi. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/9ceecfd737510667.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/9ceecfd737510667.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "7 Film And TV Marketing Stunts That Went Viral Thi",
+          "symbol": "FILM",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/9ceecfd737510667.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: 7 Film And TV Marketing Stunts That Went Viral Thi. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "cd3063ac1b9ddf42c77b875daa4cee30"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready"
+    },
+    {
+      "narrative": "Woman Goes Viral for Recreating Exact Replica of Practical Magic Kitchen, Complete with Custom Cabinets (Exclusive) - People.com",
+      "score": 56,
+      "category": "internet-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 1,
+        "liquid": 8
+      },
+      "rationale": [
+        "news confirmation",
+        "1 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Woman Goes Viral For Recreating Exact Replica Of P",
+        "symbol": "WOMAN",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Woman Goes Viral For Recreating Exact Replica Of P. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/dac62dcb350b7843.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/dac62dcb350b7843.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Woman Goes Viral For Recreating Exact Replica Of P",
+          "symbol": "WOMAN",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/dac62dcb350b7843.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Woman Goes Viral For Recreating Exact Replica Of P. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "ee0f9ead5e17dda89f438a75fc5bc901"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready"
+    },
+    {
+      "narrative": "That movie about Toyah and Robert Fripp's viral Sunday Lunch success is still in production - Louder",
+      "score": 56,
+      "category": "internet-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 2,
+        "liquid": 14
+      },
+      "rationale": [
+        "news confirmation",
+        "2 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "That Movie About Toyah And Robert Fripp'S Viral Su",
+        "symbol": "MOVIE",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: That Movie About Toyah And Robert Fripp'S Viral Su. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/4076fee2ba41707c.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/4076fee2ba41707c.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "That Movie About Toyah And Robert Fripp'S Viral Su",
+          "symbol": "MOVIE",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/4076fee2ba41707c.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: That Movie About Toyah And Robert Fripp'S Viral Su. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "0a894839b01feaf582f17b0f4f88ff88"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready"
+    },
+    {
+      "narrative": "#FactCheck: Viral Video Falsely Linked to Delhi Police Assault on Female Journalist Is From a Movie Shoot - CyberPeace Foundation",
+      "score": 56,
+      "category": "internet-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 0,
+        "liquid": 6
+      },
+      "rationale": [
+        "news confirmation"
+      ],
+      "token": {
+        "name": "#FactCheck: Viral Video Falsely Linked To Delhi Po",
+        "symbol": "FACTCHEC",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: #FactCheck: Viral Video Falsely Linked To Delhi Po. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/df276c05b9dd85db.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/df276c05b9dd85db.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "#FactCheck: Viral Video Falsely Linked To Delhi Po",
+          "symbol": "FACTCHEC",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/df276c05b9dd85db.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: #FactCheck: Viral Video Falsely Linked To Delhi Po. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "490af9ff70693f6a4811838df0d188ca"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready"
+    },
+    {
+      "narrative": "pakistan england live cricket match",
+      "score": 55,
+      "category": "sports",
+      "saturation": {
+        "pairs": 30,
+        "active": 9,
         "liquid": 20
       },
       "rationale": [
         "active search trend",
-        "approx trend traffic 100",
-        "4 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 10,000",
+        "9 active matching DEX pairs (saturation risk)"
       ],
       "token": {
-        "name": "Deportivo Vs Real Madrid",
-        "symbol": "DEPORTIV",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Deportivo Vs Real Madrid. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/6fe429431d442baa.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/6fe429431d442baa.png"
+        "name": "Pakistan England Live Cricket Match",
+        "symbol": "PAKISTAN",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Pakistan England Live Cricket Match. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/f427cfbb11e6e496.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/f427cfbb11e6e496.png"
       },
       "economics": {
         "stream1": "Creator LP rewards in Base USDC to beneficiary",
@@ -1222,12 +1732,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Deportivo Vs Real Madrid",
-          "symbol": "DEPORTIV",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/6fe429431d442baa.png",
+          "name": "Pakistan England Live Cricket Match",
+          "symbol": "PAKISTAN",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/f427cfbb11e6e496.png",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Deportivo Vs Real Madrid. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "0e60b6c8415c9c30ca5aa94cc4ec57a7"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Pakistan England Live Cricket Match. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "8d9e615648661a2dd8589fbfbc2c63ab"
         },
         "rewards": [
           {
@@ -1268,25 +1778,24 @@
       "readiness": "launch-api-ready"
     },
     {
-      "narrative": "greg norman",
-      "score": 61,
+      "narrative": "Best Of World Cup: Top Fan Moments, From Mexico's Duck To Argentina's Supporters - FOX Sports",
+      "score": 55,
       "category": "general-culture",
       "saturation": {
         "pairs": 30,
-        "active": 5,
-        "liquid": 8
+        "active": 2,
+        "liquid": 13
       },
       "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "5 active matching DEX pairs (saturation risk)"
+        "news confirmation",
+        "2 active matching DEX pairs (saturation risk)"
       ],
       "token": {
-        "name": "Greg Norman",
-        "symbol": "GREG",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Greg Norman. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/7ee8fb83769b36d9.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/7ee8fb83769b36d9.png"
+        "name": "Best Of World Cup: Top Fan Moments, From Mexico'S ",
+        "symbol": "BEST",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Best Of World Cup: Top Fan Moments, From Mexico'S . Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/3dbe2f45d2a5064c.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/3dbe2f45d2a5064c.png"
       },
       "economics": {
         "stream1": "Creator LP rewards in Base USDC to beneficiary",
@@ -1327,12 +1836,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Greg Norman",
-          "symbol": "GREG",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/7ee8fb83769b36d9.png",
+          "name": "Best Of World Cup: Top Fan Moments, From Mexico'S ",
+          "symbol": "BEST",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/3dbe2f45d2a5064c.png",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Greg Norman. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "0e5675bd237efe472fed1cff51aa7b54"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Best Of World Cup: Top Fan Moments, From Mexico'S . Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "762350282df84a611a720ac1677c9965"
         },
         "rewards": [
           {
@@ -1373,25 +1882,24 @@
       "readiness": "launch-api-ready"
     },
     {
-      "narrative": "champions league team of the week",
-      "score": 61,
-      "category": "general-culture",
+      "narrative": "Online meme culture and its demise - dailycampus.com",
+      "score": 55,
+      "category": "internet-culture",
       "saturation": {
         "pairs": 30,
-        "active": 6,
-        "liquid": 18
+        "active": 1,
+        "liquid": 1
       },
       "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "6 active matching DEX pairs (saturation risk)"
+        "news confirmation",
+        "1 active matching DEX pairs (saturation risk)"
       ],
       "token": {
-        "name": "Champions League Team Of The Week",
-        "symbol": "CHAMPION",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Champions League Team Of The Week. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/c0aea4ad47224b45.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/c0aea4ad47224b45.png"
+        "name": "Online Meme Culture And Its Demise - Dailycampus.C",
+        "symbol": "ONLINE",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Online Meme Culture And Its Demise - Dailycampus.C. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/5f9eb69e6b0e8887.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/5f9eb69e6b0e8887.png"
       },
       "economics": {
         "stream1": "Creator LP rewards in Base USDC to beneficiary",
@@ -1432,12 +1940,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Champions League Team Of The Week",
-          "symbol": "CHAMPION",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/c0aea4ad47224b45.png",
+          "name": "Online Meme Culture And Its Demise - Dailycampus.C",
+          "symbol": "ONLINE",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/5f9eb69e6b0e8887.png",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Champions League Team Of The Week. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "c5bde1f730ad394539a63b4c35ec22f8"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Online Meme Culture And Its Demise - Dailycampus.C. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "dd66a96fc24615116ef63d55ef0c1ded"
         },
         "rewards": [
           {
@@ -1478,25 +1986,232 @@
       "readiness": "launch-api-ready"
     },
     {
-      "narrative": "alexis vega",
-      "score": 61,
-      "category": "general-culture",
+      "narrative": "I’m Replacing My Jeans After Seeing Hailey Bieber, 29, and Katie Holmes, 46, Wear This $15 Rich-Girl Pants Trend - instyle.com",
+      "score": 55,
+      "category": "internet-culture",
       "saturation": {
         "pairs": 30,
-        "active": 3,
+        "active": 2,
+        "liquid": 5
+      },
+      "rationale": [
+        "news confirmation",
+        "2 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "I’M Replacing My Jeans After Seeing Hailey Bieber,",
+        "symbol": "REPLACIN",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: I’M Replacing My Jeans After Seeing Hailey Bieber,. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/6ece486bc281e74e.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/6ece486bc281e74e.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "I’M Replacing My Jeans After Seeing Hailey Bieber,",
+          "symbol": "REPLACIN",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/6ece486bc281e74e.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: I’M Replacing My Jeans After Seeing Hailey Bieber,. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "034cc1d3ff7074612e7927eac7d742d1"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready"
+    },
+    {
+      "narrative": "Kylian Mbappé Breaks Silence On Viral 'Dictator' Memes: 'It Doesn't Go Far But...' - News18",
+      "score": 55,
+      "category": "internet-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 1,
+        "liquid": 3
+      },
+      "rationale": [
+        "news confirmation",
+        "1 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Kylian Mbappé Breaks Silence On Viral 'Dictator' M",
+        "symbol": "KYLIAN",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Kylian Mbappé Breaks Silence On Viral 'Dictator' M. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/23515db1093b7132.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/23515db1093b7132.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Kylian Mbappé Breaks Silence On Viral 'Dictator' M",
+          "symbol": "KYLIAN",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/23515db1093b7132.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Kylian Mbappé Breaks Silence On Viral 'Dictator' M. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "39d266091f3884a68ba6886127dd2ea3"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready"
+    },
+    {
+      "narrative": "🎥 Kylian Mbappé finally responds to the dictator meme - ca.sports.yahoo.com",
+      "score": 55,
+      "category": "internet-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 2,
         "liquid": 4
       },
       "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "3 active matching DEX pairs (saturation risk)"
+        "news confirmation",
+        "2 active matching DEX pairs (saturation risk)"
       ],
       "token": {
-        "name": "Alexis Vega",
-        "symbol": "ALEXIS",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Alexis Vega. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/629a4c6babd8f92a.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/629a4c6babd8f92a.png"
+        "name": "🎥 Kylian Mbappé Finally Responds To The Dictator ",
+        "symbol": "KYLIAN",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: 🎥 Kylian Mbappé Finally Responds To The Dictator . Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/4bf66e4999e17dfb.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/4bf66e4999e17dfb.png"
       },
       "economics": {
         "stream1": "Creator LP rewards in Base USDC to beneficiary",
@@ -1537,12 +2252,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Alexis Vega",
-          "symbol": "ALEXIS",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/629a4c6babd8f92a.png",
+          "name": "🎥 Kylian Mbappé Finally Responds To The Dictator ",
+          "symbol": "KYLIAN",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/4bf66e4999e17dfb.png",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Alexis Vega. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "b4e413482ea4667f481ec0e0cee1fe12"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: 🎥 Kylian Mbappé Finally Responds To The Dictator . Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "aa223684d379a16bc0c379d029847d11"
         },
         "rewards": [
           {
