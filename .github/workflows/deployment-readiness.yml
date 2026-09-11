@@ -1,0 +1,81 @@
+name: Deployment Readiness Preflight
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deployment-readiness
+  cancel-in-progress: true
+
+jobs:
+  readiness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      CLANKER_API_KEY: ${{ secrets.CLANKER_API_KEY }}
+      DIRECT_DEPLOYER_PRIVATE_KEY: ${{ secrets.DIRECT_DEPLOYER_PRIVATE_KEY }}
+      BASE_RPC_URL: ${{ secrets.BASE_RPC_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Validate frozen batch and deployment rail
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import { isAddress, isHex } from 'viem';
+          const batch = JSON.parse(fs.readFileSync('data/approval-batch.json','utf8'));
+          const pk = process.env.DIRECT_DEPLOYER_PRIVATE_KEY || '';
+          const api = process.env.CLANKER_API_KEY || '';
+          const rpc = process.env.BASE_RPC_URL || '';
+          const packages = Array.isArray(batch.packages) ? batch.packages : [];
+          const economicsValid = packages.length === 100 && packages.every(p =>
+            p?.readiness === 'launch-api-ready' &&
+            Number(p?.economics?.totalFounderAllocationPercentage) === 10 &&
+            Number(p?.clanker?.vault?.percentage) === 7 &&
+            /^0x[a-fA-F0-9]{64}$/.test(String(p?.clanker?.airdrop?.merkleRoot || '')) &&
+            Array.isArray(p?.earlyAirdropClaim?.proof) &&
+            isAddress(p?.economics?.beneficiary || '') &&
+            isAddress(p?.economics?.founderRecipient || p?.clanker?.vault?.recipient || '')
+          );
+          const partnerApiConfigured = api.length > 0;
+          const directDeployerConfigured = isHex(pk) && pk.length === 66;
+          const rail = partnerApiConfigured ? 'clanker-partner-api' : directDeployerConfigured ? 'direct-clanker-v4' : null;
+          const ready = economicsValid && Boolean(rail);
+          const out = {
+            checkedAt: new Date().toISOString(),
+            frozenBatchId: batch.id || null,
+            frozenBatchStatus: batch.status || null,
+            packageCount: packages.length,
+            economicsValid,
+            allPackagesLaunchReady: Boolean(batch?.validation?.allPackagesLaunchReady) && economicsValid,
+            partnerApiConfigured,
+            directDeployerConfigured,
+            customRpcConfigured: rpc.length > 0,
+            selectedRail: rail,
+            liveBroadcastReady: ready,
+            remainingBlocker: ready ? null : !economicsValid ? 'frozen batch/economics validation failed' : 'no Clanker deployment credential is configured'
+          };
+          fs.writeFileSync('data/deployment-readiness.json', JSON.stringify(out,null,2));
+          console.log(JSON.stringify({...out, partnerApiConfigured: Boolean(partnerApiConfigured), directDeployerConfigured: Boolean(directDeployerConfigured)}, null, 2));
+          NODE
+      - name: Persist non-secret readiness result
+        run: |
+          git config user.name 'black-swan-bot'
+          git config user.email 'black-swan-bot@users.noreply.github.com'
+          git add data/deployment-readiness.json
+          if git diff --cached --quiet; then
+            echo 'Readiness unchanged'
+          else
+            git commit -m 'chore: record deployment readiness [skip ci]'
+            git push
+          fi
