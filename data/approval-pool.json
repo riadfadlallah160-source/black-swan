@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-11T22:31:14.299Z",
-  "count": 9,
-  "readyCount": 9,
+  "updatedAt": "2026-09-11T22:34:10.504Z",
+  "count": 13,
+  "readyCount": 13,
   "pendingInfrastructureCount": 0,
   "target": 100,
   "packages": [
@@ -949,6 +949,430 @@
       },
       "readiness": "launch-api-ready",
       "queuedAt": "2026-09-11T22:30:09.171Z"
+    },
+    {
+      "narrative": "phillies vs braves",
+      "score": 88,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Phillies Vs Braves",
+        "symbol": "PHILLIES",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Phillies Vs Braves. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/d2601529a3dccd57.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/d2601529a3dccd57.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Phillies Vs Braves",
+          "symbol": "PHILLIES",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/d2601529a3dccd57.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Phillies Vs Braves. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "31bae358143138af8f0a98ae779f41af"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:34:10.504Z"
+    },
+    {
+      "narrative": "astros vs rays",
+      "score": 72,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 2,
+        "liquid": 28
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "2 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Astros Vs Rays",
+        "symbol": "ASTROS",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Astros Vs Rays. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/ef089f602516c419.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ef089f602516c419.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Astros Vs Rays",
+          "symbol": "ASTROS",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/ef089f602516c419.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Astros Vs Rays. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "2857c7560e929e93f645079a484eed01"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:34:10.504Z"
+    },
+    {
+      "narrative": "tasia fortune",
+      "score": 68,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 2,
+        "liquid": 11
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500",
+        "2 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Tasia Fortune",
+        "symbol": "TASIA",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Tasia Fortune. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/563bfd4a0cd440a2.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/563bfd4a0cd440a2.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Tasia Fortune",
+          "symbol": "TASIA",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/563bfd4a0cd440a2.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Tasia Fortune. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "72dc15a8b5ea2418eb8e432772989228"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:34:10.504Z"
+    },
+    {
+      "narrative": "charles iii",
+      "score": 67,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 30,
+        "active": 2,
+        "liquid": 6
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500",
+        "2 active matching DEX pairs (saturation risk)"
+      ],
+      "token": {
+        "name": "Charles Iii",
+        "symbol": "CHARLES",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Charles Iii. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/7cfc2fb569f9de90.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/7cfc2fb569f9de90.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderCustody": "beneficiary-wallet",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": {
+        "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "allocatedAmount": "3000000000000000000000000000",
+        "proof": [],
+        "tree": {
+          "format": "standard-v1",
+          "leafEncoding": [
+            "address",
+            "uint256"
+          ],
+          "tree": [
+            "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7"
+          ],
+          "values": [
+            {
+              "value": [
+                "0xf744573cdfFC211163c11c0a31730851Da78f708",
+                "3000000000000000000000000000"
+              ],
+              "treeIndex": 0
+            }
+          ]
+        }
+      },
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Charles Iii",
+          "symbol": "CHARLES",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/7cfc2fb569f9de90.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Charles Iii. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "4f46c876a3f5952272c05d1191719d37"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "airdrop": {
+          "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "merkleRoot": "0xb53d6b7c36766aa5cd43321c9ea08299946053374632a0c44664817e5dfbc3f7",
+          "lockupDuration": 86400,
+          "vestingDuration": 0,
+          "amount": 3000000000
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "launch-api-ready",
+      "queuedAt": "2026-09-11T22:34:10.504Z"
     }
   ]
 }
