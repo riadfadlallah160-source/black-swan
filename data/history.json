@@ -2360,6 +2360,343 @@
           "symbol": "FRED"
         }
       ]
+    },
+    {
+      "generatedAt": "2026-09-11T09:01:46.650Z",
+      "sourceItems": 1288,
+      "uniqueNarratives": 1217,
+      "qualified": [
+        {
+          "title": "edson fachin",
+          "score": 88,
+          "symbol": "EDSON"
+        },
+        {
+          "title": "mbekezeli mbokazi",
+          "score": 88,
+          "symbol": "MBEKEZEL"
+        },
+        {
+          "title": "vaccines",
+          "score": 87,
+          "symbol": "VACCINES"
+        },
+        {
+          "title": "usopen",
+          "score": 87,
+          "symbol": "USOPEN"
+        },
+        {
+          "title": "livenation",
+          "score": 87,
+          "symbol": "LIVENATI"
+        },
+        {
+          "title": "gilas vs bahrain",
+          "score": 86,
+          "symbol": "GILAS"
+        },
+        {
+          "title": "unilag",
+          "score": 84,
+          "symbol": "UNILAG"
+        },
+        {
+          "title": "megapuente de septiembre",
+          "score": 84,
+          "symbol": "MEGAPUEN"
+        },
+        {
+          "title": "belinda",
+          "score": 84,
+          "symbol": "BELINDA"
+        },
+        {
+          "title": "tormenta norbert",
+          "score": 84,
+          "symbol": "TORMENTA"
+        },
+        {
+          "title": "lupita villalobos",
+          "score": 84,
+          "symbol": "LUPITA"
+        },
+        {
+          "title": "disbarment",
+          "score": 84,
+          "symbol": "DISBARME"
+        },
+        {
+          "title": "haiwaan",
+          "score": 84,
+          "symbol": "HAIWAAN"
+        },
+        {
+          "title": "abhijeet dipke",
+          "score": 84,
+          "symbol": "ABHIJEET"
+        },
+        {
+          "title": "cyril ramaphosa",
+          "score": 83,
+          "symbol": "CYRIL"
+        },
+        {
+          "title": "vaccinations",
+          "score": 83,
+          "symbol": "VACCINAT"
+        },
+        {
+          "title": "aryna sabalenka",
+          "score": 83,
+          "symbol": "ARYNA"
+        },
+        {
+          "title": "shailene woodley",
+          "score": 83,
+          "symbol": "SHAILENE"
+        },
+        {
+          "title": "kishin rk",
+          "score": 83,
+          "symbol": "KISHIN"
+        },
+        {
+          "title": "stetson bennett",
+          "score": 82,
+          "symbol": "STETSON"
+        },
+        {
+          "title": "elena rybakina",
+          "score": 81,
+          "symbol": "ELENA"
+        },
+        {
+          "title": "lauren edwards",
+          "score": 79,
+          "symbol": "LAUREN"
+        },
+        {
+          "title": "daniel farke",
+          "score": 79,
+          "symbol": "DANIEL"
+        },
+        {
+          "title": "sevilla vs valencia",
+          "score": 79,
+          "symbol": "SEVILLA"
+        },
+        {
+          "title": "previsão do tempo guarulhos",
+          "score": 79,
+          "symbol": "PREVIS"
+        },
+        {
+          "title": "previsão do tempo salvador",
+          "score": 79,
+          "symbol": "PREVIS"
+        },
+        {
+          "title": "slides",
+          "score": 78,
+          "symbol": "SLIDES"
+        },
+        {
+          "title": "accusé",
+          "score": 78,
+          "symbol": "ACCUS"
+        },
+        {
+          "title": "mobland",
+          "score": 78,
+          "symbol": "MOBLAND"
+        },
+        {
+          "title": "hospital",
+          "score": 78,
+          "symbol": "HOSPITAL"
+        },
+        {
+          "title": "lottery",
+          "score": 78,
+          "symbol": "LOTTERY"
+        },
+        {
+          "title": "shoaib ibrahim",
+          "score": 78,
+          "symbol": "SHOAIB"
+        },
+        {
+          "title": "bangladesh measles outbreak",
+          "score": 78,
+          "symbol": "BANGLADE"
+        },
+        {
+          "title": "previsão do tempo campinas",
+          "score": 77,
+          "symbol": "PREVIS"
+        },
+        {
+          "title": "darren fletcher",
+          "score": 76,
+          "symbol": "DARREN"
+        },
+        {
+          "title": "resultado da quina de hoje",
+          "score": 76,
+          "symbol": "RESULTAD"
+        },
+        {
+          "title": "christian nodal ángela aguilar",
+          "score": 74,
+          "symbol": "CHRISTIA"
+        },
+        {
+          "title": "cable tv",
+          "score": 74,
+          "symbol": "CABLE"
+        },
+        {
+          "title": "weather forecast",
+          "score": 72,
+          "symbol": "WEATHER"
+        },
+        {
+          "title": "prince harry, duke of sussex",
+          "score": 71,
+          "symbol": "PRINCE"
+        },
+        {
+          "title": "christian ho",
+          "score": 71,
+          "symbol": "CHRISTIA"
+        },
+        {
+          "title": "weather delhi",
+          "score": 70,
+          "symbol": "WEATHER"
+        },
+        {
+          "title": "gemini",
+          "score": 70,
+          "symbol": "GEMINI"
+        },
+        {
+          "title": "steven gerrard",
+          "score": 70,
+          "symbol": "STEVEN"
+        },
+        {
+          "title": "nick woltemade",
+          "score": 68,
+          "symbol": "NICK"
+        },
+        {
+          "title": "emma bonino",
+          "score": 68,
+          "symbol": "EMMA"
+        },
+        {
+          "title": "theo james",
+          "score": 68,
+          "symbol": "THEO"
+        },
+        {
+          "title": "pumas unam vs león",
+          "score": 68,
+          "symbol": "PUMAS"
+        },
+        {
+          "title": "fuel",
+          "score": 68,
+          "symbol": "FUEL"
+        },
+        {
+          "title": "nrl finals",
+          "score": 68,
+          "symbol": "NRL"
+        },
+        {
+          "title": "singapore weather",
+          "score": 68,
+          "symbol": "SINGAPOR"
+        },
+        {
+          "title": "emirates and etihad flight delays",
+          "score": 68,
+          "symbol": "EMIRATES"
+        },
+        {
+          "title": "apple iphone 18 pro battery capacity",
+          "score": 67,
+          "symbol": "APPLE"
+        },
+        {
+          "title": "lewis hall",
+          "score": 67,
+          "symbol": "LEWIS"
+        },
+        {
+          "title": "rick rescorla",
+          "score": 67,
+          "symbol": "RICK"
+        },
+        {
+          "title": "zelda 40th anniversary nintendo switch",
+          "score": 67,
+          "symbol": "ZELDA"
+        },
+        {
+          "title": "rick springfield",
+          "score": 67,
+          "symbol": "RICK"
+        },
+        {
+          "title": "futbol club barcelona",
+          "score": 67,
+          "symbol": "FUTBOL"
+        },
+        {
+          "title": "ángel azuaje",
+          "score": 67,
+          "symbol": "NGEL"
+        },
+        {
+          "title": "live",
+          "score": 67,
+          "symbol": "PULSE"
+        },
+        {
+          "title": "hind bint maktoum al maktoum",
+          "score": 67,
+          "symbol": "HIND"
+        },
+        {
+          "title": "aster",
+          "score": 66,
+          "symbol": "ASTER"
+        },
+        {
+          "title": "carin leon",
+          "score": 66,
+          "symbol": "CARIN"
+        },
+        {
+          "title": "live nation",
+          "score": 66,
+          "symbol": "NATION"
+        },
+        {
+          "title": "embajador de estados unidos en méxico",
+          "score": 66,
+          "symbol": "EMBAJADO"
+        },
+        {
+          "title": "mercury",
+          "score": 66,
+          "symbol": "MERCURY"
+        }
+      ]
     }
   ]
 }
