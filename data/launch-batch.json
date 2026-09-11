@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T17:04:30.809Z",
+  "generatedAt": "2026-09-11T19:34:20.144Z",
   "targetPerScan": 9,
   "targetPerHour": 108,
   "issuanceRail": "clanker-v4",
@@ -8,377 +8,7 @@
   "count": 9,
   "packages": [
     {
-      "narrative": "al-faisaly vs al-ittihad",
-      "score": 88,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000",
-        "no matching DEX pairs detected"
-      ],
-      "token": {
-        "name": "Al-Faisaly Vs Al-Ittihad",
-        "symbol": "FAISALY",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Al-Faisaly Vs Al-Ittihad. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/e8876598348bbee4.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/e8876598348bbee4.png"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards in Base USDC to beneficiary",
-        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
-        "totalFounderAllocationPercentage": 10,
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
-      },
-      "earlyAirdropClaim": null,
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Al-Faisaly Vs Al-Ittihad",
-          "symbol": "FAISALY",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/e8876598348bbee4.png",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Al-Faisaly Vs Al-Ittihad. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "b9c704d070fb9270d389070aef024922"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 7,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "waiting-for-exit-vault-address"
-    },
-    {
-      "narrative": "stellenbosch vs sekhukhune",
-      "score": 88,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000",
-        "no matching DEX pairs detected"
-      ],
-      "token": {
-        "name": "Stellenbosch Vs Sekhukhune",
-        "symbol": "STELLENB",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Stellenbosch Vs Sekhukhune. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/a358a2dae2a20080.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/a358a2dae2a20080.png"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards in Base USDC to beneficiary",
-        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
-        "totalFounderAllocationPercentage": 10,
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
-      },
-      "earlyAirdropClaim": null,
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Stellenbosch Vs Sekhukhune",
-          "symbol": "STELLENB",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/a358a2dae2a20080.png",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Stellenbosch Vs Sekhukhune. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "1c46cee09253afcc63de521e51eb74d2"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 7,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "waiting-for-exit-vault-address"
-    },
-    {
-      "narrative": "al qadsiah vs al-ettifaq",
-      "score": 87,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000",
-        "no matching DEX pairs detected"
-      ],
-      "token": {
-        "name": "Al Qadsiah Vs Al-Ettifaq",
-        "symbol": "QADSIAH",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Al Qadsiah Vs Al-Ettifaq. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/a1424aff90d28e44.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/a1424aff90d28e44.png"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards in Base USDC to beneficiary",
-        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
-        "totalFounderAllocationPercentage": 10,
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
-      },
-      "earlyAirdropClaim": null,
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Al Qadsiah Vs Al-Ettifaq",
-          "symbol": "QADSIAH",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/a1424aff90d28e44.png",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Al Qadsiah Vs Al-Ettifaq. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "52833a0977f2d25c306e92ebcf5a8e17"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 7,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "waiting-for-exit-vault-address"
-    },
-    {
-      "narrative": "atletiba",
-      "score": 87,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000",
-        "no matching DEX pairs detected"
-      ],
-      "token": {
-        "name": "Atletiba",
-        "symbol": "ATLETIBA",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Atletiba. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/d7aa5a60c7c8b42c.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/d7aa5a60c7c8b42c.png"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards in Base USDC to beneficiary",
-        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
-        "totalFounderAllocationPercentage": 10,
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
-      },
-      "earlyAirdropClaim": null,
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Atletiba",
-          "symbol": "ATLETIBA",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/d7aa5a60c7c8b42c.png",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Atletiba. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "5608a51495ea89c568a9c18f5eee00f4"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 7,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "waiting-for-exit-vault-address"
-    },
-    {
-      "narrative": "razaullah",
-      "score": 84,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "no matching DEX pairs detected"
-      ],
-      "token": {
-        "name": "Razaullah",
-        "symbol": "RAZAULLA",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Razaullah. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/f111e2d45d1e618c.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/f111e2d45d1e618c.png"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards in Base USDC to beneficiary",
-        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
-        "totalFounderAllocationPercentage": 10,
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
-      },
-      "earlyAirdropClaim": null,
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Razaullah",
-          "symbol": "RAZAULLA",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/f111e2d45d1e618c.png",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Razaullah. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "f11e517d2aeb1042a553982a54f19eb1"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 7,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "waiting-for-exit-vault-address"
-    },
-    {
-      "narrative": "al ittihad",
+      "narrative": "venezia - fiorentina",
       "score": 84,
       "category": "general-culture",
       "saturation": {
@@ -392,11 +22,11 @@
         "no matching DEX pairs detected"
       ],
       "token": {
-        "name": "Al Ittihad",
-        "symbol": "ITTIHAD",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Al Ittihad. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/9e5e1e9323d37b6e.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/9e5e1e9323d37b6e.png"
+        "name": "Venezia - Fiorentina",
+        "symbol": "VENEZIA",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Venezia - Fiorentina. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/df5287e4d2bc3478.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/df5287e4d2bc3478.png"
       },
       "economics": {
         "stream1": "Creator LP rewards in Base USDC to beneficiary",
@@ -413,12 +43,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Al Ittihad",
-          "symbol": "ITTIHAD",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/9e5e1e9323d37b6e.png",
+          "name": "Venezia - Fiorentina",
+          "symbol": "VENEZIA",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/df5287e4d2bc3478.png",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Al Ittihad. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "3bb799747b1f1e86104f345f5c58bb22"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Venezia - Fiorentina. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "4a421d87a9e87642cdc9d0960aa70023"
         },
         "rewards": [
           {
@@ -452,7 +82,81 @@
       "readiness": "waiting-for-exit-vault-address"
     },
     {
-      "narrative": "salil arora",
+      "narrative": "sevilla fc",
+      "score": 84,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Sevilla Fc",
+        "symbol": "SEVILLA",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Sevilla Fc. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/cff8254f2e94eec5.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/cff8254f2e94eec5.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": null,
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Sevilla Fc",
+          "symbol": "SEVILLA",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/cff8254f2e94eec5.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Sevilla Fc. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "529a287774f47c8b689020e067ded341"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
+    },
+    {
+      "narrative": "rennes",
       "score": 84,
       "category": "general-culture",
       "saturation": {
@@ -466,11 +170,11 @@
         "no matching DEX pairs detected"
       ],
       "token": {
-        "name": "Salil Arora",
-        "symbol": "SALIL",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Salil Arora. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/1a00978693b4cd97.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/1a00978693b4cd97.png"
+        "name": "Rennes",
+        "symbol": "RENNES",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Rennes. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/e1587b20b5a60523.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/e1587b20b5a60523.png"
       },
       "economics": {
         "stream1": "Creator LP rewards in Base USDC to beneficiary",
@@ -487,12 +191,12 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Salil Arora",
-          "symbol": "SALIL",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/1a00978693b4cd97.png",
+          "name": "Rennes",
+          "symbol": "RENNES",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/e1587b20b5a60523.png",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Salil Arora. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "606242bc5d31219fe75ae2bc05320627"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Rennes. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "bb9c19ff149fb177bd913f939bd61e29"
         },
         "rewards": [
           {
@@ -526,81 +230,7 @@
       "readiness": "waiting-for-exit-vault-address"
     },
     {
-      "narrative": "besiktas",
-      "score": 84,
-      "category": "general-culture",
-      "saturation": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "no matching DEX pairs detected"
-      ],
-      "token": {
-        "name": "Besiktas",
-        "symbol": "BESIKTAS",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Besiktas. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/12de7acadc22458a.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/12de7acadc22458a.png"
-      },
-      "economics": {
-        "stream1": "Creator LP rewards in Base USDC to beneficiary",
-        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
-        "totalFounderAllocationPercentage": 10,
-        "devBuyEth": 0,
-        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-        "exitVaultReady": false
-      },
-      "earlyAirdropClaim": null,
-      "clanker": {
-        "endpoint": "https://www.clanker.world/api/tokens/deploy",
-        "chainId": 8453,
-        "dryRun": false,
-        "token": {
-          "name": "Besiktas",
-          "symbol": "BESIKTAS",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/12de7acadc22458a.png",
-          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Besiktas. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "9d40bd89532a82079c95da98672c91c7"
-        },
-        "rewards": [
-          {
-            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-            "allocation": 100,
-            "rewardsToken": "Paired"
-          }
-        ],
-        "pool": {
-          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "initialMarketCap": 10000
-        },
-        "fees": {
-          "type": "static",
-          "clankerFee": 100,
-          "pairedFee": 100
-        },
-        "vault": {
-          "percentage": 7,
-          "lockupDuration": 604800,
-          "vestingDuration": 0,
-          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
-        },
-        "sniperFees": {
-          "startingFee": 666777,
-          "endingFee": 41673,
-          "secondsToDecay": 15
-        }
-      },
-      "readiness": "waiting-for-exit-vault-address"
-    },
-    {
-      "narrative": "copenhague x horsens",
+      "narrative": "subsidy",
       "score": 84,
       "category": "general-culture",
       "saturation": {
@@ -614,11 +244,11 @@
         "no matching DEX pairs detected"
       ],
       "token": {
-        "name": "Copenhague X Horsens",
-        "symbol": "COPENHAG",
-        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Copenhague X Horsens. Founder allocation and creator rewards are disclosed on-chain.",
-        "imagePath": "assets/generated/6c83e3c0b495435c.png",
-        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/6c83e3c0b495435c.png"
+        "name": "Subsidy",
+        "symbol": "SUBSIDY",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Subsidy. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/61081bc90512948c.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/61081bc90512948c.png"
       },
       "economics": {
         "stream1": "Creator LP rewards in Base USDC to beneficiary",
@@ -635,12 +265,382 @@
         "chainId": 8453,
         "dryRun": false,
         "token": {
-          "name": "Copenhague X Horsens",
-          "symbol": "COPENHAG",
-          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/6c83e3c0b495435c.png",
+          "name": "Subsidy",
+          "symbol": "SUBSIDY",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/61081bc90512948c.png",
           "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Copenhague X Horsens. Founder allocation and creator rewards are disclosed on-chain.",
-          "requestKey": "73dd68a5b3c8f4ce00d343630c1fa43a"
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Subsidy. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "81b59906bd165506048e2689a848ad39"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
+    },
+    {
+      "narrative": "fauda",
+      "score": 84,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Fauda",
+        "symbol": "FAUDA",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Fauda. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/a29ac0f5806cac40.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/a29ac0f5806cac40.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": null,
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Fauda",
+          "symbol": "FAUDA",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/a29ac0f5806cac40.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Fauda. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "b9a3fba9ad721b061aa349b4744fb7af"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
+    },
+    {
+      "narrative": "kareena kapoor",
+      "score": 84,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Kareena Kapoor",
+        "symbol": "KAREENA",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Kareena Kapoor. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/27dae36017e3b643.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/27dae36017e3b643.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": null,
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Kareena Kapoor",
+          "symbol": "KAREENA",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/27dae36017e3b643.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Kareena Kapoor. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "2b0e8ee66138171af86351babb9ccb25"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
+    },
+    {
+      "narrative": "alasca",
+      "score": 84,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Alasca",
+        "symbol": "ALASCA",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Alasca. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/1207e550ffbff633.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/1207e550ffbff633.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": null,
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Alasca",
+          "symbol": "ALASCA",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/1207e550ffbff633.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Alasca. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "9826a9fc94424a7b2e721c6902c76686"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
+    },
+    {
+      "narrative": "fiorentina",
+      "score": 84,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 1,000",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Fiorentina",
+        "symbol": "FIORENTI",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Fiorentina. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/b39560533025daf9.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/b39560533025daf9.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": null,
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Fiorentina",
+          "symbol": "FIORENTI",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/b39560533025daf9.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Fiorentina. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "65cf9d42874623f12b8f34326dd6a930"
+        },
+        "rewards": [
+          {
+            "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "admin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+            "allocation": 100,
+            "rewardsToken": "Paired"
+          }
+        ],
+        "pool": {
+          "pairedToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "initialMarketCap": 10000
+        },
+        "fees": {
+          "type": "static",
+          "clankerFee": 100,
+          "pairedFee": 100
+        },
+        "vault": {
+          "percentage": 7,
+          "lockupDuration": 604800,
+          "vestingDuration": 0,
+          "recipient": "0xf744573cdfFC211163c11c0a31730851Da78f708"
+        },
+        "sniperFees": {
+          "startingFee": 666777,
+          "endingFee": 41673,
+          "secondsToDecay": 15
+        }
+      },
+      "readiness": "waiting-for-exit-vault-address"
+    },
+    {
+      "narrative": "anderlecht",
+      "score": 84,
+      "category": "general-culture",
+      "saturation": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "no matching DEX pairs detected"
+      ],
+      "token": {
+        "name": "Anderlecht",
+        "symbol": "ANDERLEC",
+        "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Anderlecht. Founder allocation and creator rewards are disclosed on-chain.",
+        "imagePath": "assets/generated/dc313bed6c760f41.png",
+        "imageUrl": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/dc313bed6c760f41.png"
+      },
+      "economics": {
+        "stream1": "Creator LP rewards in Base USDC to beneficiary",
+        "stream2": "3% founder allocation after 1 day + 7% after 7 days",
+        "totalFounderAllocationPercentage": 10,
+        "devBuyEth": 0,
+        "beneficiary": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "founderRecipient": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+        "exitVaultReady": false
+      },
+      "earlyAirdropClaim": null,
+      "clanker": {
+        "endpoint": "https://www.clanker.world/api/tokens/deploy",
+        "chainId": 8453,
+        "dryRun": false,
+        "token": {
+          "name": "Anderlecht",
+          "symbol": "ANDERLEC",
+          "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/dc313bed6c760f41.png",
+          "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+          "description": "Unofficial culture token. No affiliation or endorsement is claimed. Theme: Anderlecht. Founder allocation and creator rewards are disclosed on-chain.",
+          "requestKey": "8c615b0bc672c1d7c8aad5b924ff63cf"
         },
         "rewards": [
           {

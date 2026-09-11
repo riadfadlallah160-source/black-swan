@@ -3316,6 +3316,318 @@
           "symbol": "NORTH"
         }
       ]
+    },
+    {
+      "generatedAt": "2026-09-11T19:34:19.568Z",
+      "sourceItems": 1289,
+      "uniqueNarratives": 1215,
+      "qualified": [
+        {
+          "title": "venezia - fiorentina",
+          "score": 84,
+          "symbol": "VENEZIA"
+        },
+        {
+          "title": "sevilla fc",
+          "score": 84,
+          "symbol": "SEVILLA"
+        },
+        {
+          "title": "rennes",
+          "score": 84,
+          "symbol": "RENNES"
+        },
+        {
+          "title": "subsidy",
+          "score": 84,
+          "symbol": "SUBSIDY"
+        },
+        {
+          "title": "fauda",
+          "score": 84,
+          "symbol": "FAUDA"
+        },
+        {
+          "title": "kareena kapoor",
+          "score": 84,
+          "symbol": "KAREENA"
+        },
+        {
+          "title": "alasca",
+          "score": 84,
+          "symbol": "ALASCA"
+        },
+        {
+          "title": "fiorentina",
+          "score": 84,
+          "symbol": "FIORENTI"
+        },
+        {
+          "title": "anderlecht",
+          "score": 84,
+          "symbol": "ANDERLEC"
+        },
+        {
+          "title": "livingston fc",
+          "score": 83,
+          "symbol": "LIVINGST"
+        },
+        {
+          "title": "supercrawl",
+          "score": 83,
+          "symbol": "SUPERCRA"
+        },
+        {
+          "title": "vedette",
+          "score": 83,
+          "symbol": "VEDETTE"
+        },
+        {
+          "title": "az alkmaar",
+          "score": 83,
+          "symbol": "ALKMAAR"
+        },
+        {
+          "title": "alkmaar vs willem ii tilburg",
+          "score": 83,
+          "symbol": "ALKMAAR"
+        },
+        {
+          "title": "gukesh",
+          "score": 83,
+          "symbol": "GUKESH"
+        },
+        {
+          "title": "fernando alonso",
+          "score": 83,
+          "symbol": "FERNANDO"
+        },
+        {
+          "title": "venezia",
+          "score": 83,
+          "symbol": "VENEZIA"
+        },
+        {
+          "title": "rennes fc",
+          "score": 83,
+          "symbol": "RENNES"
+        },
+        {
+          "title": "mechelen - anderlecht",
+          "score": 83,
+          "symbol": "MECHELEN"
+        },
+        {
+          "title": "razaullah",
+          "score": 83,
+          "symbol": "RAZAULLA"
+        },
+        {
+          "title": "seungri",
+          "score": 83,
+          "symbol": "SEUNGRI"
+        },
+        {
+          "title": "júri",
+          "score": 82,
+          "symbol": "PULSE"
+        },
+        {
+          "title": "cricinfo",
+          "score": 82,
+          "symbol": "CRICINFO"
+        },
+        {
+          "title": "sevilla - valencia c. f.",
+          "score": 81,
+          "symbol": "SEVILLA"
+        },
+        {
+          "title": "rennes vs marseille",
+          "score": 79,
+          "symbol": "RENNES"
+        },
+        {
+          "title": "scandal",
+          "score": 79,
+          "symbol": "SCANDAL"
+        },
+        {
+          "title": "nifty",
+          "score": 79,
+          "symbol": "NIFTY"
+        },
+        {
+          "title": "sevilla vs valencia",
+          "score": 79,
+          "symbol": "SEVILLA"
+        },
+        {
+          "title": "bo melton",
+          "score": 78,
+          "symbol": "MELTON"
+        },
+        {
+          "title": "malik davis",
+          "score": 78,
+          "symbol": "MALIK"
+        },
+        {
+          "title": "tomas soucek",
+          "score": 78,
+          "symbol": "TOMAS"
+        },
+        {
+          "title": "réfugié",
+          "score": 78,
+          "symbol": "FUGI"
+        },
+        {
+          "title": "al-ahli vs al-hazem",
+          "score": 78,
+          "symbol": "AHLI"
+        },
+        {
+          "title": "translate",
+          "score": 78,
+          "symbol": "TRANSLAT"
+        },
+        {
+          "title": "al ahli",
+          "score": 78,
+          "symbol": "AHLI"
+        },
+        {
+          "title": "suriya",
+          "score": 78,
+          "symbol": "SURIYA"
+        },
+        {
+          "title": "wilber dotel",
+          "score": 77,
+          "symbol": "WILBER"
+        },
+        {
+          "title": "karen khachanov",
+          "score": 75,
+          "symbol": "KAREN"
+        },
+        {
+          "title": "essence",
+          "score": 75,
+          "symbol": "ESSENCE"
+        },
+        {
+          "title": "oneil cruz",
+          "score": 72,
+          "symbol": "ONEIL"
+        },
+        {
+          "title": "avengers doomsday",
+          "score": 70,
+          "symbol": "AVENGERS"
+        },
+        {
+          "title": "tampines rovers vs balestier khalsa",
+          "score": 69,
+          "symbol": "TAMPINES"
+        },
+        {
+          "title": "temporary protected status el salvador",
+          "score": 68,
+          "symbol": "TEMPORAR"
+        },
+        {
+          "title": "survivor",
+          "score": 68,
+          "symbol": "SURVIVOR"
+        },
+        {
+          "title": "union berlin vs schalke",
+          "score": 68,
+          "symbol": "UNION"
+        },
+        {
+          "title": "sydney",
+          "score": 68,
+          "symbol": "SYDNEY"
+        },
+        {
+          "title": "cristiano ronaldo",
+          "score": 68,
+          "symbol": "CRISTIAN"
+        },
+        {
+          "title": "indonesia volcano eruption",
+          "score": 68,
+          "symbol": "INDONESI"
+        },
+        {
+          "title": "amber alert",
+          "score": 68,
+          "symbol": "AMBER"
+        },
+        {
+          "title": "live cricket score women asia cup",
+          "score": 67,
+          "symbol": "CRICKET"
+        },
+        {
+          "title": "slow horses season 6 release date",
+          "score": 67,
+          "symbol": "SLOW"
+        },
+        {
+          "title": "pakistan vs sri lanka",
+          "score": 67,
+          "symbol": "PAKISTAN"
+        },
+        {
+          "title": "union berlin fc",
+          "score": 67,
+          "symbol": "UNION"
+        },
+        {
+          "title": "game",
+          "score": 67,
+          "symbol": "GAME"
+        },
+        {
+          "title": "union berlin vs",
+          "score": 67,
+          "symbol": "UNION"
+        },
+        {
+          "title": "tasa de cambio",
+          "score": 67,
+          "symbol": "TASA"
+        },
+        {
+          "title": "gary neville",
+          "score": 67,
+          "symbol": "GARY"
+        },
+        {
+          "title": "theo james",
+          "score": 66,
+          "symbol": "THEO"
+        },
+        {
+          "title": "cbse 2027 board exam date class 12",
+          "score": 66,
+          "symbol": "CBSE"
+        },
+        {
+          "title": "1980s ai photo trend",
+          "score": 66,
+          "symbol": "1980S"
+        },
+        {
+          "title": "afl results",
+          "score": 65,
+          "symbol": "AFL"
+        }
+      ]
     }
   ]
 }
