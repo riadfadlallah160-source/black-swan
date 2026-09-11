@@ -3,10 +3,9 @@ export const CONFIG = Object.freeze({
   chainId: 8453,
   issuanceRail: 'clanker-v4',
 
-  // Final one-time bootstrap pass for the first frozen 100-package batch.
-  // Normal 65 / 9-per-cycle settings are restored immediately after freeze.
-  scoreThreshold: 55,
-  targetPackagesPerScan: 50,
+  // Normal production cadence after the first frozen 100-package batch.
+  scoreThreshold: 65,
+  targetPackagesPerScan: 9,
   maxCandidatesPerScan: 180,
   targetPackagesPerHour: 108,
 
