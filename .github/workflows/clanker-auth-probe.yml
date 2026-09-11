@@ -1,0 +1,63 @@
+name: Clanker Auth Probe
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Probe dry-run deploy without partner key
+        shell: bash
+        run: |
+          set +e
+          cat > /tmp/payload.json <<'JSON'
+          {
+            "token": {
+              "name": "Black Swan Auth Probe",
+              "symbol": "BSPROBE",
+              "image": "https://raw.githubusercontent.com/riadfadlallah160-source/black-swan/main/assets/generated/991c9896de8ae272.png",
+              "tokenAdmin": "0xf744573cdfFC211163c11c0a31730851Da78f708",
+              "requestKey": "00000000000000000000000000000000"
+            },
+            "chainId": 8453,
+            "dryRun": true
+          }
+          JSON
+          echo '=== deploy endpoint, no auth ==='
+          curl -sS -D /tmp/headers.txt -o /tmp/body.txt \
+            -H 'content-type: application/json' \
+            --data-binary @/tmp/payload.json \
+            https://www.clanker.world/api/tokens/deploy
+          cat /tmp/headers.txt | sed -n '1,20p'
+          echo '--- body ---'
+          cat /tmp/body.txt | head -c 4000
+          echo
+
+      - name: Inspect deploy page public auth configuration
+        shell: bash
+        run: |
+          set +e
+          curl -sSL https://www.clanker.world/deploy -o /tmp/deploy.html
+          echo '=== deploy HTML bytes ==='
+          wc -c /tmp/deploy.html
+          echo '=== auth/API strings in HTML ==='
+          grep -Eio 'privy[^"< ]*|farcaster[^"< ]*|/api/[A-Za-z0-9_/?=&.-]+' /tmp/deploy.html | sort -u | head -100 || true
+          echo '=== JS chunks ==='
+          grep -Eo 'src="[^"]+\.js[^"]*"' /tmp/deploy.html | sed 's/^src="//;s/"$//' | head -50 > /tmp/chunks.txt
+          cat /tmp/chunks.txt
+          while read -r src; do
+            case "$src" in
+              http*) url="$src";;
+              /*) url="https://www.clanker.world$src";;
+              *) url="https://www.clanker.world/$src";;
+            esac
+            curl -sSL "$url" || true
+          done < /tmp/chunks.txt > /tmp/all.js
+          echo '=== relevant JS fragments ==='
+          grep -Eio '.{0,120}(privy|authorization|bearer|tokens/deploy|preclank).{0,220}' /tmp/all.js | head -100 || true
