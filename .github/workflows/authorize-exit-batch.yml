@@ -1,0 +1,30 @@
+name: Authorize Founder Exit Batch
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: authorize-founder-exit-batch
+  cancel-in-progress: false
+
+jobs:
+  authorize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Record one authorization for all eligible staged exits
+        run: npm run exit:authorize
+      - name: Persist authorization
+        run: |
+          git config user.name 'black-swan-bot'
+          git config user.email 'black-swan-bot@users.noreply.github.com'
+          git add data/exit-batch.json
+          git commit -m 'chore: authorize founder exit batch [skip ci]'
+          git push
