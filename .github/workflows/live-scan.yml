@@ -33,6 +33,8 @@ jobs:
         run: npm run package
       - name: Accumulate one approval batch of up to 100 packages
         run: npm run queue
+      - name: Build unsigned wallet call bundle for frozen batch
+        run: npm run bundle
       - name: Monitor creator fees and founder exit readiness
         run: npm run monitor
       - name: Build consolidated founder exit authorization batch
@@ -44,6 +46,9 @@ jobs:
           git add data/latest.json data/history.json data/launch-batch.json data/package-history.json data/approval-pool.json data/finance-status.json data/live-tokens.json assets/generated/
           if [ -f data/approval-batch.json ]; then
             git add data/approval-batch.json
+          fi
+          if [ -f data/wallet-launch-bundle.json ]; then
+            git add data/wallet-launch-bundle.json
           fi
           if [ -f data/exit-batch.json ]; then
             git add data/exit-batch.json
