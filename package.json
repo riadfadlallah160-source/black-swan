@@ -1,12 +1,13 @@
 {
   "name": "black-swan-launch-factory",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "private": true,
   "type": "module",
   "scripts": {
     "start": "node src/server.js",
     "scan": "node src/scanner.js",
     "package": "node src/packager.js",
+    "queue": "node src/batch-queue.js",
     "launch": "node src/launcher.js",
     "launch:direct": "node src/direct-clanker.js",
     "validate:direct": "node src/direct-clanker.js --validate"
