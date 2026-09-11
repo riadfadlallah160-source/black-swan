@@ -9,15 +9,27 @@ const LIVE = process.env.LIVE_LAUNCH_ENABLED === 'true';
 const ENDPOINT = 'https://www.clanker.world/api/tokens/deploy';
 
 const sleep = ms => new Promise(r=>setTimeout(r,ms));
+const validAddress = x => /^0x[a-fA-F0-9]{40}$/.test(String(x||''));
+
+function assertFullEconomics(p) {
+  if (!validAddress(EXIT_VAULT)) throw new Error('EXIT_VAULT_ADDRESS missing/invalid');
+  if (p?.readiness !== 'launch-api-ready') throw new Error(`${p?.token?.symbol || 'package'} is not launch-api-ready`);
+  if (!p?.clanker?.airdrop || !p?.earlyAirdropClaim?.proof?.length) throw new Error(`${p?.token?.symbol || 'package'} is missing the 3% early founder airdrop`);
+  if (Number(p?.clanker?.vault?.percentage) !== 7) throw new Error(`${p?.token?.symbol || 'package'} does not contain the 7% founder vault`);
+  if (String(p?.clanker?.vault?.recipient || '').toLowerCase() !== EXIT_VAULT.toLowerCase()) throw new Error(`${p?.token?.symbol || 'package'} founder vault recipient mismatch`);
+  if (Number(p?.economics?.totalFounderAllocationPercentage) !== 10) throw new Error(`${p?.token?.symbol || 'package'} founder allocation is not 10%`);
+  if (Number(p?.economics?.devBuyEth || 0) !== 0) throw new Error(`${p?.token?.symbol || 'package'} dev-buy must be zero`);
+}
 
 async function deploy(p) {
+  assertFullEconomics(p);
   const body = structuredClone(p.clanker);
   body.token.image = p.token.imageUrl;
   body.token.tokenAdmin = p.economics.beneficiary;
   body.vault.recipient = EXIT_VAULT;
   body.dryRun = false;
   delete body.endpoint;
-  delete body.devBuy; // absence = zero dev-buy in Clanker V4
+  delete body.devBuy;
 
   const response = await fetch(ENDPOINT, {
     method: 'POST',
@@ -49,15 +61,23 @@ async function main() {
     console.log('Launcher not armed: CLANKER_API_KEY missing');
     return;
   }
-  if (!/^0x[a-fA-F0-9]{40}$/.test(EXIT_VAULT)) {
+  if (!validAddress(EXIT_VAULT)) {
     base.blocked='EXIT_VAULT_ADDRESS is missing or invalid';
     await fs.writeFile(OUT,JSON.stringify(base,null,2));
     console.log('Launcher not armed: EXIT_VAULT_ADDRESS missing/invalid');
     return;
   }
 
-  // Work in groups of three to avoid a request burst while sustaining >100/hour capacity.
   const packages=(batch.packages||[]).slice(0,9);
+  try {
+    for (const p of packages) assertFullEconomics(p);
+  } catch (e) {
+    base.blocked=String(e?.message||e);
+    await fs.writeFile(OUT,JSON.stringify(base,null,2));
+    console.log(`Launcher blocked: ${base.blocked}`);
+    return;
+  }
+
   for (let i=0;i<packages.length;i+=3) {
     const group=packages.slice(i,i+3);
     const settled=await Promise.allSettled(group.map(async p=>({p,data:await deploy(p)})));
