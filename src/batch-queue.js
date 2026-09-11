@@ -8,6 +8,14 @@ const BATCH = path.resolve('data/approval-batch.json');
 const LIMIT = 100;
 
 const keyOf = p => p?.clanker?.token?.requestKey || `${p?.token?.name || ''}|${p?.token?.symbol || ''}`.toLowerCase();
+const isLaunchReady = p => Boolean(
+  p?.readiness === 'launch-api-ready' &&
+  p?.earlyAirdropClaim?.proof?.length &&
+  Number(p?.clanker?.vault?.percentage) === 7 &&
+  p?.clanker?.airdrop &&
+  Number(p?.economics?.totalFounderAllocationPercentage) === 10 &&
+  Number(p?.economics?.devBuyEth || 0) === 0
+);
 
 async function readJson(file, fallback) {
   try { return JSON.parse(await fs.readFile(file, 'utf8')); } catch { return fallback; }
@@ -29,9 +37,10 @@ async function main() {
   let waiting = [...map.values()].slice(0, 500);
   let frozen = current;
   const batchOpen = frozen && ['awaiting-authorization', 'authorized'].includes(frozen.status);
+  const ready = waiting.filter(isLaunchReady);
 
-  if (!batchOpen && waiting.length >= LIMIT) {
-    const packages = waiting.slice(0, LIMIT);
+  if (!batchOpen && ready.length >= LIMIT) {
+    const packages = ready.slice(0, LIMIT);
     const fingerprint = packages.map(keyOf).join('|');
     const id = crypto.createHash('sha256').update(fingerprint).digest('hex').slice(0, 20);
     frozen = {
@@ -46,21 +55,36 @@ async function main() {
         creatorRewards: 'paired-asset creator rewards to beneficiary',
         devBuyEth: 0
       },
+      validation: {
+        fullEconomicsRequired: true,
+        allPackagesLaunchReady: packages.every(isLaunchReady)
+      },
       packages,
       execution: {
         mode: 'human-authorized-batch',
-        note: 'Authorization freezes this batch. Financial broadcast remains a separate execution step.'
+        note: 'Authorization freezes this full-economics batch. Financial broadcast remains a separate execution step.'
       }
     };
     const selected = new Set(packages.map(keyOf));
     waiting = waiting.filter(p => !selected.has(keyOf(p)));
   }
 
-  await fs.writeFile(POOL, JSON.stringify({ updatedAt: new Date().toISOString(), count: waiting.length, packages: waiting }, null, 2));
+  const readyCount = waiting.filter(isLaunchReady).length;
+  const pendingInfrastructureCount = waiting.length - readyCount;
+  await fs.writeFile(POOL, JSON.stringify({
+    updatedAt: new Date().toISOString(),
+    count: waiting.length,
+    readyCount,
+    pendingInfrastructureCount,
+    target: LIMIT,
+    packages: waiting
+  }, null, 2));
   if (frozen) await fs.writeFile(BATCH, JSON.stringify(frozen, null, 2));
 
   console.log(JSON.stringify({
     poolCount: waiting.length,
+    launchReadyCount: readyCount,
+    pendingInfrastructureCount,
     batchId: frozen?.id || null,
     batchCount: frozen?.count || 0,
     batchStatus: frozen?.status || 'building'
