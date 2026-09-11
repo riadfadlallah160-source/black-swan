@@ -1,6 +1,6 @@
 {
   "name": "black-swan-launch-factory",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,6 +11,7 @@
     "authorize": "node src/authorize-batch.js",
     "monitor": "node src/finance-monitor.js",
     "exit:queue": "node src/exit-queue.js",
+    "exit:authorize": "node src/authorize-exit-batch.js",
     "launch": "node src/launcher.js",
     "launch:direct": "node src/direct-clanker.js",
     "validate:direct": "node src/direct-clanker.js --validate"
