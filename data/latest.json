@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-10T22:55:16.177Z",
+  "generatedAt": "2026-09-11T00:06:11.347Z",
   "threshold": 65,
   "targetPackagesPerScan": 9,
   "creatorAddress": "0xf744573cdfFC211163c11c0a31730851Da78f708",
-  "sourceItems": 1284,
-  "uniqueNarratives": 1215,
-  "qualifiedCount": 55,
+  "sourceItems": 1281,
+  "uniqueNarratives": 1202,
+  "qualifiedCount": 50,
   "qualified": [
     {
       "title": "flashscore",
@@ -34,11 +34,37 @@
       ]
     },
     {
-      "title": "braeden bowman",
+      "title": "météorologie",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 4,
+      "bestRank": 2,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 84,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "OROLOGIE",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "no matching DEX pairs detected"
+      ]
+    },
+    {
+      "title": "foxtel",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 1,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -52,7 +78,7 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "BRAEDEN",
+      "suggestedSymbol": "FOXTEL",
       "rationale": [
         "active search trend",
         "approx trend traffic 200",
@@ -64,137 +90,6 @@
       "mentions": [
         "google-trends",
         "google-trends",
-        "google-trends",
-        "google-trends"
-      ],
-      "bestRank": 1,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 84,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "SHAILENE",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "alphonso davies",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 4,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 84,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "ALPHONSO",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "energisa",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 1,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 84,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "ENERGISA",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "demissão",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 3,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 84,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "DEMISS",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "andoni zubizarreta",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 1,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 84,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "ANDONI",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "consejo coordinador empresarial",
-      "mentions": [
         "google-trends"
       ],
       "bestRank": 2,
@@ -211,7 +106,7 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "CONSEJO",
+      "suggestedSymbol": "SHAILENE",
       "rationale": [
         "active search trend",
         "approx trend traffic 200",
@@ -219,17 +114,17 @@
       ]
     },
     {
-      "title": "tennis",
+      "title": "yahir",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
-      "traffic": 200,
+      "bestRank": 2,
+      "traffic": 500,
       "sources": [
         "google-trends"
       ],
       "score": 84,
-      "category": "sports",
+      "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 0,
@@ -237,49 +132,51 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "TENNIS",
+      "suggestedSymbol": "YAHIR",
       "rationale": [
         "active search trend",
-        "approx trend traffic 200",
+        "approx trend traffic 500",
         "no matching DEX pairs detected"
       ]
     },
     {
-      "title": "49ers",
+      "title": "yankees - rockies",
       "mentions": [
+        "google-trends",
         "google-trends"
       ],
-      "bestRank": 3,
-      "traffic": 2000,
+      "bestRank": 1,
+      "traffic": 1000,
       "sources": [
         "google-trends"
       ],
-      "score": 83,
+      "score": 84,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 2,
+        "pairs": 0,
         "active": 0,
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "49ERS",
+      "suggestedSymbol": "YANKEES",
       "rationale": [
         "active search trend",
-        "approx trend traffic 2,000"
+        "approx trend traffic 1,000",
+        "no matching DEX pairs detected"
       ]
     },
     {
-      "title": "tilda swinton",
+      "title": "soccernet",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 6,
+      "bestRank": 4,
       "traffic": 100,
       "sources": [
         "google-trends"
       ],
-      "score": 83,
+      "score": 84,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
@@ -288,11 +185,42 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "TILDA",
+      "suggestedSymbol": "SOCCERNE",
       "rationale": [
         "active search trend",
         "approx trend traffic 100",
         "no matching DEX pairs detected"
+      ]
+    },
+    {
+      "title": "aryna sabalenka",
+      "mentions": [
+        "google-trends",
+        "google-trends",
+        "google-trends",
+        "google-trends",
+        "google-trends",
+        "google-trends",
+        "google-trends"
+      ],
+      "bestRank": 1,
+      "traffic": 5000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 83,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 1,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "ARYNA",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 5,000"
       ]
     },
     {
@@ -322,11 +250,11 @@
       ]
     },
     {
-      "title": "bocardi",
+      "title": "yankees",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 7,
+      "bestRank": 6,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -340,85 +268,7 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "BOCARDI",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "luisina giovannini",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 9,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 83,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "LUISINA",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "cienciano",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 5,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 83,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "CIENCIAN",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "piturris",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 8,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 83,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "PITURRIS",
+      "suggestedSymbol": "YANKEES",
       "rationale": [
         "active search trend",
         "approx trend traffic 200",
@@ -452,12 +302,13 @@
       ]
     },
     {
-      "title": "burlington",
+      "title": "sabalenka",
       "mentions": [
+        "google-trends",
         "google-trends"
       ],
-      "bestRank": 10,
-      "traffic": 100,
+      "bestRank": 5,
+      "traffic": 2000,
       "sources": [
         "google-trends"
       ],
@@ -465,71 +316,119 @@
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 0,
+        "pairs": 1,
         "active": 0,
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "BURLINGT",
+      "suggestedSymbol": "SABALENK",
       "rationale": [
         "active search trend",
-        "approx trend traffic 100",
-        "no matching DEX pairs detected"
+        "approx trend traffic 2,000"
       ]
     },
     {
-      "title": "são bernardo x londrina",
+      "title": "sabalenka husband",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 10,
+      "bestRank": 1,
       "traffic": 1000,
       "sources": [
         "google-trends"
       ],
-      "score": 82,
+      "score": 79,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 0,
+        "pairs": 1,
         "active": 0,
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "BERNARDO",
+      "suggestedSymbol": "SABALENK",
       "rationale": [
         "active search trend",
-        "approx trend traffic 1,000",
-        "no matching DEX pairs detected"
+        "approx trend traffic 1,000"
       ]
     },
     {
-      "title": "jogo do flamengo hoje",
+      "title": "anthony volpe",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 2,
-      "traffic": 5000,
+      "traffic": 500,
       "sources": [
         "google-trends"
       ],
-      "score": 80,
+      "score": 79,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 4,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "ANTHONY",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500"
+      ]
+    },
+    {
+      "title": "sabalenka boyfriend",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 3,
+      "traffic": 500,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 79,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 8,
         "active": 0,
-        "liquid": 2
+        "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "JOGO",
+      "suggestedSymbol": "SABALENK",
       "rationale": [
         "active search trend",
-        "approx trend traffic 5,000"
+        "approx trend traffic 500"
       ]
     },
     {
-      "title": "tsunami",
+      "title": "jessica pegula",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 4,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 79,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 1,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "JESSICA",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200"
+      ]
+    },
+    {
+      "title": "azerbaijan",
       "mentions": [
         "google-trends"
       ],
@@ -539,6 +438,81 @@
         "google-trends"
       ],
       "score": 79,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 1,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "AZERBAIJ",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100"
+      ]
+    },
+    {
+      "title": "jessica pegula parents",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 6,
+      "traffic": 500,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 78,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 4,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "JESSICA",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500"
+      ]
+    },
+    {
+      "title": "49ers",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 7,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 78,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 2,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "49ERS",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200"
+      ]
+    },
+    {
+      "title": "tsunami",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 9,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 78,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
@@ -554,87 +528,12 @@
       ]
     },
     {
-      "title": "kauai",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 1,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 79,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 1,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "KAUAI",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100"
-      ]
-    },
-    {
-      "title": "previsão do tempo amanhã",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 4,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 79,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 2,
-        "active": 0,
-        "liquid": 1
-      },
-      "qualified": true,
-      "suggestedSymbol": "PREVIS",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500"
-      ]
-    },
-    {
-      "title": "rabies",
+      "title": "cienciano x torque",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 6,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 78,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 2,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "RABIES",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500"
-      ]
-    },
-    {
-      "title": "terrance ferguson",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 7,
-      "traffic": 500,
+      "traffic": 1000,
       "sources": [
         "google-trends"
       ],
@@ -647,19 +546,19 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "TERRANCE",
+      "suggestedSymbol": "CIENCIAN",
       "rationale": [
         "active search trend",
-        "approx trend traffic 500"
+        "approx trend traffic 1,000"
       ]
     },
     {
-      "title": "azerbaijan",
+      "title": "braga",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 5,
-      "traffic": 100,
+      "traffic": 200,
       "sources": [
         "google-trends"
       ],
@@ -672,10 +571,10 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "AZERBAIJ",
+      "suggestedSymbol": "BRAGA",
       "rationale": [
         "active search trend",
-        "approx trend traffic 100"
+        "approx trend traffic 200"
       ]
     },
     {
@@ -704,7 +603,7 @@
       ]
     },
     {
-      "title": "braga vs",
+      "title": "kieran gibbs",
       "mentions": [
         "google-trends"
       ],
@@ -722,57 +621,33 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "BRAGA",
+      "suggestedSymbol": "KIERAN",
       "rationale": [
         "active search trend",
         "approx trend traffic 200"
       ]
     },
     {
-      "title": "texas rangers",
+      "title": "puka nacua",
       "mentions": [
+        "google-trends",
         "google-trends"
       ],
-      "bestRank": 1,
-      "traffic": 1000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 76,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 10,
-        "active": 0,
-        "liquid": 4
-      },
-      "qualified": true,
-      "suggestedSymbol": "TEXAS",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 1,000"
-      ]
-    },
-    {
-      "title": "joan manuel serrat",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 3,
+      "bestRank": 8,
       "traffic": 500,
       "sources": [
         "google-trends"
       ],
-      "score": 76,
+      "score": 75,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 8,
         "active": 1,
-        "liquid": 0
+        "liquid": 2
       },
       "qualified": true,
-      "suggestedSymbol": "JOAN",
+      "suggestedSymbol": "PUKA",
       "rationale": [
         "active search trend",
         "approx trend traffic 500",
@@ -780,16 +655,41 @@
       ]
     },
     {
+      "title": "agenda",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 6,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 75,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 5,
+        "active": 0,
+        "liquid": 2
+      },
+      "qualified": true,
+      "suggestedSymbol": "AGENDA",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200"
+      ]
+    },
+    {
       "title": "bayern munich",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 5,
       "traffic": 100,
       "sources": [
         "google-trends"
       ],
-      "score": 76,
+      "score": 75,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
@@ -806,47 +706,22 @@
       ]
     },
     {
-      "title": "channel 7",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 5,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 75,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 11,
-        "active": 0,
-        "liquid": 2
-      },
-      "qualified": true,
-      "suggestedSymbol": "CHANNEL",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200"
-      ]
-    },
-    {
       "title": "oppo coloros 17",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
+      "bestRank": 7,
       "traffic": 2000,
       "sources": [
         "google-trends"
       ],
-      "score": 72,
+      "score": 71,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
         "active": 1,
-        "liquid": 1
+        "liquid": 0
       },
       "qualified": true,
       "suggestedSymbol": "OPPO",
@@ -857,12 +732,12 @@
       ]
     },
     {
-      "title": "fraud",
+      "title": "justin gaethje",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 4,
-      "traffic": 100,
+      "bestRank": 1,
+      "traffic": 200,
       "sources": [
         "google-trends"
       ],
@@ -870,15 +745,92 @@
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 22,
+        "pairs": 13,
         "active": 0,
         "liquid": 1
       },
       "qualified": true,
-      "suggestedSymbol": "FRAUD",
+      "suggestedSymbol": "JUSTIN",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200"
+      ]
+    },
+    {
+      "title": "picture",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 6,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 70,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 25,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "PICTURE",
       "rationale": [
         "active search trend",
         "approx trend traffic 100"
+      ]
+    },
+    {
+      "title": "sport recife x ponte preta",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 5,
+      "traffic": 20000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 69,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 7,
+        "liquid": 14
+      },
+      "qualified": true,
+      "suggestedSymbol": "SPORT",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 20,000",
+        "7 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "christian mccaffrey",
+      "mentions": [
+        "google-trends",
+        "google-trends"
+      ],
+      "bestRank": 10,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 69,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "CHRISTIA",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200"
       ]
     },
     {
@@ -907,12 +859,12 @@
       ]
     },
     {
-      "title": "fc 27 release date",
+      "title": "oasis",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
-      "traffic": 200,
+      "bestRank": 4,
+      "traffic": 500,
       "sources": [
         "google-trends"
       ],
@@ -922,17 +874,43 @@
       "dex": {
         "pairs": 30,
         "active": 0,
-        "liquid": 6
+        "liquid": 13
       },
       "qualified": true,
-      "suggestedSymbol": "RELEASE",
+      "suggestedSymbol": "OASIS",
       "rationale": [
         "active search trend",
-        "approx trend traffic 200"
+        "approx trend traffic 500"
       ]
     },
     {
-      "title": "ontario science centre",
+      "title": "aaron rodgers wife",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 3,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 68,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 2,
+        "liquid": 13
+      },
+      "qualified": true,
+      "suggestedSymbol": "AARON",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "2 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "mitch kenny",
       "mentions": [
         "google-trends"
       ],
@@ -945,23 +923,23 @@
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 19,
+        "pairs": 22,
         "active": 0,
-        "liquid": 3
+        "liquid": 2
       },
       "qualified": true,
-      "suggestedSymbol": "ONTARIO",
+      "suggestedSymbol": "MITCH",
       "rationale": [
         "active search trend",
         "approx trend traffic 100"
       ]
     },
     {
-      "title": "twin towers",
+      "title": "steven gerrard",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
+      "bestRank": 1,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -971,15 +949,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 1,
-        "liquid": 6
+        "active": 0,
+        "liquid": 2
       },
       "qualified": true,
-      "suggestedSymbol": "TWIN",
+      "suggestedSymbol": "STEVEN",
       "rationale": [
         "active search trend",
-        "approx trend traffic 100",
-        "1 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 100"
       ]
     },
     {
@@ -987,7 +964,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
+      "bestRank": 4,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -1009,7 +986,32 @@
       ]
     },
     {
-      "title": "man u",
+      "title": "prefeitura municipal de macaé",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 3,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 68,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 0,
+        "liquid": 7
+      },
+      "qualified": true,
+      "suggestedSymbol": "PREFEITU",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200"
+      ]
+    },
+    {
+      "title": "visa",
       "mentions": [
         "google-trends"
       ],
@@ -1023,24 +1025,24 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 1,
-        "liquid": 4
+        "active": 2,
+        "liquid": 2
       },
       "qualified": true,
-      "suggestedSymbol": "MAN",
+      "suggestedSymbol": "VISA",
       "rationale": [
         "active search trend",
         "approx trend traffic 100",
-        "1 active matching DEX pairs (saturation risk)"
+        "2 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "leshon johnson",
+      "title": "aster",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 3,
-      "traffic": 10000,
+      "traffic": 2000,
       "sources": [
         "google-trends"
       ],
@@ -1049,23 +1051,51 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 3,
-        "liquid": 11
+        "active": 7,
+        "liquid": 18
       },
       "qualified": true,
-      "suggestedSymbol": "LESHON",
+      "suggestedSymbol": "ASTER",
       "rationale": [
         "active search trend",
-        "approx trend traffic 10,000",
-        "3 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 2,000",
+        "7 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "armond paige mail dumping indictment",
+      "title": "como 1907 vs rb leipzig standings",
+      "mentions": [
+        "google-trends",
+        "google-trends",
+        "google-trends"
+      ],
+      "bestRank": 2,
+      "traffic": 2000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 67,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 6,
+        "liquid": 23
+      },
+      "qualified": true,
+      "suggestedSymbol": "COMO",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "6 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "us-iran",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 9,
+      "bestRank": 8,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -1076,10 +1106,10 @@
       "dex": {
         "pairs": 30,
         "active": 0,
-        "liquid": 6
+        "liquid": 13
       },
       "qualified": true,
-      "suggestedSymbol": "ARMOND",
+      "suggestedSymbol": "IRAN",
       "rationale": [
         "active search trend",
         "approx trend traffic 500"
@@ -1090,7 +1120,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 5,
+      "bestRank": 8,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -1111,38 +1141,38 @@
       ]
     },
     {
-      "title": "saudi arabia",
+      "title": "49ers depth chart",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 5,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 67,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 1,
+        "liquid": 4
+      },
+      "qualified": true,
+      "suggestedSymbol": "49ERS",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "1 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "netflix",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 7,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 67,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 20,
-        "active": 2,
-        "liquid": 3
-      },
-      "qualified": true,
-      "suggestedSymbol": "SAUDI",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "2 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "cody simpson",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 6,
-      "traffic": 200,
+      "traffic": 1000,
       "sources": [
         "google-trends"
       ],
@@ -1151,92 +1181,15 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 0,
-        "liquid": 5
+        "active": 1,
+        "liquid": 2
       },
       "qualified": true,
-      "suggestedSymbol": "CODY",
+      "suggestedSymbol": "NETFLIX",
       "rationale": [
         "active search trend",
-        "approx trend traffic 200"
-      ]
-    },
-    {
-      "title": "harry kane",
-      "mentions": [
-        "google-trends",
-        "google-trends"
-      ],
-      "bestRank": 5,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 67,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 2,
-        "liquid": 21
-      },
-      "qualified": true,
-      "suggestedSymbol": "HARRY",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "2 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "arsenal news",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 8,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 67,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 0,
-        "liquid": 17
-      },
-      "qualified": true,
-      "suggestedSymbol": "ARSENAL",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100"
-      ]
-    },
-    {
-      "title": "skip",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 6,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 67,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 21,
-        "active": 2,
-        "liquid": 3
-      },
-      "qualified": true,
-      "suggestedSymbol": "SKIP",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "2 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 1,000",
+        "1 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -1255,7 +1208,7 @@
       "dex": {
         "pairs": 19,
         "active": 1,
-        "liquid": 5
+        "liquid": 4
       },
       "qualified": true,
       "suggestedSymbol": "LENS",
@@ -1270,7 +1223,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 6,
+      "bestRank": 7,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -1291,90 +1244,12 @@
       ]
     },
     {
-      "title": "internet outages",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 5,
-      "traffic": 5000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 66,
-      "category": "internet-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 6,
-        "liquid": 18
-      },
-      "qualified": true,
-      "suggestedSymbol": "INTERNET",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 5,000",
-        "6 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "canada ukraine",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 8,
-      "traffic": 2000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 66,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 20,
-        "active": 3,
-        "liquid": 2
-      },
-      "qualified": true,
-      "suggestedSymbol": "CANADA",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000",
-        "3 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "nfl hoje",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 6,
-      "traffic": 10000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 66,
-      "category": "sports",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 4,
-        "liquid": 21
-      },
-      "qualified": true,
-      "suggestedSymbol": "NFL",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 10,000",
-        "4 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "amazon",
+      "title": "síndico",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 10,
-      "traffic": 200,
+      "traffic": 1000,
       "sources": [
         "google-trends"
       ],
@@ -1382,20 +1257,20 @@
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 30,
+        "pairs": 15,
         "active": 1,
-        "liquid": 3
+        "liquid": 1
       },
       "qualified": true,
-      "suggestedSymbol": "AMAZON",
+      "suggestedSymbol": "NDICO",
       "rationale": [
         "active search trend",
-        "approx trend traffic 200",
+        "approx trend traffic 1,000",
         "1 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "migraines pharmacy first",
+      "title": "ludwig season 3",
       "mentions": [
         "google-trends"
       ],
@@ -1409,15 +1284,15 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 4,
-        "liquid": 20
+        "active": 5,
+        "liquid": 10
       },
       "qualified": true,
-      "suggestedSymbol": "MIGRAINE",
+      "suggestedSymbol": "LUDWIG",
       "rationale": [
         "active search trend",
         "approx trend traffic 2,000",
-        "4 active matching DEX pairs (saturation risk)"
+        "5 active matching DEX pairs (saturation risk)"
       ]
     }
   ],
@@ -1449,11 +1324,37 @@
       ]
     },
     {
-      "title": "braeden bowman",
+      "title": "météorologie",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 4,
+      "bestRank": 2,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 84,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 0,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "OROLOGIE",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "no matching DEX pairs detected"
+      ]
+    },
+    {
+      "title": "foxtel",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 1,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -1467,7 +1368,7 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "BRAEDEN",
+      "suggestedSymbol": "FOXTEL",
       "rationale": [
         "active search trend",
         "approx trend traffic 200",
@@ -1479,137 +1380,6 @@
       "mentions": [
         "google-trends",
         "google-trends",
-        "google-trends",
-        "google-trends"
-      ],
-      "bestRank": 1,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 84,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "SHAILENE",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "alphonso davies",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 4,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 84,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "ALPHONSO",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "energisa",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 1,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 84,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "ENERGISA",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "demissão",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 3,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 84,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "DEMISS",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "andoni zubizarreta",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 1,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 84,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "ANDONI",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "consejo coordinador empresarial",
-      "mentions": [
         "google-trends"
       ],
       "bestRank": 2,
@@ -1626,7 +1396,7 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "CONSEJO",
+      "suggestedSymbol": "SHAILENE",
       "rationale": [
         "active search trend",
         "approx trend traffic 200",
@@ -1634,17 +1404,17 @@
       ]
     },
     {
-      "title": "tennis",
+      "title": "yahir",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
-      "traffic": 200,
+      "bestRank": 2,
+      "traffic": 500,
       "sources": [
         "google-trends"
       ],
       "score": 84,
-      "category": "sports",
+      "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 0,
@@ -1652,49 +1422,51 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "TENNIS",
+      "suggestedSymbol": "YAHIR",
       "rationale": [
         "active search trend",
-        "approx trend traffic 200",
+        "approx trend traffic 500",
         "no matching DEX pairs detected"
       ]
     },
     {
-      "title": "49ers",
+      "title": "yankees - rockies",
       "mentions": [
+        "google-trends",
         "google-trends"
       ],
-      "bestRank": 3,
-      "traffic": 2000,
+      "bestRank": 1,
+      "traffic": 1000,
       "sources": [
         "google-trends"
       ],
-      "score": 83,
+      "score": 84,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 2,
+        "pairs": 0,
         "active": 0,
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "49ERS",
+      "suggestedSymbol": "YANKEES",
       "rationale": [
         "active search trend",
-        "approx trend traffic 2,000"
+        "approx trend traffic 1,000",
+        "no matching DEX pairs detected"
       ]
     },
     {
-      "title": "tilda swinton",
+      "title": "soccernet",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 6,
+      "bestRank": 4,
       "traffic": 100,
       "sources": [
         "google-trends"
       ],
-      "score": 83,
+      "score": 84,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
@@ -1703,11 +1475,42 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "TILDA",
+      "suggestedSymbol": "SOCCERNE",
       "rationale": [
         "active search trend",
         "approx trend traffic 100",
         "no matching DEX pairs detected"
+      ]
+    },
+    {
+      "title": "aryna sabalenka",
+      "mentions": [
+        "google-trends",
+        "google-trends",
+        "google-trends",
+        "google-trends",
+        "google-trends",
+        "google-trends",
+        "google-trends"
+      ],
+      "bestRank": 1,
+      "traffic": 5000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 83,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 1,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "ARYNA",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 5,000"
       ]
     },
     {
@@ -1737,11 +1540,11 @@
       ]
     },
     {
-      "title": "bocardi",
+      "title": "yankees",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 7,
+      "bestRank": 6,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -1755,85 +1558,7 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "BOCARDI",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "luisina giovannini",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 9,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 83,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "LUISINA",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "cienciano",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 5,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 83,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "CIENCIAN",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "no matching DEX pairs detected"
-      ]
-    },
-    {
-      "title": "piturris",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 8,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 83,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 0,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "PITURRIS",
+      "suggestedSymbol": "YANKEES",
       "rationale": [
         "active search trend",
         "approx trend traffic 200",
@@ -1867,12 +1592,13 @@
       ]
     },
     {
-      "title": "burlington",
+      "title": "sabalenka",
       "mentions": [
+        "google-trends",
         "google-trends"
       ],
-      "bestRank": 10,
-      "traffic": 100,
+      "bestRank": 5,
+      "traffic": 2000,
       "sources": [
         "google-trends"
       ],
@@ -1880,71 +1606,119 @@
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 0,
+        "pairs": 1,
         "active": 0,
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "BURLINGT",
+      "suggestedSymbol": "SABALENK",
       "rationale": [
         "active search trend",
-        "approx trend traffic 100",
-        "no matching DEX pairs detected"
+        "approx trend traffic 2,000"
       ]
     },
     {
-      "title": "são bernardo x londrina",
+      "title": "sabalenka husband",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 10,
+      "bestRank": 1,
       "traffic": 1000,
       "sources": [
         "google-trends"
       ],
-      "score": 82,
+      "score": 79,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 0,
+        "pairs": 1,
         "active": 0,
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "BERNARDO",
+      "suggestedSymbol": "SABALENK",
       "rationale": [
         "active search trend",
-        "approx trend traffic 1,000",
-        "no matching DEX pairs detected"
+        "approx trend traffic 1,000"
       ]
     },
     {
-      "title": "jogo do flamengo hoje",
+      "title": "anthony volpe",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 2,
-      "traffic": 5000,
+      "traffic": 500,
       "sources": [
         "google-trends"
       ],
-      "score": 80,
+      "score": 79,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 4,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "ANTHONY",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500"
+      ]
+    },
+    {
+      "title": "sabalenka boyfriend",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 3,
+      "traffic": 500,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 79,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 8,
         "active": 0,
-        "liquid": 2
+        "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "JOGO",
+      "suggestedSymbol": "SABALENK",
       "rationale": [
         "active search trend",
-        "approx trend traffic 5,000"
+        "approx trend traffic 500"
       ]
     },
     {
-      "title": "tsunami",
+      "title": "jessica pegula",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 4,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 79,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 1,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "JESSICA",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200"
+      ]
+    },
+    {
+      "title": "azerbaijan",
       "mentions": [
         "google-trends"
       ],
@@ -1954,6 +1728,81 @@
         "google-trends"
       ],
       "score": 79,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 1,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "AZERBAIJ",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100"
+      ]
+    },
+    {
+      "title": "jessica pegula parents",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 6,
+      "traffic": 500,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 78,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 4,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "JESSICA",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500"
+      ]
+    },
+    {
+      "title": "49ers",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 7,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 78,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 2,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "49ERS",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200"
+      ]
+    },
+    {
+      "title": "tsunami",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 9,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 78,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
@@ -1969,87 +1818,12 @@
       ]
     },
     {
-      "title": "kauai",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 1,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 79,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 1,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "KAUAI",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100"
-      ]
-    },
-    {
-      "title": "previsão do tempo amanhã",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 4,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 79,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 2,
-        "active": 0,
-        "liquid": 1
-      },
-      "qualified": true,
-      "suggestedSymbol": "PREVIS",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500"
-      ]
-    },
-    {
-      "title": "rabies",
+      "title": "cienciano x torque",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 6,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 78,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 2,
-        "active": 0,
-        "liquid": 0
-      },
-      "qualified": true,
-      "suggestedSymbol": "RABIES",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500"
-      ]
-    },
-    {
-      "title": "terrance ferguson",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 7,
-      "traffic": 500,
+      "traffic": 1000,
       "sources": [
         "google-trends"
       ],
@@ -2062,19 +1836,19 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "TERRANCE",
+      "suggestedSymbol": "CIENCIAN",
       "rationale": [
         "active search trend",
-        "approx trend traffic 500"
+        "approx trend traffic 1,000"
       ]
     },
     {
-      "title": "azerbaijan",
+      "title": "braga",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 5,
-      "traffic": 100,
+      "traffic": 200,
       "sources": [
         "google-trends"
       ],
@@ -2087,10 +1861,10 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "AZERBAIJ",
+      "suggestedSymbol": "BRAGA",
       "rationale": [
         "active search trend",
-        "approx trend traffic 100"
+        "approx trend traffic 200"
       ]
     },
     {
@@ -2119,7 +1893,7 @@
       ]
     },
     {
-      "title": "braga vs",
+      "title": "kieran gibbs",
       "mentions": [
         "google-trends"
       ],
@@ -2137,57 +1911,33 @@
         "liquid": 0
       },
       "qualified": true,
-      "suggestedSymbol": "BRAGA",
+      "suggestedSymbol": "KIERAN",
       "rationale": [
         "active search trend",
         "approx trend traffic 200"
       ]
     },
     {
-      "title": "texas rangers",
+      "title": "puka nacua",
       "mentions": [
+        "google-trends",
         "google-trends"
       ],
-      "bestRank": 1,
-      "traffic": 1000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 76,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 10,
-        "active": 0,
-        "liquid": 4
-      },
-      "qualified": true,
-      "suggestedSymbol": "TEXAS",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 1,000"
-      ]
-    },
-    {
-      "title": "joan manuel serrat",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 3,
+      "bestRank": 8,
       "traffic": 500,
       "sources": [
         "google-trends"
       ],
-      "score": 76,
+      "score": 75,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 8,
         "active": 1,
-        "liquid": 0
+        "liquid": 2
       },
       "qualified": true,
-      "suggestedSymbol": "JOAN",
+      "suggestedSymbol": "PUKA",
       "rationale": [
         "active search trend",
         "approx trend traffic 500",
@@ -2195,16 +1945,41 @@
       ]
     },
     {
+      "title": "agenda",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 6,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 75,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 5,
+        "active": 0,
+        "liquid": 2
+      },
+      "qualified": true,
+      "suggestedSymbol": "AGENDA",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200"
+      ]
+    },
+    {
       "title": "bayern munich",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 5,
       "traffic": 100,
       "sources": [
         "google-trends"
       ],
-      "score": 76,
+      "score": 75,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
@@ -2221,47 +1996,22 @@
       ]
     },
     {
-      "title": "channel 7",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 5,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 75,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 11,
-        "active": 0,
-        "liquid": 2
-      },
-      "qualified": true,
-      "suggestedSymbol": "CHANNEL",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200"
-      ]
-    },
-    {
       "title": "oppo coloros 17",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
+      "bestRank": 7,
       "traffic": 2000,
       "sources": [
         "google-trends"
       ],
-      "score": 72,
+      "score": 71,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
         "active": 1,
-        "liquid": 1
+        "liquid": 0
       },
       "qualified": true,
       "suggestedSymbol": "OPPO",
@@ -2272,12 +2022,12 @@
       ]
     },
     {
-      "title": "fraud",
+      "title": "justin gaethje",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 4,
-      "traffic": 100,
+      "bestRank": 1,
+      "traffic": 200,
       "sources": [
         "google-trends"
       ],
@@ -2285,15 +2035,92 @@
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 22,
+        "pairs": 13,
         "active": 0,
         "liquid": 1
       },
       "qualified": true,
-      "suggestedSymbol": "FRAUD",
+      "suggestedSymbol": "JUSTIN",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200"
+      ]
+    },
+    {
+      "title": "picture",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 6,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 70,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 25,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "PICTURE",
       "rationale": [
         "active search trend",
         "approx trend traffic 100"
+      ]
+    },
+    {
+      "title": "sport recife x ponte preta",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 5,
+      "traffic": 20000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 69,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 7,
+        "liquid": 14
+      },
+      "qualified": true,
+      "suggestedSymbol": "SPORT",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 20,000",
+        "7 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "christian mccaffrey",
+      "mentions": [
+        "google-trends",
+        "google-trends"
+      ],
+      "bestRank": 10,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 69,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 0,
+        "liquid": 0
+      },
+      "qualified": true,
+      "suggestedSymbol": "CHRISTIA",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200"
       ]
     },
     {
@@ -2322,12 +2149,12 @@
       ]
     },
     {
-      "title": "fc 27 release date",
+      "title": "oasis",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
-      "traffic": 200,
+      "bestRank": 4,
+      "traffic": 500,
       "sources": [
         "google-trends"
       ],
@@ -2337,17 +2164,43 @@
       "dex": {
         "pairs": 30,
         "active": 0,
-        "liquid": 6
+        "liquid": 13
       },
       "qualified": true,
-      "suggestedSymbol": "RELEASE",
+      "suggestedSymbol": "OASIS",
       "rationale": [
         "active search trend",
-        "approx trend traffic 200"
+        "approx trend traffic 500"
       ]
     },
     {
-      "title": "ontario science centre",
+      "title": "aaron rodgers wife",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 3,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 68,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 2,
+        "liquid": 13
+      },
+      "qualified": true,
+      "suggestedSymbol": "AARON",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "2 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "mitch kenny",
       "mentions": [
         "google-trends"
       ],
@@ -2360,23 +2213,23 @@
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 19,
+        "pairs": 22,
         "active": 0,
-        "liquid": 3
+        "liquid": 2
       },
       "qualified": true,
-      "suggestedSymbol": "ONTARIO",
+      "suggestedSymbol": "MITCH",
       "rationale": [
         "active search trend",
         "approx trend traffic 100"
       ]
     },
     {
-      "title": "twin towers",
+      "title": "steven gerrard",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
+      "bestRank": 1,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -2386,15 +2239,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 1,
-        "liquid": 6
+        "active": 0,
+        "liquid": 2
       },
       "qualified": true,
-      "suggestedSymbol": "TWIN",
+      "suggestedSymbol": "STEVEN",
       "rationale": [
         "active search trend",
-        "approx trend traffic 100",
-        "1 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 100"
       ]
     },
     {
@@ -2402,7 +2254,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 3,
+      "bestRank": 4,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -2424,7 +2276,32 @@
       ]
     },
     {
-      "title": "man u",
+      "title": "prefeitura municipal de macaé",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 3,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 68,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 0,
+        "liquid": 7
+      },
+      "qualified": true,
+      "suggestedSymbol": "PREFEITU",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200"
+      ]
+    },
+    {
+      "title": "visa",
       "mentions": [
         "google-trends"
       ],
@@ -2438,24 +2315,24 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 1,
-        "liquid": 4
+        "active": 2,
+        "liquid": 2
       },
       "qualified": true,
-      "suggestedSymbol": "MAN",
+      "suggestedSymbol": "VISA",
       "rationale": [
         "active search trend",
         "approx trend traffic 100",
-        "1 active matching DEX pairs (saturation risk)"
+        "2 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "leshon johnson",
+      "title": "aster",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 3,
-      "traffic": 10000,
+      "traffic": 2000,
       "sources": [
         "google-trends"
       ],
@@ -2464,23 +2341,51 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 3,
-        "liquid": 11
+        "active": 7,
+        "liquid": 18
       },
       "qualified": true,
-      "suggestedSymbol": "LESHON",
+      "suggestedSymbol": "ASTER",
       "rationale": [
         "active search trend",
-        "approx trend traffic 10,000",
-        "3 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 2,000",
+        "7 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "armond paige mail dumping indictment",
+      "title": "como 1907 vs rb leipzig standings",
+      "mentions": [
+        "google-trends",
+        "google-trends",
+        "google-trends"
+      ],
+      "bestRank": 2,
+      "traffic": 2000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 67,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 6,
+        "liquid": 23
+      },
+      "qualified": true,
+      "suggestedSymbol": "COMO",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 2,000",
+        "6 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "us-iran",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 9,
+      "bestRank": 8,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -2491,10 +2396,10 @@
       "dex": {
         "pairs": 30,
         "active": 0,
-        "liquid": 6
+        "liquid": 13
       },
       "qualified": true,
-      "suggestedSymbol": "ARMOND",
+      "suggestedSymbol": "IRAN",
       "rationale": [
         "active search trend",
         "approx trend traffic 500"
@@ -2505,7 +2410,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 5,
+      "bestRank": 8,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -2526,38 +2431,38 @@
       ]
     },
     {
-      "title": "saudi arabia",
+      "title": "49ers depth chart",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 5,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 67,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 1,
+        "liquid": 4
+      },
+      "qualified": true,
+      "suggestedSymbol": "49ERS",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "1 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "netflix",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 7,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 67,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 20,
-        "active": 2,
-        "liquid": 3
-      },
-      "qualified": true,
-      "suggestedSymbol": "SAUDI",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "2 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "cody simpson",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 6,
-      "traffic": 200,
+      "traffic": 1000,
       "sources": [
         "google-trends"
       ],
@@ -2566,92 +2471,15 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 0,
-        "liquid": 5
+        "active": 1,
+        "liquid": 2
       },
       "qualified": true,
-      "suggestedSymbol": "CODY",
+      "suggestedSymbol": "NETFLIX",
       "rationale": [
         "active search trend",
-        "approx trend traffic 200"
-      ]
-    },
-    {
-      "title": "harry kane",
-      "mentions": [
-        "google-trends",
-        "google-trends"
-      ],
-      "bestRank": 5,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 67,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 2,
-        "liquid": 21
-      },
-      "qualified": true,
-      "suggestedSymbol": "HARRY",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "2 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "arsenal news",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 8,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 67,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 0,
-        "liquid": 17
-      },
-      "qualified": true,
-      "suggestedSymbol": "ARSENAL",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100"
-      ]
-    },
-    {
-      "title": "skip",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 6,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 67,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 21,
-        "active": 2,
-        "liquid": 3
-      },
-      "qualified": true,
-      "suggestedSymbol": "SKIP",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "2 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 1,000",
+        "1 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -2670,7 +2498,7 @@
       "dex": {
         "pairs": 19,
         "active": 1,
-        "liquid": 5
+        "liquid": 4
       },
       "qualified": true,
       "suggestedSymbol": "LENS",
@@ -2685,7 +2513,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 6,
+      "bestRank": 7,
       "traffic": 200,
       "sources": [
         "google-trends"
@@ -2706,90 +2534,12 @@
       ]
     },
     {
-      "title": "internet outages",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 5,
-      "traffic": 5000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 66,
-      "category": "internet-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 6,
-        "liquid": 18
-      },
-      "qualified": true,
-      "suggestedSymbol": "INTERNET",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 5,000",
-        "6 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "canada ukraine",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 8,
-      "traffic": 2000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 66,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 20,
-        "active": 3,
-        "liquid": 2
-      },
-      "qualified": true,
-      "suggestedSymbol": "CANADA",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000",
-        "3 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "nfl hoje",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 6,
-      "traffic": 10000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 66,
-      "category": "sports",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 4,
-        "liquid": 21
-      },
-      "qualified": true,
-      "suggestedSymbol": "NFL",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 10,000",
-        "4 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "amazon",
+      "title": "síndico",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 10,
-      "traffic": 200,
+      "traffic": 1000,
       "sources": [
         "google-trends"
       ],
@@ -2797,20 +2547,20 @@
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
-        "pairs": 30,
+        "pairs": 15,
         "active": 1,
-        "liquid": 3
+        "liquid": 1
       },
       "qualified": true,
-      "suggestedSymbol": "AMAZON",
+      "suggestedSymbol": "NDICO",
       "rationale": [
         "active search trend",
-        "approx trend traffic 200",
+        "approx trend traffic 1,000",
         "1 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "migraines pharmacy first",
+      "title": "ludwig season 3",
       "mentions": [
         "google-trends"
       ],
@@ -2824,24 +2574,50 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 4,
-        "liquid": 20
+        "active": 5,
+        "liquid": 10
       },
       "qualified": true,
-      "suggestedSymbol": "MIGRAINE",
+      "suggestedSymbol": "LUDWIG",
       "rationale": [
         "active search trend",
         "approx trend traffic 2,000",
-        "4 active matching DEX pairs (saturation risk)"
+        "5 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "paul rudd",
+      "title": "head-on collision",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 2,
-      "traffic": 100,
+      "bestRank": 1,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 63,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 3,
+        "liquid": 13
+      },
+      "qualified": false,
+      "suggestedSymbol": "HEAD",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "3 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "lula no sbt",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 4,
+      "traffic": 200,
       "sources": [
         "google-trends"
       ],
@@ -2851,14 +2627,92 @@
       "dex": {
         "pairs": 30,
         "active": 4,
-        "liquid": 4
+        "liquid": 29
       },
       "qualified": false,
-      "suggestedSymbol": "PAUL",
+      "suggestedSymbol": "LULA",
       "rationale": [
         "active search trend",
-        "approx trend traffic 100",
+        "approx trend traffic 200",
         "4 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "como votar la granja vip",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 3,
+      "traffic": 500,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 63,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 4,
+        "liquid": 18
+      },
+      "qualified": false,
+      "suggestedSymbol": "COMO",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500",
+        "4 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "nflx",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 5,
+      "traffic": 500,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 62,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 5,
+        "liquid": 13
+      },
+      "qualified": false,
+      "suggestedSymbol": "NFLX",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500",
+        "5 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "dwts season 35 elimination twist",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 9,
+      "traffic": 500,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 62,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 6,
+        "liquid": 14
+      },
+      "qualified": false,
+      "suggestedSymbol": "DWTS",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500",
+        "6 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -2866,12 +2720,12 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 6,
       "traffic": 200,
       "sources": [
         "google-trends"
       ],
-      "score": 63,
+      "score": 62,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
@@ -2888,120 +2742,42 @@
       ]
     },
     {
-      "title": "dylan frost sticky fingers court",
+      "title": "george kittle",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
-      "traffic": 1000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 63,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 5,
-        "liquid": 12
-      },
-      "qualified": false,
-      "suggestedSymbol": "DYLAN",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 1,000",
-        "5 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "spice girls announcement",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 2,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 63,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 4,
-        "liquid": 9
-      },
-      "qualified": false,
-      "suggestedSymbol": "SPICE",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "4 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "néstor araujo",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 4,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 63,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 4,
-        "liquid": 17
-      },
-      "qualified": false,
-      "suggestedSymbol": "STOR",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "4 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "bayern munich vs bodø/glimt stats",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 4,
+      "bestRank": 9,
       "traffic": 100,
       "sources": [
         "google-trends"
       ],
-      "score": 63,
+      "score": 62,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 7,
-        "liquid": 26
+        "active": 4,
+        "liquid": 7
       },
       "qualified": false,
-      "suggestedSymbol": "BAYERN",
+      "suggestedSymbol": "GEORGE",
       "rationale": [
         "active search trend",
         "approx trend traffic 100",
-        "7 active matching DEX pairs (saturation risk)"
+        "4 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "uefa champions league",
+      "title": "uefa champions league fixtures",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 4,
-      "traffic": 100,
+      "bestRank": 6,
+      "traffic": 500,
       "sources": [
         "google-trends"
       ],
-      "score": 63,
+      "score": 62,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
@@ -3013,92 +2789,12 @@
       "suggestedSymbol": "UEFA",
       "rationale": [
         "active search trend",
-        "approx trend traffic 100",
+        "approx trend traffic 500",
         "5 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "bayern vs bodø/glimt",
-      "mentions": [
-        "google-trends",
-        "google-trends"
-      ],
-      "bestRank": 2,
-      "traffic": 1000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 63,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 6,
-        "liquid": 26
-      },
-      "qualified": false,
-      "suggestedSymbol": "BAYERN",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 1,000",
-        "6 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "champions league standings",
-      "mentions": [
-        "google-trends",
-        "google-trends"
-      ],
-      "bestRank": 3,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 63,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 4,
-        "liquid": 5
-      },
-      "qualified": false,
-      "suggestedSymbol": "CHAMPION",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "4 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "dan caine",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 8,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 62,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 6,
-        "liquid": 14
-      },
-      "qualified": false,
-      "suggestedSymbol": "DAN",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "6 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "tschabalala self",
+      "title": "white sox - pirates",
       "mentions": [
         "google-trends"
       ],
@@ -3113,10 +2809,10 @@
       "dex": {
         "pairs": 30,
         "active": 5,
-        "liquid": 15
+        "liquid": 25
       },
       "qualified": false,
-      "suggestedSymbol": "TSCHABAL",
+      "suggestedSymbol": "WHITE",
       "rationale": [
         "active search trend",
         "approx trend traffic 200",
@@ -3124,217 +2820,35 @@
       ]
     },
     {
-      "title": "line of duty",
+      "title": "internet",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 8,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 62,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 7,
-        "liquid": 20
-      },
-      "qualified": false,
-      "suggestedSymbol": "LINE",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "7 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "classement bayern munich – bodø/glimt",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 6,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 62,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 7,
-        "liquid": 26
-      },
-      "qualified": false,
-      "suggestedSymbol": "CLASSEME",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "7 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "carly pearce",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 7,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 62,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 8,
-        "active": 4,
-        "liquid": 2
-      },
-      "qualified": false,
-      "suggestedSymbol": "CARLY",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "4 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "prince william kate return to duties",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 8,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 62,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 5,
-        "liquid": 13
-      },
-      "qualified": false,
-      "suggestedSymbol": "PRINCE",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "5 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "ucl fixtures",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 5,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 62,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 4,
-        "liquid": 21
-      },
-      "qualified": false,
-      "suggestedSymbol": "UCL",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "4 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "maps",
-      "mentions": [
-        "google-trends",
-        "google-trends"
-      ],
-      "bestRank": 5,
       "traffic": 100,
       "sources": [
         "google-trends"
       ],
       "score": 62,
-      "category": "general-culture",
+      "category": "internet-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 4,
-        "liquid": 8
+        "active": 3,
+        "liquid": 10
       },
       "qualified": false,
-      "suggestedSymbol": "MAPS",
+      "suggestedSymbol": "INTERNET",
       "rationale": [
         "active search trend",
         "approx trend traffic 100",
-        "4 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "grand theft auto vi dualsense",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 6,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 62,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 6,
-        "liquid": 7
-      },
-      "qualified": false,
-      "suggestedSymbol": "GRAND",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "6 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "sharon stone",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 9,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 62,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 5,
-        "liquid": 26
-      },
-      "qualified": false,
-      "suggestedSymbol": "SHARON",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "5 active matching DEX pairs (saturation risk)"
+        "3 active matching DEX pairs (saturation risk)"
       ]
     },
     {
       "title": "google",
       "mentions": [
+        "google-trends",
         "google-trends"
       ],
       "bestRank": 7,
@@ -3359,7 +2873,33 @@
       ]
     },
     {
-      "title": "kim chiu",
+      "title": "diesel fuel",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 6,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 62,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 4,
+        "liquid": 18
+      },
+      "qualified": false,
+      "suggestedSymbol": "DIESEL",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "4 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "uefa champions league",
       "mentions": [
         "google-trends"
       ],
@@ -3373,50 +2913,24 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 6,
-        "liquid": 26
+        "active": 5,
+        "liquid": 5
       },
       "qualified": false,
-      "suggestedSymbol": "KIM",
+      "suggestedSymbol": "UEFA",
       "rationale": [
         "active search trend",
         "approx trend traffic 200",
-        "6 active matching DEX pairs (saturation risk)"
+        "5 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "fenerbahçe vs roma",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 7,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 62,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 6,
-        "liquid": 11
-      },
-      "qualified": false,
-      "suggestedSymbol": "FENERBAH",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "6 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "aster",
+      "title": "maps",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 9,
-      "traffic": 500,
+      "traffic": 100,
       "sources": [
         "google-trends"
       ],
@@ -3425,15 +2939,95 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 7,
-        "liquid": 17
+        "active": 4,
+        "liquid": 7
       },
       "qualified": false,
-      "suggestedSymbol": "ASTER",
+      "suggestedSymbol": "MAPS",
       "rationale": [
         "active search trend",
-        "approx trend traffic 500",
-        "7 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 100",
+        "4 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "bayern vs bodø/glimt",
+      "mentions": [
+        "google-trends",
+        "google-trends"
+      ],
+      "bestRank": 6,
+      "traffic": 1000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 62,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 6,
+        "liquid": 26
+      },
+      "qualified": false,
+      "suggestedSymbol": "BAYERN",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 1,000",
+        "6 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "champions league standings",
+      "mentions": [
+        "google-trends",
+        "google-trends"
+      ],
+      "bestRank": 6,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 62,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 4,
+        "liquid": 5
+      },
+      "qualified": false,
+      "suggestedSymbol": "CHAMPION",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "4 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "ucl fixtures",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 8,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 62,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 4,
+        "liquid": 23
+      },
+      "qualified": false,
+      "suggestedSymbol": "UCL",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "4 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -3441,7 +3035,7 @@
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 7,
+      "bestRank": 8,
       "traffic": 500,
       "sources": [
         "google-trends"
@@ -3452,7 +3046,7 @@
       "dex": {
         "pairs": 30,
         "active": 4,
-        "liquid": 4
+        "liquid": 3
       },
       "qualified": false,
       "suggestedSymbol": "COMO",
@@ -3463,16 +3057,42 @@
       ]
     },
     {
+      "title": "arena plus",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 10,
+      "traffic": 200,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 61,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 7,
+        "liquid": 23
+      },
+      "qualified": false,
+      "suggestedSymbol": "ARENA",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 200",
+        "7 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
       "title": "xiaomi 18 fold",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 9,
+      "bestRank": 10,
       "traffic": 100,
       "sources": [
         "google-trends"
       ],
-      "score": 62,
+      "score": 61,
       "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
@@ -3489,90 +3109,13 @@
       ]
     },
     {
-      "title": "joe pierro",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 10,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 61,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 5,
-        "liquid": 25
-      },
-      "qualified": false,
-      "suggestedSymbol": "JOE",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "5 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "kaya scodelario",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 10,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 61,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 17,
-        "active": 3,
-        "liquid": 2
-      },
-      "qualified": false,
-      "suggestedSymbol": "KAYA",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "3 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "jack neo kiki darling",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 10,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 61,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 4,
-        "liquid": 19
-      },
-      "qualified": false,
-      "suggestedSymbol": "JACK",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "4 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
       "title": "manchester united f.c. vs sabah fk standings",
       "mentions": [
         "google-trends",
+        "google-trends",
         "google-trends"
       ],
-      "bestRank": 2,
+      "bestRank": 3,
       "traffic": 50000,
       "sources": [
         "google-trends"
@@ -3582,7 +3125,7 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 12,
+        "active": 11,
         "liquid": 15
       },
       "qualified": false,
@@ -3590,41 +3133,13 @@
       "rationale": [
         "active search trend",
         "approx trend traffic 50,000",
-        "12 active matching DEX pairs (saturation risk)"
+        "11 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "como 1907 vs rb leipzig standings",
+      "title": "rams vs 49ers",
       "mentions": [
         "google-trends",
-        "google-trends",
-        "google-trends",
-        "google-trends"
-      ],
-      "bestRank": 2,
-      "traffic": 2000,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 56,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 8,
-        "liquid": 24
-      },
-      "qualified": false,
-      "suggestedSymbol": "COMO",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 2,000",
-        "8 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "class suspension today",
-      "mentions": [
         "google-trends"
       ],
       "bestRank": 1,
@@ -3637,15 +3152,15 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 25,
-        "liquid": 28
+        "active": 8,
+        "liquid": 12
       },
       "qualified": false,
-      "suggestedSymbol": "CLASS",
+      "suggestedSymbol": "RAMS",
       "rationale": [
         "active search trend",
         "approx trend traffic 2,000",
-        "25 active matching DEX pairs (saturation risk)"
+        "8 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -3664,7 +3179,7 @@
       "dex": {
         "pairs": 30,
         "active": 2,
-        "liquid": 12
+        "liquid": 10
       },
       "qualified": false,
       "suggestedSymbol": "REALLY",
@@ -3699,7 +3214,7 @@
       ]
     },
     {
-      "title": "Here Are The Internet’s 51 Funniest Memes Today - BroBible",
+      "title": "Here Are The Internet’s 51 Funniest Memes Today - brobible.com",
       "mentions": [
         "google-news"
       ],
@@ -3727,7 +3242,7 @@
       "mentions": [
         "google-news"
       ],
-      "bestRank": 4,
+      "bestRank": 3,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -3750,11 +3265,9 @@
     {
       "title": "man utd vs sabah",
       "mentions": [
-        "google-trends",
-        "google-trends",
         "google-trends"
       ],
-      "bestRank": 6,
+      "bestRank": 9,
       "traffic": 10000,
       "sources": [
         "google-trends"
@@ -3764,20 +3277,21 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 9,
-        "liquid": 10
+        "active": 11,
+        "liquid": 12
       },
       "qualified": false,
       "suggestedSymbol": "MAN",
       "rationale": [
         "active search trend",
         "approx trend traffic 10,000",
-        "9 active matching DEX pairs (saturation risk)"
+        "11 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "Sophie Rain Spider Man: Understanding the Viral Internet Trend - rikkyo.ac.jp",
+      "title": "The 'Best, Worst & Most Oops' Internet Trends in 2025 - People.com",
       "mentions": [
+        "google-news",
         "google-news"
       ],
       "bestRank": 7,
@@ -3790,14 +3304,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 1,
-        "liquid": 4
+        "active": 2,
+        "liquid": 26
       },
       "qualified": false,
-      "suggestedSymbol": "SOPHIE",
+      "suggestedSymbol": "BEST",
       "rationale": [
         "news confirmation",
-        "1 active matching DEX pairs (saturation risk)"
+        "2 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -3851,12 +3365,62 @@
       ]
     },
     {
-      "title": "beauty in black renewed season 4",
+      "title": "Newport Beach Surfer Dude Recreates 20-Year-Old Viral Moment Live on Air - The Inertia",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 6,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 55,
+      "category": "internet-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 0,
+        "liquid": 9
+      },
+      "qualified": false,
+      "suggestedSymbol": "NEWPORT",
+      "rationale": [
+        "news confirmation"
+      ]
+    },
+    {
+      "title": "ssc cpo notification 2026",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 10,
+      "traffic": 5000,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 54,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 12,
+        "liquid": 21
+      },
+      "qualified": false,
+      "suggestedSymbol": "SSC",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 5,000",
+        "12 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "netflix prices",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 4,
-      "traffic": 1000,
+      "traffic": 500,
       "sources": [
         "google-trends"
       ],
@@ -3865,50 +3429,23 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 11,
-        "liquid": 21
+        "active": 8,
+        "liquid": 19
       },
       "qualified": false,
-      "suggestedSymbol": "BEAUTY",
+      "suggestedSymbol": "NETFLIX",
       "rationale": [
         "active search trend",
-        "approx trend traffic 1,000",
-        "11 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 500",
+        "8 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "nico paz",
-      "mentions": [
-        "google-trends",
-        "google-trends"
-      ],
-      "bestRank": 1,
-      "traffic": 200,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 52,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 11,
-        "liquid": 12
-      },
-      "qualified": false,
-      "suggestedSymbol": "NICO",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 200",
-        "11 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "cna",
+      "title": "rams depth chart",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 1,
+      "bestRank": 4,
       "traffic": 100,
       "sources": [
         "google-trends"
@@ -3918,7 +3455,85 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
+        "active": 9,
+        "liquid": 15
+      },
+      "qualified": false,
+      "suggestedSymbol": "RAMS",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "9 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "rams x 49ers",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 2,
+      "traffic": 500,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 52,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
         "active": 8,
+        "liquid": 12
+      },
+      "qualified": false,
+      "suggestedSymbol": "RAMS",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500",
+        "8 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "us open",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 2,
+      "traffic": 500,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 52,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 9,
+        "liquid": 19
+      },
+      "qualified": false,
+      "suggestedSymbol": "OPEN",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 500",
+        "9 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "cna",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 3,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 52,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 9,
         "liquid": 22
       },
       "qualified": false,
@@ -3926,59 +3541,85 @@
       "rationale": [
         "active search trend",
         "approx trend traffic 100",
-        "8 active matching DEX pairs (saturation risk)"
+        "9 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "hot drinks cancer risk",
+      "title": "how many nfl games are on netflix this year",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 5,
+      "bestRank": 7,
       "traffic": 1000,
       "sources": [
         "google-trends"
       ],
       "score": 51,
-      "category": "general-culture",
+      "category": "sports",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 8,
-        "liquid": 19
+        "active": 21,
+        "liquid": 21
       },
       "qualified": false,
-      "suggestedSymbol": "HOT",
+      "suggestedSymbol": "HOW",
       "rationale": [
         "active search trend",
         "approx trend traffic 1,000",
-        "8 active matching DEX pairs (saturation risk)"
+        "21 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "george springer toronto blue jays",
+      "title": "nfl game tonight",
       "mentions": [
         "google-trends"
       ],
-      "bestRank": 9,
+      "bestRank": 6,
+      "traffic": 100,
+      "sources": [
+        "google-trends"
+      ],
+      "score": 51,
+      "category": "gaming",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 18,
+        "liquid": 23
+      },
+      "qualified": false,
+      "suggestedSymbol": "NFL",
+      "rationale": [
+        "active search trend",
+        "approx trend traffic 100",
+        "18 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "football.com",
+      "mentions": [
+        "google-trends"
+      ],
+      "bestRank": 8,
       "traffic": 200,
       "sources": [
         "google-trends"
       ],
       "score": 51,
-      "category": "general-culture",
+      "category": "sports",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 10,
-        "liquid": 29
+        "active": 20,
+        "liquid": 21
       },
       "qualified": false,
-      "suggestedSymbol": "GEORGE",
+      "suggestedSymbol": "FOOTBALL",
       "rationale": [
         "active search trend",
         "approx trend traffic 200",
-        "10 active matching DEX pairs (saturation risk)"
+        "20 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -3996,50 +3637,24 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 21,
-        "liquid": 17
+        "active": 23,
+        "liquid": 20
       },
       "qualified": false,
       "suggestedSymbol": "BBC",
       "rationale": [
         "active search trend",
         "approx trend traffic 100",
-        "21 active matching DEX pairs (saturation risk)"
+        "23 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "binance buy crypto",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 8,
-      "traffic": 100,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 51,
-      "category": "crypto",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 10,
-        "liquid": 11
-      },
-      "qualified": false,
-      "suggestedSymbol": "BINANCE",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 100",
-        "10 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "lua nova",
+      "title": "cpl 2026",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 5,
-      "traffic": 200,
+      "traffic": 100,
       "sources": [
         "google-trends"
       ],
@@ -4048,45 +3663,45 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 18,
-        "liquid": 23
+        "active": 9,
+        "liquid": 25
       },
       "qualified": false,
-      "suggestedSymbol": "LUA",
+      "suggestedSymbol": "CPL",
       "rationale": [
         "active search trend",
-        "approx trend traffic 200",
-        "18 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 100",
+        "9 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "jogo de xbox",
+      "title": "independiente del valle vs flamengo",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 8,
-      "traffic": 200,
+      "traffic": 1000,
       "sources": [
         "google-trends"
       ],
       "score": 51,
-      "category": "gaming",
+      "category": "general-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
         "active": 12,
-        "liquid": 9
+        "liquid": 19
       },
       "qualified": false,
-      "suggestedSymbol": "JOGO",
+      "suggestedSymbol": "INDEPEND",
       "rationale": [
         "active search trend",
-        "approx trend traffic 200",
+        "approx trend traffic 1,000",
         "12 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "bir tax crackdown pos machines",
+      "title": "apple intelligence",
       "mentions": [
         "google-trends"
       ],
@@ -4100,24 +3715,24 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 13,
+        "active": 19,
         "liquid": 19
       },
       "qualified": false,
-      "suggestedSymbol": "BIR",
+      "suggestedSymbol": "APPLE",
       "rationale": [
         "active search trend",
         "approx trend traffic 200",
-        "13 active matching DEX pairs (saturation risk)"
+        "19 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "us open 2026",
+      "title": "álex fernández",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 5,
-      "traffic": 100,
+      "traffic": 200,
       "sources": [
         "google-trends"
       ],
@@ -4126,45 +3741,19 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 11,
-        "liquid": 16
+        "active": 12,
+        "liquid": 25
       },
       "qualified": false,
-      "suggestedSymbol": "OPEN",
+      "suggestedSymbol": "LEX",
       "rationale": [
         "active search trend",
-        "approx trend traffic 100",
-        "11 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 200",
+        "12 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "iphone duo iphone 18 pro",
-      "mentions": [
-        "google-trends"
-      ],
-      "bestRank": 8,
-      "traffic": 500,
-      "sources": [
-        "google-trends"
-      ],
-      "score": 51,
-      "category": "technology",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 11,
-        "liquid": 3
-      },
-      "qualified": false,
-      "suggestedSymbol": "IPHONE",
-      "rationale": [
-        "active search trend",
-        "approx trend traffic 500",
-        "11 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "Colorado teen arrested after posting viral ‘Cat in the Hat’ meme - denverpost.com",
+      "title": "Colorado teen arrested after posting viral ‘Cat in the Hat’ meme - The Denver Post",
       "mentions": [
         "google-news"
       ],
@@ -4189,8 +3778,9 @@
       ]
     },
     {
-      "title": "How viral ‘Cat in the Hat’ trend is being used to threaten schools, TN officials investigating - wbbjtv.com",
+      "title": "The viral 80s AI photo trend is giving Internet a serious retro makeover - India Today",
       "mentions": [
+        "google-news",
         "google-news"
       ],
       "bestRank": 4,
@@ -4199,18 +3789,18 @@
         "google-news"
       ],
       "score": 51,
-      "category": "internet-culture",
+      "category": "technology",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 4,
-        "liquid": 13
+        "active": 5,
+        "liquid": 11
       },
       "qualified": false,
-      "suggestedSymbol": "HOW",
+      "suggestedSymbol": "VIRAL",
       "rationale": [
         "news confirmation",
-        "4 active matching DEX pairs (saturation risk)"
+        "5 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -4220,7 +3810,7 @@
         "google-news",
         "google-news"
       ],
-      "bestRank": 3,
+      "bestRank": 4,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -4241,29 +3831,28 @@
       ]
     },
     {
-      "title": "Wtf is Bimbo Stoicism? Unpacking the internet’s wildest new beauty trend - Dazed",
+      "title": "Viral video prompts review of football postgame incident at Winter Park High School - WKMG",
       "mentions": [
-        "google-news",
         "google-news"
       ],
-      "bestRank": 2,
+      "bestRank": 4,
       "traffic": 0,
       "sources": [
         "google-news"
       ],
       "score": 51,
-      "category": "internet-culture",
+      "category": "sports",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 7,
-        "liquid": 25
+        "active": 3,
+        "liquid": 5
       },
       "qualified": false,
-      "suggestedSymbol": "WTF",
+      "suggestedSymbol": "VIRAL",
       "rationale": [
         "news confirmation",
-        "7 active matching DEX pairs (saturation risk)"
+        "3 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -4281,18 +3870,18 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 5,
-        "liquid": 19
+        "active": 6,
+        "liquid": 20
       },
       "qualified": false,
       "suggestedSymbol": "NFL",
       "rationale": [
         "news confirmation",
-        "5 active matching DEX pairs (saturation risk)"
+        "6 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "The best internet moments of 2026 (so far) - Mashable",
+      "title": "The best internet moments of 2026 (so far) - mashable.com",
       "mentions": [
         "google-news"
       ],
@@ -4331,14 +3920,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 6,
+        "active": 5,
         "liquid": 18
       },
       "qualified": false,
       "suggestedSymbol": "ARIEL",
       "rationale": [
         "news confirmation",
-        "6 active matching DEX pairs (saturation risk)"
+        "5 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -4367,7 +3956,7 @@
       ]
     },
     {
-      "title": "Brooklyn Nets’ Michael Porter Jr. Addresses Viral Encounter With Taiwanese Transgender Celebrity - Yahoo",
+      "title": "The stylish fall sneaker trend celebrities like Kendall Jenner, Rihanna and Florence Pugh are already wearing - Yahoo",
       "mentions": [
         "google-news"
       ],
@@ -4385,39 +3974,14 @@
         "liquid": 11
       },
       "qualified": false,
-      "suggestedSymbol": "BROOKLYN",
+      "suggestedSymbol": "STYLISH",
       "rationale": [
         "news confirmation",
         "3 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "If Your Fall Wardrobe Feels Boring, Try These Unexpected Color Combinations - Marie Claire",
-      "mentions": [
-        "google-news"
-      ],
-      "bestRank": 4,
-      "traffic": 0,
-      "sources": [
-        "google-news"
-      ],
-      "score": 51,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 6,
-        "liquid": 20
-      },
-      "qualified": false,
-      "suggestedSymbol": "YOUR",
-      "rationale": [
-        "news confirmation",
-        "6 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "Here are the best memes from the controversial Michigan-Western Michigan finish - sports.yahoo.com",
+      "title": "Here are the best memes from the controversial Michigan-Western Michigan finish - Yahoo Sports",
       "mentions": [
         "google-news"
       ],
@@ -4442,7 +4006,7 @@
       ]
     },
     {
-      "title": "How could AI kill humans? Experts explain the risks after researcher's viral warning - NBC 5 Chicago",
+      "title": "How could AI kill humans? Experts explain the risks after researcher's viral warning - nbcchicago.com",
       "mentions": [
         "google-news"
       ],
@@ -4471,7 +4035,7 @@
       "mentions": [
         "google-news"
       ],
-      "bestRank": 1,
+      "bestRank": 2,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -4567,6 +4131,31 @@
       ]
     },
     {
+      "title": "Cat in the Hat that chased B.C. teenage girl appears part of viral social media trend - CityNews Vancouver",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 4,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 51,
+      "category": "internet-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 4,
+        "liquid": 16
+      },
+      "qualified": false,
+      "suggestedSymbol": "CAT",
+      "rationale": [
+        "news confirmation",
+        "4 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
       "title": "Baby pygmy hippo named 'Bread Roll' charms internet as Zoo Berlin calf gains viral attention - The Cool Down",
       "mentions": [
         "google-news"
@@ -4617,6 +4206,31 @@
       ]
     },
     {
+      "title": "This is the most fashionable make-up bag we've found and you can get it free when you shop from Merit - Grazia Daily UK",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 4,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 51,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 7,
+        "liquid": 11
+      },
+      "qualified": false,
+      "suggestedSymbol": "MOST",
+      "rationale": [
+        "news confirmation",
+        "7 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
       "title": "Flemingsburg Police: No credible threat found in viral ‘Cat in the Hat’ social media trend - LEX 18 News",
       "mentions": [
         "google-news"
@@ -4642,12 +4256,12 @@
       ]
     },
     {
-      "title": "after",
+      "title": "prison break black creek",
       "mentions": [
         "google-trends"
       ],
       "bestRank": 10,
-      "traffic": 100,
+      "traffic": 500,
       "sources": [
         "google-trends"
       ],
@@ -4656,21 +4270,20 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 8,
-        "liquid": 6
+        "active": 13,
+        "liquid": 22
       },
       "qualified": false,
-      "suggestedSymbol": "AFTER",
+      "suggestedSymbol": "PRISON",
       "rationale": [
         "active search trend",
-        "approx trend traffic 100",
-        "8 active matching DEX pairs (saturation risk)"
+        "approx trend traffic 500",
+        "13 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "The viral 80s AI photo trend is giving Internet a serious retro makeover - India Today",
+      "title": "How viral ‘Cat in the Hat’ trend is being used to threaten schools, TN officials investigating - wbbjtv.com",
       "mentions": [
-        "google-news",
         "google-news"
       ],
       "bestRank": 5,
@@ -4679,27 +4292,27 @@
         "google-news"
       ],
       "score": 50,
-      "category": "technology",
+      "category": "internet-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 5,
-        "liquid": 11
+        "active": 4,
+        "liquid": 13
       },
       "qualified": false,
-      "suggestedSymbol": "VIRAL",
+      "suggestedSymbol": "HOW",
       "rationale": [
         "news confirmation",
-        "5 active matching DEX pairs (saturation risk)"
+        "4 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "80s AI photo trend goes viral: Is there a hidden Environmental cost? - ptcpunjabi.co.in",
+      "title": "80s AI photo trend goes viral: Is there a hidden Environmental cost? - PTC Punjabi",
       "mentions": [
         "google-news",
         "google-news"
       ],
-      "bestRank": 8,
+      "bestRank": 7,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -4722,6 +4335,7 @@
     {
       "title": "The 10 Best Viral Moments of 2025, Ranked - Complex",
       "mentions": [
+        "google-news",
         "google-news"
       ],
       "bestRank": 6,
@@ -4734,18 +4348,43 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 7,
-        "liquid": 23
+        "active": 5,
+        "liquid": 24
       },
       "qualified": false,
       "suggestedSymbol": "BEST",
       "rationale": [
         "news confirmation",
-        "7 active matching DEX pairs (saturation risk)"
+        "5 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "These Are The 51 Best Memes On The Internet For Monday - BroBible",
+      "title": "Viral NFL journo pumped for MCG game - SMH.com.au",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 6,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 50,
+      "category": "gaming",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 6,
+        "liquid": 20
+      },
+      "qualified": false,
+      "suggestedSymbol": "VIRAL",
+      "rationale": [
+        "news confirmation",
+        "6 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "These Are The 51 Best Memes On The Internet For Monday - brobible.com",
       "mentions": [
         "google-news"
       ],
@@ -4809,39 +4448,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 7,
+        "active": 6,
         "liquid": 14
       },
       "qualified": false,
       "suggestedSymbol": "INDIA",
       "rationale": [
         "news confirmation",
-        "7 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "ZYMIX picks Mangopay for UK super app wallet launch - IT Brief UK",
-      "mentions": [
-        "google-news"
-      ],
-      "bestRank": 6,
-      "traffic": 0,
-      "sources": [
-        "google-news"
-      ],
-      "score": 50,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 5,
-        "liquid": 22
-      },
-      "qualified": false,
-      "suggestedSymbol": "ZYMIX",
-      "rationale": [
-        "news confirmation",
-        "5 active matching DEX pairs (saturation risk)"
+        "6 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -4849,7 +4463,7 @@
       "mentions": [
         "google-news"
       ],
-      "bestRank": 7,
+      "bestRank": 6,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -4870,11 +4484,11 @@
       ]
     },
     {
-      "title": "Feds launch investigation into Tesla’s Cybercab deployment - TechCrunch",
+      "title": "ZYMIX picks Mangopay for UK super app wallet launch - IT Brief UK",
       "mentions": [
         "google-news"
       ],
-      "bestRank": 8,
+      "bestRank": 7,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -4884,8 +4498,33 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
+        "active": 5,
+        "liquid": 22
+      },
+      "qualified": false,
+      "suggestedSymbol": "ZYMIX",
+      "rationale": [
+        "news confirmation",
+        "5 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Feds Probe Tesla Cybercab Hours After Austin Launch - The Tech Buzz",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 8,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 50,
+      "category": "technology",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
         "active": 7,
-        "liquid": 20
+        "liquid": 10
       },
       "qualified": false,
       "suggestedSymbol": "FEDS",
@@ -4895,7 +4534,7 @@
       ]
     },
     {
-      "title": "Overwatch introduces Shion as a new hero ahead of Season 3 launch - Tech Edition",
+      "title": "The latest iPhone 18 news, leaks, and rumors: Release date, price increases, new colors - mashable.com",
       "mentions": [
         "google-news"
       ],
@@ -4909,14 +4548,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 3,
-        "liquid": 22
+        "active": 4,
+        "liquid": 19
       },
       "qualified": false,
-      "suggestedSymbol": "OVERWATC",
+      "suggestedSymbol": "LATEST",
       "rationale": [
         "news confirmation",
-        "3 active matching DEX pairs (saturation risk)"
+        "4 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -4942,6 +4581,31 @@
       "rationale": [
         "news confirmation",
         "7 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Brooklyn Nets’ Michael Porter Jr. Addresses Viral Encounter With Taiwanese Transgender Celebrity - Yahoo",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 8,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 50,
+      "category": "internet-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 3,
+        "liquid": 12
+      },
+      "qualified": false,
+      "suggestedSymbol": "BROOKLYN",
+      "rationale": [
+        "news confirmation",
+        "3 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -4995,7 +4659,7 @@
       ]
     },
     {
-      "title": "Cubs reliever's viral dugout meltdown becomes immediate meme - sports.yahoo.com",
+      "title": "Cubs reliever's viral dugout meltdown becomes immediate meme - Yahoo Sports",
       "mentions": [
         "google-news"
       ],
@@ -5024,7 +4688,7 @@
       "mentions": [
         "google-news"
       ],
-      "bestRank": 5,
+      "bestRank": 6,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -5035,13 +4699,163 @@
       "dex": {
         "pairs": 30,
         "active": 3,
-        "liquid": 11
+        "liquid": 10
       },
       "qualified": false,
       "suggestedSymbol": "META",
       "rationale": [
         "news confirmation",
         "3 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Viral AI assistant Instinct now has its own email address - TechCrunch",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 7,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 50,
+      "category": "technology",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 5,
+        "liquid": 17
+      },
+      "qualified": false,
+      "suggestedSymbol": "VIRAL",
+      "rationale": [
+        "news confirmation",
+        "5 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Viral AI warning sparks debate over Artificial Intelligence - WTMJ",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 8,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 50,
+      "category": "technology",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 3,
+        "liquid": 4
+      },
+      "qualified": false,
+      "suggestedSymbol": "VIRAL",
+      "rationale": [
+        "news confirmation",
+        "3 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Philippines defense minister reads private note from China to live audience - The Washington Post",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 5,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 50,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 17,
+        "active": 3,
+        "liquid": 3
+      },
+      "qualified": false,
+      "suggestedSymbol": "PHILIPPI",
+      "rationale": [
+        "news confirmation",
+        "3 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Viral video couple - uv.es",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 9,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 50,
+      "category": "internet-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 3,
+        "liquid": 5
+      },
+      "qualified": false,
+      "suggestedSymbol": "VIRAL",
+      "rationale": [
+        "news confirmation",
+        "3 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Experiential prank gives new 'Carrie' film viral edge - Campaign UK",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 6,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 50,
+      "category": "internet-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 4,
+        "liquid": 20
+      },
+      "qualified": false,
+      "suggestedSymbol": "EXPERIEN",
+      "rationale": [
+        "news confirmation",
+        "4 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Niu Lai: Movie that went viral for terrible animation becomes China box office hit - BBC",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 7,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 50,
+      "category": "internet-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 6,
+        "liquid": 6
+      },
+      "qualified": false,
+      "suggestedSymbol": "NIU",
+      "rationale": [
+        "news confirmation",
+        "6 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5059,18 +4873,18 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 14,
+        "active": 15,
         "liquid": 14
       },
       "qualified": false,
       "suggestedSymbol": "WHAT",
       "rationale": [
         "news confirmation",
-        "14 active matching DEX pairs (saturation risk)"
+        "15 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "Viral ’80s trend: Why is the internet suddenly looking back at the 1980s? | Hindustan Times - hindustantimes.com",
+      "title": "Viral ’80s trend: Why is the internet suddenly looking back at the 1980s? | Hindustan Times - Hindustan Times",
       "mentions": [
         "google-news"
       ],
@@ -5109,40 +4923,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 17,
-        "liquid": 20
+        "active": 19,
+        "liquid": 22
       },
       "qualified": false,
       "suggestedSymbol": "VIRAL",
       "rationale": [
         "news confirmation",
-        "17 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "HSE teacher, students being sent to Colts game after viral video - Fox 59",
-      "mentions": [
-        "google-news",
-        "google-news"
-      ],
-      "bestRank": 4,
-      "traffic": 0,
-      "sources": [
-        "google-news"
-      ],
-      "score": 40,
-      "category": "gaming",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 8,
-        "liquid": 26
-      },
-      "qualified": false,
-      "suggestedSymbol": "HSE",
-      "rationale": [
-        "news confirmation",
-        "8 active matching DEX pairs (saturation risk)"
+        "19 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5186,7 +4974,7 @@
       "dex": {
         "pairs": 30,
         "active": 18,
-        "liquid": 27
+        "liquid": 26
       },
       "qualified": false,
       "suggestedSymbol": "APPLE",
@@ -5212,7 +5000,7 @@
       "dex": {
         "pairs": 30,
         "active": 18,
-        "liquid": 26
+        "liquid": 24
       },
       "qualified": false,
       "suggestedSymbol": "SAMSUNG",
@@ -5222,7 +5010,7 @@
       ]
     },
     {
-      "title": "Off-Duty Celebrities in Venice Are Wearing This Specific New-Season Jeans Trend - Who What Wear",
+      "title": "Be Gone, Big Bags—Anne Hathaway Just Started NYFW With a Tiny Purse - Marie Claire",
       "mentions": [
         "google-news"
       ],
@@ -5232,18 +5020,43 @@
         "google-news"
       ],
       "score": 40,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 9,
+        "liquid": 14
+      },
+      "qualified": false,
+      "suggestedSymbol": "GONE",
+      "rationale": [
+        "news confirmation",
+        "9 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Off-Duty Celebrities in Venice Are Wearing This Specific New-Season Jeans Trend - Who What Wear",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 3,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 40,
       "category": "internet-culture",
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 20,
+        "active": 19,
         "liquid": 20
       },
       "qualified": false,
       "suggestedSymbol": "OFF",
       "rationale": [
         "news confirmation",
-        "20 active matching DEX pairs (saturation risk)"
+        "19 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5251,7 +5064,7 @@
       "mentions": [
         "google-news"
       ],
-      "bestRank": 3,
+      "bestRank": 4,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -5286,14 +5099,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 18,
+        "active": 20,
         "liquid": 14
       },
       "qualified": false,
       "suggestedSymbol": "MAMDANI",
       "rationale": [
         "news confirmation",
-        "18 active matching DEX pairs (saturation risk)"
+        "20 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5312,7 +5125,7 @@
       "dex": {
         "pairs": 30,
         "active": 8,
-        "liquid": 17
+        "liquid": 18
       },
       "qualified": false,
       "suggestedSymbol": "INSIDE",
@@ -5322,7 +5135,7 @@
       ]
     },
     {
-      "title": "Why WNBA Union Won’t Monetize Viral Sophie Cunningham Incident - frontofficesports.com",
+      "title": "Why WNBA Union Won’t Monetize Viral Sophie Cunningham Incident - Front Office Sports",
       "mentions": [
         "google-news"
       ],
@@ -5362,7 +5175,7 @@
       "dex": {
         "pairs": 30,
         "active": 11,
-        "liquid": 18
+        "liquid": 17
       },
       "qualified": false,
       "suggestedSymbol": "WHAT",
@@ -5387,7 +5200,7 @@
       "dex": {
         "pairs": 30,
         "active": 9,
-        "liquid": 10
+        "liquid": 9
       },
       "qualified": false,
       "suggestedSymbol": "TOP",
@@ -5422,11 +5235,11 @@
       ]
     },
     {
-      "title": "[[VIRAL VIDEOS]] girl and dog viral video - uv.es",
+      "title": "[[VIRAL VIDEOS]] pakistani tiktok girls viral video - Cal Poly Pomona",
       "mentions": [
         "google-news"
       ],
-      "bestRank": 2,
+      "bestRank": 1,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -5436,18 +5249,18 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 18,
-        "liquid": 20
+        "active": 11,
+        "liquid": 8
       },
       "qualified": false,
       "suggestedSymbol": "VIRAL",
       "rationale": [
         "news confirmation",
-        "18 active matching DEX pairs (saturation risk)"
+        "11 active matching DEX pairs (saturation risk)"
       ]
     },
     {
-      "title": "Viral ESPN star Taylor McGregor scolded for illegal parking during live TV interview - sports.yahoo.com",
+      "title": "Viral ESPN star Taylor McGregor scolded for illegal parking during live TV interview - Yahoo Sports",
       "mentions": [
         "google-news"
       ],
@@ -5462,7 +5275,7 @@
       "dex": {
         "pairs": 30,
         "active": 8,
-        "liquid": 15
+        "liquid": 16
       },
       "qualified": false,
       "suggestedSymbol": "VIRAL",
@@ -5486,39 +5299,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 11,
-        "liquid": 8
+        "active": 8,
+        "liquid": 7
       },
       "qualified": false,
       "suggestedSymbol": "VIRAL",
       "rationale": [
         "news confirmation",
-        "11 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "“The Saddest Thing I’ve Heard A Rich Person Say”: People Are Stunned By Justin And Hailey Bieber’s Depressingly “Dull” Answers In Their Latest Joint Interview - BuzzFeed",
-      "mentions": [
-        "google-news"
-      ],
-      "bestRank": 4,
-      "traffic": 0,
-      "sources": [
-        "google-news"
-      ],
-      "score": 40,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 11,
-        "liquid": 15
-      },
-      "qualified": false,
-      "suggestedSymbol": "SADDEST",
-      "rationale": [
-        "news confirmation",
-        "11 active matching DEX pairs (saturation risk)"
+        "8 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5536,14 +5324,39 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 25,
-        "liquid": 25
+        "active": 26,
+        "liquid": 24
       },
       "qualified": false,
       "suggestedSymbol": "WHAT",
       "rationale": [
         "news confirmation",
-        "25 active matching DEX pairs (saturation risk)"
+        "26 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Wtf is Bimbo Stoicism? Unpacking the internet’s wildest new beauty trend - Dazed",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 2,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 40,
+      "category": "internet-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 8,
+        "liquid": 26
+      },
+      "qualified": false,
+      "suggestedSymbol": "WTF",
+      "rationale": [
+        "news confirmation",
+        "8 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5561,14 +5374,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 11,
+        "active": 10,
         "liquid": 17
       },
       "qualified": false,
       "suggestedSymbol": "VIRAL",
       "rationale": [
         "news confirmation",
-        "11 active matching DEX pairs (saturation risk)"
+        "10 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5588,7 +5401,7 @@
       "dex": {
         "pairs": 30,
         "active": 13,
-        "liquid": 16
+        "liquid": 14
       },
       "qualified": false,
       "suggestedSymbol": "EXPERTS",
@@ -5612,39 +5425,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 17,
-        "liquid": 23
+        "active": 18,
+        "liquid": 21
       },
       "qualified": false,
       "suggestedSymbol": "INFLUENC",
       "rationale": [
         "news confirmation",
-        "17 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "This is the most fashionable make-up bag we've found and you can get it free when you shop from Merit - Grazia Daily UK",
-      "mentions": [
-        "google-news"
-      ],
-      "bestRank": 4,
-      "traffic": 0,
-      "sources": [
-        "google-news"
-      ],
-      "score": 40,
-      "category": "general-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 8,
-        "liquid": 12
-      },
-      "qualified": false,
-      "suggestedSymbol": "MOST",
-      "rationale": [
-        "news confirmation",
-        "8 active matching DEX pairs (saturation risk)"
+        "18 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5663,7 +5451,7 @@
       "dex": {
         "pairs": 30,
         "active": 22,
-        "liquid": 26
+        "liquid": 25
       },
       "qualified": false,
       "suggestedSymbol": "TOP",
@@ -5690,7 +5478,7 @@
       "dex": {
         "pairs": 30,
         "active": 12,
-        "liquid": 25
+        "liquid": 24
       },
       "qualified": false,
       "suggestedSymbol": "80S",
@@ -5704,7 +5492,7 @@
       "mentions": [
         "google-news"
       ],
-      "bestRank": 9,
+      "bestRank": 8,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -5715,13 +5503,38 @@
       "dex": {
         "pairs": 30,
         "active": 10,
-        "liquid": 13
+        "liquid": 12
       },
       "qualified": false,
       "suggestedSymbol": "GIRL",
       "rationale": [
         "news confirmation",
         "10 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Young People Are Embracing a Viral New Trend Called 'Moneymaxxing' (The Internet Has Invented Saving Money) - barstoolsports.com",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 9,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 39,
+      "category": "internet-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 20,
+        "liquid": 24
+      },
+      "qualified": false,
+      "suggestedSymbol": "YOUNG",
+      "rationale": [
+        "news confirmation",
+        "20 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5741,7 +5554,7 @@
       "dex": {
         "pairs": 30,
         "active": 9,
-        "liquid": 14
+        "liquid": 13
       },
       "qualified": false,
       "suggestedSymbol": "VIRAL",
@@ -5751,11 +5564,37 @@
       ]
     },
     {
+      "title": "HSE teacher, students being sent to Colts game after viral video - Fox 59",
+      "mentions": [
+        "google-news",
+        "google-news"
+      ],
+      "bestRank": 5,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 39,
+      "category": "gaming",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 8,
+        "liquid": 25
+      },
+      "qualified": false,
+      "suggestedSymbol": "HSE",
+      "rationale": [
+        "news confirmation",
+        "8 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
       "title": "Viral Ole Miss fan goes through her favorite DMs since being discovered during win over Louisville - Fox News",
       "mentions": [
         "google-news"
       ],
-      "bestRank": 6,
+      "bestRank": 7,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -5765,14 +5604,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 12,
-        "liquid": 12
+        "active": 15,
+        "liquid": 14
       },
       "qualified": false,
       "suggestedSymbol": "VIRAL",
       "rationale": [
         "news confirmation",
-        "12 active matching DEX pairs (saturation risk)"
+        "15 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5780,7 +5619,7 @@
       "mentions": [
         "google-news"
       ],
-      "bestRank": 7,
+      "bestRank": 8,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -5801,11 +5640,11 @@
       ]
     },
     {
-      "title": "Viral Game Meccha Chameleon Coming To Nintendo Switch 2 - Insider Gaming",
+      "title": "Viral Game Meccha Chameleon Coming To Nintendo Switch 2 - insider-gaming.com",
       "mentions": [
         "google-news"
       ],
-      "bestRank": 8,
+      "bestRank": 9,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -5826,7 +5665,7 @@
       ]
     },
     {
-      "title": "Ole Miss Fan Gets Flooded With Wild DMs After Viral On-Screen Moment - TMZ",
+      "title": "The 51 Best Memes On The Internet (So Far) This Week - brobible.com",
       "mentions": [
         "google-news"
       ],
@@ -5840,39 +5679,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 11,
-        "liquid": 12
-      },
-      "qualified": false,
-      "suggestedSymbol": "OLE",
-      "rationale": [
-        "news confirmation",
-        "11 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "The 51 Best Memes On The Internet (So Far) This Week - BroBible",
-      "mentions": [
-        "google-news"
-      ],
-      "bestRank": 9,
-      "traffic": 0,
-      "sources": [
-        "google-news"
-      ],
-      "score": 39,
-      "category": "internet-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 10,
-        "liquid": 15
+        "active": 9,
+        "liquid": 13
       },
       "qualified": false,
       "suggestedSymbol": "BEST",
       "rationale": [
         "news confirmation",
-        "10 active matching DEX pairs (saturation risk)"
+        "9 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5890,40 +5704,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 12,
-        "liquid": 15
+        "active": 13,
+        "liquid": 16
       },
       "qualified": false,
       "suggestedSymbol": "KAIA",
       "rationale": [
         "news confirmation",
-        "12 active matching DEX pairs (saturation risk)"
-      ]
-    },
-    {
-      "title": "+👙>!!🍆(SEX~Porn🌶️XNXX) xnxx Celebrity Lady Alvarez Leaked Viral Video On Social Media X HD XNXX.COM - uv.es",
-      "mentions": [
-        "google-news",
-        "google-news"
-      ],
-      "bestRank": 8,
-      "traffic": 0,
-      "sources": [
-        "google-news"
-      ],
-      "score": 39,
-      "category": "internet-culture",
-      "cryptoTrendingOverlap": false,
-      "dex": {
-        "pairs": 30,
-        "active": 10,
-        "liquid": 17
-      },
-      "qualified": false,
-      "suggestedSymbol": "SEX",
-      "rationale": [
-        "news confirmation",
-        "10 active matching DEX pairs (saturation risk)"
+        "13 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5942,7 +5730,7 @@
       "dex": {
         "pairs": 30,
         "active": 13,
-        "liquid": 19
+        "liquid": 20
       },
       "qualified": false,
       "suggestedSymbol": "WHY",
@@ -5966,14 +5754,14 @@
       "cryptoTrendingOverlap": false,
       "dex": {
         "pairs": 30,
-        "active": 15,
-        "liquid": 25
+        "active": 13,
+        "liquid": 24
       },
       "qualified": false,
       "suggestedSymbol": "SPORTS",
       "rationale": [
         "news confirmation",
-        "15 active matching DEX pairs (saturation risk)"
+        "13 active matching DEX pairs (saturation risk)"
       ]
     },
     {
@@ -5992,7 +5780,7 @@
       "dex": {
         "pairs": 30,
         "active": 10,
-        "liquid": 11
+        "liquid": 10
       },
       "qualified": false,
       "suggestedSymbol": "MEME",
@@ -6006,7 +5794,32 @@
       "mentions": [
         "google-news"
       ],
-      "bestRank": 6,
+      "bestRank": 5,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 39,
+      "category": "technology",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 11,
+        "liquid": 13
+      },
+      "qualified": false,
+      "suggestedSymbol": "GAMBLING",
+      "rationale": [
+        "news confirmation",
+        "11 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Anthropic researcher quits, calls AI an existential threat to humanity - mashable.com",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 9,
       "traffic": 0,
       "sources": [
         "google-news"
@@ -6017,10 +5830,60 @@
       "dex": {
         "pairs": 30,
         "active": 10,
+        "liquid": 21
+      },
+      "qualified": false,
+      "suggestedSymbol": "ANTHROPI",
+      "rationale": [
+        "news confirmation",
+        "10 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "Viral sketch group ‘SEC Shorts’ brings live comedy show to MSU’s Lyceum Series Nov. 13 - Mississippi State University",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 7,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 39,
+      "category": "internet-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 8,
+        "liquid": 7
+      },
+      "qualified": false,
+      "suggestedSymbol": "VIRAL",
+      "rationale": [
+        "news confirmation",
+        "8 active matching DEX pairs (saturation risk)"
+      ]
+    },
+    {
+      "title": "“The Saddest Thing I’ve Heard A Rich Person Say”: People Are Stunned By Justin And Hailey Bieber’s Depressingly “Dull” Answers In Their Latest Joint Interview - BuzzFeed",
+      "mentions": [
+        "google-news"
+      ],
+      "bestRank": 5,
+      "traffic": 0,
+      "sources": [
+        "google-news"
+      ],
+      "score": 39,
+      "category": "general-culture",
+      "cryptoTrendingOverlap": false,
+      "dex": {
+        "pairs": 30,
+        "active": 10,
         "liquid": 13
       },
       "qualified": false,
-      "suggestedSymbol": "GAMBLING",
+      "suggestedSymbol": "SADDEST",
       "rationale": [
         "news confirmation",
         "10 active matching DEX pairs (saturation risk)"
