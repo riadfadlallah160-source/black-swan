@@ -1,0 +1,39 @@
+name: Wallet Launch Preflight
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wallet-launch-preflight
+  cancel-in-progress: true
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      BASE_RPC_URL: ${{ secrets.BASE_RPC_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Simulate all 100 frozen deployment calls on Base
+        run: npm run preflight:wallet
+      - name: Persist non-secret preflight result
+        if: always()
+        run: |
+          git config user.name 'black-swan-bot'
+          git config user.email 'black-swan-bot@users.noreply.github.com'
+          git add data/wallet-preflight.json
+          if git diff --cached --quiet; then
+            echo 'Wallet preflight unchanged'
+          else
+            git commit -m 'chore: record wallet launch preflight [skip ci]'
+            git push
+          fi
