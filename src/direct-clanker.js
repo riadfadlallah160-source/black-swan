@@ -34,8 +34,8 @@ function founderRecipient(p) {
 
 function directConfig(p) {
   if (!isAddress(BENEFICIARY)) throw new Error('Invalid beneficiary');
-  if (!p?.earlyAirdropClaim?.proof?.length) throw new Error('Early founder airdrop proof missing');
-  if (!p?.clanker?.airdrop?.merkleRoot) throw new Error('Early founder airdrop config missing');
+  if (!p?.earlyAirdropClaim || !Array.isArray(p.earlyAirdropClaim.proof)) throw new Error('Early founder airdrop claim missing');
+  if (!/^0x[a-fA-F0-9]{64}$/.test(String(p?.clanker?.airdrop?.merkleRoot || ''))) throw new Error('Early founder airdrop config missing');
   const recipient = founderRecipient(p);
   if (String(p.earlyAirdropClaim.recipient || '').toLowerCase() !== recipient.toLowerCase()) {
     throw new Error('Early founder allocation recipient mismatch');
