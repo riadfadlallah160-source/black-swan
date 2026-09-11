@@ -72,9 +72,11 @@ function configFor(p) {
 
 async function main() {
   let batch;
-  try { batch = JSON.parse(await fs.readFile(BATCH, 'utf8')); }
-  catch {
-    console.log('No frozen batch exists yet; wallet bundle not generated.');
+  try {
+    batch = JSON.parse(await fs.readFile(BATCH, 'utf8'));
+  } catch {
+    await fs.rm(OUT, { force: true });
+    console.log('No frozen batch exists; stale wallet bundle cleared.');
     return;
   }
   if (!batch?.id || !Array.isArray(batch.packages) || batch.packages.length !== 100) {
