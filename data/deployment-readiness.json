@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-09-11T22:53:16.537Z",
+  "frozenBatchId": "29876b2ef6766ba2b2fb",
+  "frozenBatchStatus": "awaiting-authorization",
+  "packageCount": 100,
+  "economicsValid": true,
+  "allPackagesLaunchReady": true,
+  "partnerApiConfigured": false,
+  "directDeployerConfigured": false,
+  "customRpcConfigured": false,
+  "selectedRail": null,
+  "liveBroadcastReady": false,
+  "remainingBlocker": "no Clanker deployment credential is configured"
+}
