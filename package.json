@@ -9,6 +9,7 @@
     "package": "node src/packager.js",
     "queue": "node src/batch-queue.js",
     "bundle": "node src/wallet-bundle.js",
+    "preflight:wallet": "node src/wallet-preflight.js",
     "authorize": "node src/authorize-batch.js",
     "monitor": "node src/finance-monitor.js",
     "exit:queue": "node src/exit-queue.js",
