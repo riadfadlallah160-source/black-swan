@@ -1,4 +1,5 @@
 import http from 'node:http';
+import crypto from 'node:crypto';
 
 const PORT = process.env.PORT || 3000;
 const CREATOR_ADDRESS = process.env.CREATOR_ADDRESS || '0xf744573cdfFC211163c11c0a31730851Da78f708';

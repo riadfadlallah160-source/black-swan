@@ -5,7 +5,10 @@ const INPUT = path.resolve('data/wallet-launch-bundle.json');
 const OUTPUT = path.resolve('data/wallet-preflight.json');
 const RPC_URL = process.env.BASE_RPC_URL || 'https://mainnet.base.org';
 const BASE_CHAIN_ID = 8453;
-const CHUNK = 8;
+// Public Base endpoints commonly reject bursts even when JSON-RPC batching is
+// accepted. Simulate one deployment at a time and retry item-level rate limits.
+const CHUNK = Number(process.env.PREFLIGHT_CHUNK_SIZE || 1);
+const BETWEEN_CHUNKS_MS = Number(process.env.PREFLIGHT_DELAY_MS || 1100);
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -31,6 +34,26 @@ async function rpcBatch(entries) {
   throw lastError;
 }
 
+const isRateLimitError = item => /rate limit|too many requests|429/i.test(String(item?.error?.message || ''));
+
+async function simulateChunk(entries) {
+  let pending = entries;
+  const final = new Map();
+  for (let attempt = 1; attempt <= 6 && pending.length; attempt++) {
+    const response = await rpcBatch(pending);
+    const byId = new Map(response.map(item => [Number(item.id), item]));
+    const retry = [];
+    for (const request of pending) {
+      const item = byId.get(Number(request.id));
+      if (isRateLimitError(item) && attempt < 6) retry.push(request);
+      else final.set(Number(request.id), item || { id: request.id, error: { message: 'missing JSON-RPC response' } });
+    }
+    pending = retry;
+    if (pending.length) await sleep(Math.min(10_000, 1000 * (2 ** (attempt - 1))));
+  }
+  return [...final.values()];
+}
+
 async function main() {
   const bundle = JSON.parse(await fs.readFile(INPUT, 'utf8'));
   const calls = Array.isArray(bundle.calls) ? bundle.calls : [];
@@ -53,7 +76,7 @@ async function main() {
         value: call.value
       }, 'pending']
     }));
-    const response = await rpcBatch(request);
+    const response = await simulateChunk(request);
     const byId = new Map(response.map(item => [Number(item.id), item]));
     for (let index = 0; index < slice.length; index++) {
       const call = slice[index];
@@ -68,7 +91,7 @@ async function main() {
         error: item?.error ? String(item.error.message || JSON.stringify(item.error)).slice(0, 500) : null
       });
     }
-    if (offset + CHUNK < calls.length) await sleep(250);
+    if (offset + CHUNK < calls.length) await sleep(BETWEEN_CHUNKS_MS);
   }
 
   const failed = results.filter(item => !item.success);

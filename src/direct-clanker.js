@@ -6,7 +6,7 @@ import { base } from 'viem/chains';
 import { getTickFromMarketCapUSDC } from 'clanker-sdk';
 import { Clanker } from 'clanker-sdk/v4';
 
-const BATCH = path.resolve(process.env.BATCH_FILE || (process.argv.includes('--validate') ? 'data/launch-batch.json' : 'data/approval-batch.json'));
+const BATCH = path.resolve(process.env.BATCH_FILE || 'data/approval-batch.json');
 const OUT = path.resolve('data/direct-launch-results.json');
 const LIVE_TOKENS = path.resolve('data/live-tokens.json');
 const BASE_USDC = '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913';
@@ -52,13 +52,19 @@ function directConfig(p) {
 }
 async function readLedger() { try { const x=JSON.parse(await fs.readFile(LIVE_TOKENS,'utf8')); return Array.isArray(x.tokens)?x:{tokens:[]}; } catch { return {tokens:[]}; } }
 
+async function alreadyDeployed(publicClient, address) {
+  if (!isAddress(address)) return false;
+  const code = await publicClient.getCode({ address });
+  return Boolean(code && code !== '0x' && code !== '0x0');
+}
+
 async function main() {
   const batch = JSON.parse(await fs.readFile(BATCH, 'utf8'));
   const packages = batch.packages || [];
   const result = { at:new Date().toISOString(), mode:VALIDATE_ONLY?'validate':'direct-clanker-v4', live:LIVE, batchId:batch.id||null, beneficiary:BENEFICIARY, attempted:0, succeeded:0, failed:0, results:[] };
 
   if (VALIDATE_ONLY) {
-    for (const p of packages.slice(0, 45)) { const cfg=directConfig(p); result.results.push({name:cfg.name,symbol:cfg.symbol,founderRecipient:cfg.vault.recipient,valid:true}); }
+    for (const p of packages) { const cfg=directConfig(p); result.results.push({name:cfg.name,symbol:cfg.symbol,founderRecipient:cfg.vault.recipient,valid:true}); }
     result.succeeded=result.results.length;
     await fs.writeFile(OUT,JSON.stringify(result,null,2));
     console.log(JSON.stringify({valid:true,packages:result.succeeded,beneficiary:BENEFICIARY,tickLower,tickUpper},null,2));
@@ -78,6 +84,12 @@ async function main() {
     result.attempted++;
     try {
       const cfg=directConfig(p);
+      const prepared = await clanker.getDeployTransaction(cfg);
+      if (await alreadyDeployed(publicClient, prepared.expectedAddress)) {
+        result.succeeded++;
+        result.results.push({name:p.token.name,symbol:p.token.symbol,narrative:p.narrative,founderRecipient:cfg.vault.recipient,success:true,alreadyDeployed:true,address:prepared.expectedAddress});
+        continue;
+      }
       const {txHash,waitForTransaction,error}=await clanker.deploy(cfg);
       if (error) throw error;
       const mined=await waitForTransaction();

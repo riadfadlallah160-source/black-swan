@@ -31,3 +31,20 @@ This address is treated as **Base-only**. Never route Solana or other-chain asse
 The repository does **not** autonomously issue speculative tokens, execute buybacks, custody crypto, or sign financial transactions. It prepares and scores launch candidates and can produce approval-ready payloads. Final issuance/transaction approval must be performed through an authorized user-controlled execution path.
 
 No private key or recovery phrase should ever be committed to this repository.
+
+## Production activation
+
+The scanner/packager runs continuously without a signer. Live deployment and
+permissionless claims require a dedicated, gas-funded Base deployer stored as
+the `DIRECT_DEPLOYER_PRIVATE_KEY` GitHub Actions secret (or a Clanker partner
+key for launch-only deployment). Never use the beneficiary wallet's main key.
+
+- One-click mode: run **Authorize & Launch Frozen 100**.
+- Autonomous mode: set the repository variable `AUTO_OPERATIONS_ENABLED=true`.
+- Optional claim floor: set `MIN_CLAIM_USDC` (default `1`) to avoid spending gas
+  on tiny fee claims.
+
+Autonomous maintenance claims creator USDC and matured 3%/7% founder
+allocations directly to the configured beneficiary. It does not sell founder
+tokens. Automated selling requires separately audited ExitVault custody and is
+not represented as armed by this build.

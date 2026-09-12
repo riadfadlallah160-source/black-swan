@@ -1,0 +1,64 @@
+name: Autonomous Launch & Claims
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: autonomous-financial-operations
+  cancel-in-progress: false
+
+jobs:
+  operate:
+    if: vars.AUTO_OPERATIONS_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      CLANKER_API_KEY: ${{ secrets.CLANKER_API_KEY }}
+      DIRECT_DEPLOYER_PRIVATE_KEY: ${{ secrets.DIRECT_DEPLOYER_PRIVATE_KEY }}
+      BASE_RPC_URL: ${{ secrets.BASE_RPC_URL }}
+      LIVE_LAUNCH_ENABLED: 'true'
+      LIVE_MAINTENANCE_ENABLED: 'true'
+      MIN_CLAIM_USDC: ${{ vars.MIN_CLAIM_USDC || '1' }}
+      BATCH_FILE: data/approval-batch.json
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-audit --no-fund
+      - name: Require an execution credential
+        run: |
+          if [ -z "$CLANKER_API_KEY" ] && [ -z "$DIRECT_DEPLOYER_PRIVATE_KEY" ]; then
+            echo 'No live deployment credential is configured.' >&2
+            exit 1
+          fi
+      - name: Authorize and launch a frozen batch when present
+        shell: bash
+        run: |
+          if [ ! -f data/approval-batch.json ]; then
+            echo 'No frozen batch is ready.'
+            exit 0
+          fi
+          status="$(node -e "console.log(require('./data/approval-batch.json').status || '')")"
+          if [ "$status" = 'awaiting-authorization' ]; then npm run authorize; fi
+          if [ -n "$CLANKER_API_KEY" ]; then npm run launch; else npm run launch:direct; fi
+      - name: Refresh financial state and claim matured value
+        run: |
+          npm run monitor
+          if [ -n "$DIRECT_DEPLOYER_PRIVATE_KEY" ]; then npm run maintain; else echo 'Claims require the direct deployer signer.'; fi
+      - name: Persist operational results
+        if: always()
+        run: |
+          git pull --rebase || true
+          git config user.name 'black-swan-bot'
+          git config user.email 'black-swan-bot@users.noreply.github.com'
+          git add data/approval-batch.json data/launch-results.json data/direct-launch-results.json data/live-tokens.json data/finance-status.json data/maintenance-results.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: persist autonomous Black Swan operations [skip ci]'
+            git push
+          fi

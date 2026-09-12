@@ -12,6 +12,7 @@
     "preflight:wallet": "node src/wallet-preflight.js",
     "authorize": "node src/authorize-batch.js",
     "monitor": "node src/finance-monitor.js",
+    "maintain": "node src/maintenance-executor.js",
     "exit:queue": "node src/exit-queue.js",
     "exit:authorize": "node src/authorize-exit-batch.js",
     "launch": "node src/launcher.js",

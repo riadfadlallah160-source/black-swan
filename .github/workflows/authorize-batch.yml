@@ -63,6 +63,15 @@ jobs:
             npm run launch:direct
           fi
 
+      - name: Claim available creator and matured founder value
+        if: success() && env.DIRECT_DEPLOYER_PRIVATE_KEY != ''
+        env:
+          LIVE_MAINTENANCE_ENABLED: 'true'
+          MIN_CLAIM_USDC: ${{ vars.MIN_CLAIM_USDC || '1' }}
+        run: |
+          npm run monitor
+          npm run maintain
+
       - name: Persist launch ledger and results
         if: always()
         shell: bash
@@ -70,7 +79,7 @@ jobs:
           git pull --rebase || true
           git config user.name 'black-swan-bot'
           git config user.email 'black-swan-bot@users.noreply.github.com'
-          git add data/launch-results.json data/direct-launch-results.json data/live-tokens.json 2>/dev/null || true
+          git add data/launch-results.json data/direct-launch-results.json data/live-tokens.json data/finance-status.json data/maintenance-results.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo 'No launch result changes to persist'
           else
