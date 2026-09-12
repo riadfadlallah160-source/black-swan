@@ -2,13 +2,13 @@
 
 Live narrative-discovery and launch-candidate scoring system for Base token-launch research.
 
-## Running now
+## Implemented scanner workflow (not proof of live financial operation)
 
 - Scheduled live scan every 5 minutes via GitHub Actions.
 - Reads public Google Trends/Google News and CoinGecko trending data.
 - Checks candidate-theme saturation against DEX Screener.
 - Rejects violence, mass-casualty and tragedy narratives.
-- Requires a score of 88/100 before a candidate is qualified.
+- Requires a score of 65/100 before a candidate is qualified.
 - Persists latest candidates and ~24 hours of scan history under `data/`.
 
 ## Payout configuration
@@ -23,7 +23,7 @@ This address is treated as **Base-only**. Never route Solana or other-chain asse
 - Launch endpoint: `POST /api/v1/base/launch-memecoin`.
 - `creatorAddress` receives creator benefits.
 - `creatorFeeSplit` defaults to 8000 (80%).
-- `sniperProtection: true` enforces a 0.25% wallet cap during fair launch.
+- Sniper protection and fair launch are currently paused; the payload omits activation.
 - Public limit is 2 launches/minute/IP; increased access can be requested from Flaunch.
 
 ## Financial execution boundary
@@ -32,19 +32,31 @@ The repository does **not** autonomously issue speculative tokens, execute buyba
 
 No private key or recovery phrase should ever be committed to this repository.
 
-## Production activation
+## Zero-cost execution requirements
 
-The scanner/packager runs continuously without a signer. Live deployment and
-permissionless claims require a dedicated, gas-funded Base deployer stored as
-the `DIRECT_DEPLOYER_PRIVATE_KEY` GitHub Actions secret (or a Clanker partner
-key for launch-only deployment). Never use the beneficiary wallet's main key.
+The production requirement is 100 launches/hour (2,400/day), no user-paid
+launch gas or developer purchase, and both creator fees and the existing 10%
+founder allocation. No verified provider currently satisfies the entire model
+in this repository. Launching is blocked; setting a LIVE flag does not bypass
+this requirement. A zero-value wallet transaction still consumes gas.
 
-- One-click mode: run **Authorize & Launch Frozen 100**.
-- Autonomous mode: set the repository variable `AUTO_OPERATIONS_ENABLED=true`.
-- Optional claim floor: set `MIN_CLAIM_USDC` (default `1`) to avoid spending gas
-  on tiny fee claims.
+Run `npm run verify:rails` for fresh read-only Flaunch health and capability
+checks. The result is saved to `data/rail-readiness.json`; the scan workflow
+also refreshes it. Run `npm test` for deterministic integration/policy tests.
+The 36-second attempt spacing is tested scheduling logic, not an enabled worker
+or evidence of achieved throughput.
 
-Autonomous maintenance claims creator USDC and matured 3%/7% founder
-allocations directly to the configured beneficiary. It does not sell founder
-tokens. Automated selling requires separately audited ExitVault custody and is
-not represented as armed by this build.
+The Flaunch read-only client distinguishes queued, completed, reverted and
+unverified job states. Even receipt/code observation is not proof of correct
+economic ownership. It never adds unverified tokens to the live ledger.
+The payload is a fee-stream candidate only: it does not include a documented
+free founder allocation. It is not a substitute for the required two streams.
+
+Clanker partner sponsorship and account capacity remain unverified. Direct
+wallet launch is prohibited by the cost policy. Claims code exists but is not
+live-verified; automatic founder selling is not implemented or armed. Do not
+enable financial workflows as a substitute for resolving those prerequisites.
+
+Primary references: [Flaunch API](https://docs.flaunch.gg/references/api),
+[Clanker partner API](https://clanker.gitbook.io/documentation/api-reference/authenticated),
+[Bankr limits](https://docs.bankr.bot/token-launching/overview/).

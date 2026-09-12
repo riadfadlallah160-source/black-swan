@@ -5,6 +5,7 @@ import { privateKeyToAccount } from 'viem/accounts';
 import { base } from 'viem/chains';
 import { getTickFromMarketCapUSDC } from 'clanker-sdk';
 import { Clanker } from 'clanker-sdk/v4';
+import { assertZeroCostRail } from './launch-policy.js';
 
 const BATCH = path.resolve(process.env.BATCH_FILE || 'data/approval-batch.json');
 const OUT = path.resolve('data/direct-launch-results.json');
@@ -59,6 +60,7 @@ async function alreadyDeployed(publicClient, address) {
 }
 
 async function main() {
+  if (!VALIDATE_ONLY) assertZeroCostRail('direct-clanker-v4');
   const batch = JSON.parse(await fs.readFile(BATCH, 'utf8'));
   const packages = batch.packages || [];
   const result = { at:new Date().toISOString(), mode:VALIDATE_ONLY?'validate':'direct-clanker-v4', live:LIVE, batchId:batch.id||null, beneficiary:BENEFICIARY, attempted:0, succeeded:0, failed:0, results:[] };

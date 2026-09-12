@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-09-12T01:17:08.169Z",
+  "requirements": {
+    "chainId": 8453,
+    "targetPerHour": 100,
+    "targetPerDay": 2400,
+    "maxUserLaunchCostWei": "0",
+    "founderAllocationBps": 1000,
+    "automaticPayoutsRequired": true
+  },
+  "operational": false,
+  "readOnly": true,
+  "flaunch": {
+    "healthy": true,
+    "baseSupported": true,
+    "serviceFundedLaunch": true,
+    "capabilities": {
+      "feeSplitLaunch": true,
+      "existingManager": true,
+      "pairedTokenLaunch": true,
+      "standaloneManager": true,
+      "serviceFundedLaunch": true
+    },
+    "sandbox": false,
+    "documentedLaunchRequestsPerMinute": 2,
+    "founderAllocationVerified": false,
+    "automaticPayoutsVerified": false,
+    "productionEligible": false
+  },
+  "blockers": [
+    "Flaunch: required free 10% founder allocation is not verified.",
+    "Flaunch: automatic fee and allocation payouts are not verified.",
+    "Clanker partner: account sponsorship and 2,400/day capacity are not verified.",
+    "Direct wallet deployment: user-paid gas conflicts with the zero-cost requirement."
+  ],
+  "sources": [
+    "https://web2-api.flaunch.gg/livez",
+    "https://web2-api.flaunch.gg/api/v1/config",
+    "https://docs.flaunch.gg/references/api",
+    "https://clanker.gitbook.io/documentation/api-reference/authenticated",
+    "https://docs.bankr.bot/token-launching/overview/"
+  ]
+}

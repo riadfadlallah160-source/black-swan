@@ -31,10 +31,14 @@ jobs:
         with:
           node-version: '22'
       - run: npm install --no-audit --no-fund
-      - name: Require an execution credential
+      - name: Enforce verified zero-cost launch policy
         run: |
-          if [ -z "$CLANKER_API_KEY" ] && [ -z "$DIRECT_DEPLOYER_PRIVATE_KEY" ]; then
-            echo 'No live deployment credential is configured.' >&2
+          npm run verify:rails
+          node --input-type=module -e "import { assertZeroCostRail } from './src/launch-policy.js'; assertZeroCostRail('clanker-partner-api');"
+      - name: Require a sponsored partner credential
+        run: |
+          if [ -z "$CLANKER_API_KEY" ]; then
+            echo 'No sponsored partner deployment credential is configured; paid wallet fallback is prohibited.' >&2
             exit 1
           fi
       - name: Authorize and launch a frozen batch when present
@@ -46,7 +50,7 @@ jobs:
           fi
           status="$(node -e "console.log(require('./data/approval-batch.json').status || '')")"
           if [ "$status" = 'awaiting-authorization' ]; then npm run authorize; fi
-          if [ -n "$CLANKER_API_KEY" ]; then npm run launch; else npm run launch:direct; fi
+          npm run launch
       - name: Refresh financial state and claim matured value
         run: |
           npm run monitor

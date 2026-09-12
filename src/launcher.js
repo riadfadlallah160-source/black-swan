@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { assertZeroCostRail } from './launch-policy.js';
 
 const BATCH = path.resolve(process.env.BATCH_FILE || 'data/approval-batch.json');
 const OUT = path.resolve('data/launch-results.json');
@@ -65,6 +66,7 @@ async function readLiveTokens() {
 }
 
 async function main() {
+  assertZeroCostRail('clanker-partner-api');
   const batch = JSON.parse(await fs.readFile(BATCH, 'utf8'));
   const packages = batch.packages || [];
   const base = {
@@ -114,8 +116,7 @@ async function main() {
     return;
   }
 
-  // Keep request pressure conservative while remaining comfortably inside the
-  // documented partner daily quota. Individual failures do not stop the batch.
+  // Provider-specific quotas must be verified before this path is enabled.
   for (let i = 0; i < packages.length; i += 2) {
     const group = packages.slice(i, i + 2);
     const settled = await Promise.allSettled(group.map(async p => ({ p, data: await deploy(p) })));
